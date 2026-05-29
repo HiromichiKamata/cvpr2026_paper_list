@@ -410,7 +410,6 @@
   <div id="loading"><div class="spinner"></div>Loading…</div>
   <div id="cards-view"></div>
   <div id="table-view"></div>
-  <div id="pagination-top" class="pagination"></div>
   <div id="cards-container"></div>
   <div id="pagination-bottom" class="pagination"></div>
 </main>
@@ -514,7 +513,6 @@ function renderAll() {
 
 function renderPagination(totalPages) {
   const html = buildPaginationHTML(totalPages);
-  document.getElementById('pagination-top').innerHTML = totalPages > 1 ? html : '';
   document.getElementById('pagination-bottom').innerHTML = totalPages > 1 ? html : '';
 }
 
