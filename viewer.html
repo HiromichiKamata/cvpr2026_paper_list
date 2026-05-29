@@ -192,19 +192,16 @@
     border-top: 1px solid var(--border);
     background: #f5f6f8;
     position: relative;
-    min-height: 48px;
   }
   .poster-wrapper img {
-    width: 100%; height: auto; display: block;
-    transition: opacity .3s;
+    width: 100%; height: auto; display: none;
   }
-  .poster-wrapper img.loading { opacity: 0; }
-  .poster-wrapper img.loaded  { opacity: 1; }
+  .poster-wrapper img.loaded { display: block; }
   .poster-spinner {
-    position: absolute; inset: 0;
+    padding: 28px;
     display: flex; flex-direction: column;
     align-items: center; justify-content: center;
-    gap: 8px; padding: 24px;
+    gap: 8px;
     color: var(--text-3); font-size: 0.76rem;
   }
   .poster-spinner .spin {
@@ -603,8 +600,8 @@ function cardHTML(num, p) {
          <div class="poster-spinner" id="spin-${p.id}">
            <div class="spin"></div><span>Loading poster…</span>
          </div>
-         <img src="${esc(posterSrc)}" alt="Poster" class="loading"
-              onload="this.classList.remove('loading');this.classList.add('loaded');var s=document.getElementById('spin-${p.id}');if(s)s.classList.add('hidden');"
+         <img src="${esc(posterSrc)}" alt="Poster"
+              onload="this.classList.add('loaded');var s=document.getElementById('spin-${p.id}');if(s)s.classList.add('hidden');"
               onerror="this.style.display='none';var s=document.getElementById('spin-${p.id}');if(s){s.innerHTML='<span style=\\'font-size:0.8rem;color:var(--text-3)\\'>Poster not available</span>';}">
        </div>`
     : `<div class="no-poster">Poster not yet available</div>`;
