@@ -458,7 +458,7 @@ async function loadCategory(cat) {
     return;
   }
   try {
-    const res = await fetch(DATA_FILES[cat]);
+    const res = await fetch(DATA_FILES[cat], { cache: 'no-store' });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const data = await res.json();
     cache[cat] = data;
