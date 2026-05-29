@@ -191,12 +191,30 @@
   .poster-wrapper {
     border-top: 1px solid var(--border);
     background: #f5f6f8;
+    position: relative;
+    min-height: 48px;
   }
   .poster-wrapper img {
     width: 100%; height: auto; display: block;
+    transition: opacity .3s;
   }
+  .poster-wrapper img.loading { opacity: 0; }
+  .poster-wrapper img.loaded  { opacity: 1; }
+  .poster-spinner {
+    position: absolute; inset: 0;
+    display: flex; flex-direction: column;
+    align-items: center; justify-content: center;
+    gap: 8px; padding: 24px;
+    color: var(--text-3); font-size: 0.76rem;
+  }
+  .poster-spinner .spin {
+    width: 28px; height: 28px;
+    border: 3px solid var(--border); border-top-color: var(--accent-v);
+    border-radius: 50%; animation: spin .7s linear infinite;
+  }
+  .poster-spinner.hidden { display: none; }
   .no-poster {
-    padding: 10px 22px;
+    padding: 16px 22px;
     font-size: 0.76rem; color: var(--text-3); text-align: center;
     border-top: 1px solid var(--border); background: #fafafa;
   }
@@ -578,13 +596,16 @@ function cardHTML(num, p) {
     p.project_url ? `<a class="link-btn btn-project" href="${esc(p.project_url)}" target="_blank">Project Page</a>` : '',
   ].filter(Boolean).join('');
 
-  // ポスター画像（常時表示）: poster_local優先、失敗時はposter_urlにフォールバック
-  const posterSrc = p.poster_local || p.poster_url || '';
-  const posterFallback = p.poster_url ? ` onerror="if(this.src!='${esc(p.poster_url)}'){this.src='${esc(p.poster_url)}'}"` : '';
-  const posterHTML = (posterSrc)
+  // ポスター画像: poster_urlがあれば表示試行、なければ non-available
+  const posterSrc = p.poster_url || '';
+  const posterHTML = posterSrc
     ? `<div class="poster-wrapper">
-         <img data-src="${esc(posterSrc)}" alt="Poster"${posterFallback}
-              src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='2' height='1'%3E%3C/svg%3E">
+         <div class="poster-spinner" id="spin-${p.id}">
+           <div class="spin"></div><span>Loading poster…</span>
+         </div>
+         <img data-src="${esc(posterSrc)}" alt="Poster" class="loading"
+              onload="this.classList.remove('loading');this.classList.add('loaded');var s=document.getElementById('spin-${p.id}');if(s)s.classList.add('hidden');"
+              onerror="this.style.display='none';var s=document.getElementById('spin-${p.id}');if(s){s.innerHTML='<span style=\\'font-size:0.8rem;color:var(--text-3)\\'>Poster not available</span>';}">
        </div>`
     : `<div class="no-poster">Poster not yet available</div>`;
 
