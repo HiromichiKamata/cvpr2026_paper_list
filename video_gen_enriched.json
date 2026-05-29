@@ -116,7 +116,7 @@
     "summary_ja": "効果感応的DiTブロックと品質ブロックの双専門家戦略により、高品質かつ低計算コストなビデオ層状分解と効果保護を同時実現する統一フレームワーク。"
   },
   {
-    "id": 40364,
+    "id": 39327,
     "title": "PAVAS: Physics-Aware Video-to-Audio Synthesis",
     "authors": [
       "Oh Hyun-Bin",
@@ -126,16 +126,17 @@
       "Yuki Mitsufuji"
     ],
     "abstract": "",
-    "session": "Oral Session 3D: Multimodal Modeling",
+    "session": "Poster Session 3 & Exhibit Hall",
     "decision": "Accept (Oral)",
-    "starttime": "2026-06-06T08:50:00-07:00",
+    "starttime": "2026-06-06T10:45:00-07:00",
     "paper_url": "https://openreview.net/group?id=thecvf.com/CVPR/2026/Conference",
     "arxiv_url": "",
-    "poster_url": "",
+    "poster_url": "https://cvpr.thecvf.com/media/PosterPDFs/CVPR%202026/39327.png?t=1779952446.2058930",
     "has_poster": false,
     "project_url": "",
     "title_ja": "PAVAS: 物理認識ビデオ音声合成",
-    "summary_ja": "物理法則を考慮したビデオから音声への合成技術。"
+    "summary_ja": "物理法則考慮型ビデオ音声合成。",
+    "session_oral": "Oral Session 3D: Multimodal Modeling"
   },
   {
     "id": 37242,
@@ -493,7 +494,8 @@
     "has_poster": false,
     "project_url": "",
     "title_ja": "脳条件付けビデオ生成のための大規模マルチモーダル脳データセット",
-    "summary_ja": "脳信号とビデオの大規模ペアデータで脳条件付けビデオ生成を実現する。"
+    "summary_ja": "脳信号とビデオの大規模ペアデータで脳条件付けビデオ生成を実現する。",
+    "session_oral": "Oral Session 6B: Multimodal Reasoning"
   },
   {
     "id": 36900,
@@ -864,7 +866,8 @@
     "has_poster": false,
     "project_url": "",
     "title_ja": "ストリーミング拡散モデルによる高速赤外線・可視光ビデオ融合",
-    "summary_ja": "ストリーミング拡散モデルで赤外線と可視光ビデオを高速融合"
+    "summary_ja": "ストリーミング拡散モデルで赤外線と可視光ビデオを高速融合",
+    "session_oral": "Oral Session 3A: Generative Diffusion Modeling"
   },
   {
     "id": 38044,
@@ -2759,28 +2762,6 @@
     "summary_ja": "ビデオ内の動きパターンを編集する方法。"
   },
   {
-    "id": 40343,
-    "title": "CineBrain: A Large-Scale Multi-Modal Audiovisual Brain Dataset for Brain-Conditioned Video Generation",
-    "authors": [
-      "Jianxiong Gao",
-      "Yichang Liu",
-      "baofeng yang",
-      "Jianfeng Feng",
-      "Yanwei Fu"
-    ],
-    "abstract": "",
-    "session": "Oral Session 6B: Multimodal Reasoning",
-    "decision": "Accept (Oral)",
-    "starttime": "2026-06-07T13:00:00-07:00",
-    "paper_url": "https://openreview.net/group?id=thecvf.com/CVPR/2026/Conference",
-    "arxiv_url": "",
-    "poster_url": "",
-    "has_poster": false,
-    "project_url": "",
-    "title_ja": "CineBrain: 脳活動条件付きビデオ生成用マルチモーダル脳データセット",
-    "summary_ja": "脳活動によるビデオ生成向けデータセット。"
-  },
-  {
     "id": 39217,
     "title": "ShotDirector: Directorially Controllable Multi-Shot Video Generation with Cinematographic Transitions",
     "authors": [
@@ -4096,28 +4077,6 @@
     "summary_ja": "ストリーミングビデオLLM加速化技術。"
   },
   {
-    "id": 39327,
-    "title": "PAVAS: Physics-Aware Video-to-Audio Synthesis",
-    "authors": [
-      "Oh Hyun-Bin",
-      "Yuhta Takida",
-      "Toshimitsu Uesaka",
-      "Tae-Hyun Oh",
-      "Yuki Mitsufuji"
-    ],
-    "abstract": "",
-    "session": "Poster Session 3 & Exhibit Hall",
-    "decision": "Accept (Oral)",
-    "starttime": "2026-06-06T10:45:00-07:00",
-    "paper_url": "https://openreview.net/group?id=thecvf.com/CVPR/2026/Conference",
-    "arxiv_url": "",
-    "poster_url": "https://cvpr.thecvf.com/media/PosterPDFs/CVPR%202026/39327.png?t=1779952446.2058930",
-    "has_poster": false,
-    "project_url": "",
-    "title_ja": "PAVAS: 物理認識ビデオ音声合成",
-    "summary_ja": "物理法則考慮型ビデオ音声合成。"
-  },
-  {
     "id": 37683,
     "title": "Learning to Generate Highly Dynamic Videos using Synthetic Motion Data",
     "authors": [
@@ -4280,7 +4239,8 @@
     "has_poster": true,
     "project_url": "",
     "title_ja": "テキスト生成ビデオモデルの時間認識自動赤チーム化",
-    "summary_ja": "時間的要素を考慮した対抗的攻撃で生成モデルの脆弱性を自動検出する。"
+    "summary_ja": "時間的要素を考慮した対抗的攻撃で生成モデルの脆弱性を自動検出する。",
+    "session_oral": "Oral Session 1A: Multimodal Vision"
   },
   {
     "id": 39594,
@@ -5049,32 +5009,6 @@
     "summary_ja": "身元保持型動画構成: ビジョン言語モデルと強化学習で身元情報を保ちながら動画生成"
   },
   {
-    "id": 40357,
-    "title": "TEAR: Temporal-aware Automated Red-teaming for Text-to-Video Models",
-    "authors": [
-      "Jiaming He",
-      "Guanyu Hou",
-      "Hongwei Li",
-      "Zhicong Huang",
-      "Kangjie Chen",
-      "Yi Yu",
-      "Wenbo Jiang",
-      "Guowen Xu",
-      "Tianwei Zhang"
-    ],
-    "abstract": "",
-    "session": "Oral Session 1A: Multimodal Vision",
-    "decision": "Accept (Oral)",
-    "starttime": "2026-06-05T09:00:00-07:00",
-    "paper_url": "https://openreview.net/group?id=thecvf.com/CVPR/2026/Conference",
-    "arxiv_url": "",
-    "poster_url": "",
-    "has_poster": false,
-    "project_url": "",
-    "title_ja": "TEAR: テキスト指向自動安全テスト",
-    "summary_ja": "自動テキスト安全テスト技術。"
-  },
-  {
     "id": 37877,
     "title": "Inference-time Physics Alignment of Video Generative Models with Latent World Models",
     "authors": [
@@ -5600,33 +5534,6 @@
     "project_url": "",
     "title_ja": "動画理解の時間相互作用モデリング",
     "summary_ja": "時間依存性と空間相互作用の効率的モデリングで動画行動認識精度を向上。"
-  },
-  {
-    "id": 40367,
-    "title": "Streaming Diffusion Model for Fast Infrared and Visible Video Fusion",
-    "authors": [
-      "Jinyuan Liu",
-      "Ludan Sun",
-      "Tengyu Ma",
-      "Chunyan Yang",
-      "Zhiying Jiang",
-      "Long Ma",
-      "Risheng Liu",
-      "Xin Fan"
-    ],
-    "abstract": "Infrared and visible video fusion is pivotal for robust perceptual systems, aiming to synthesize a comprehensive video stream that leverages both thermal resilience and textured details. However, prevailing methods, by treating video as independent frames, inherently introduce temporal incoherence, such as flickering and ghosting artifacts. While diffusion models possess strong generative priors to remedy this, their iterative nature is prohibitively slow for video. To resolve this fundamental dilemma, we propose a streaming diffusion model for efficient infrared and visible video fusion, termed SDMFusion. Our key insight is to distill the generative prior of a pre-trained diffusion model into a one-step sampling framework, while explicitly modeling temporal dynamics. We design a memory-augmented latent pipeline where a temporal aggregation adapter aligns and propagates cross-frame features to ensure coherence, supported by a dedicated temporal consistency loss. This approach effectively decouples the challenge of achieving high fidelity from maintaining temporal stability. Extensive experiments on four benchmarks demonstrate that our method establishes a new state-of-the-art, generating fused videos with exceptional spatio-temporal consistency at a speed suitable for real-time application.",
-    "session": "Oral Session 3A: Generative Diffusion Modeling",
-    "decision": "Accept (Oral)",
-    "starttime": "2026-06-06T09:02:30-07:00",
-    "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Liu_Streaming_Diffusion_Model_for_Fast_Infrared_and_Visible_Video_Fusion_CVPR_2026_paper.html",
-    "arxiv_url": "",
-    "poster_url": "",
-    "poster_url_full": "",
-    "poster_url_thumb": "",
-    "has_poster": false,
-    "project_url": "",
-    "title_ja": "高速な赤外・可視動画融合のためのストリーミング拡散モデル",
-    "summary_ja": "時間一貫性を明示的に扱う一段拡散で、赤外・可視動画融合を実時間で実現する。"
   },
   {
     "id": 39230,

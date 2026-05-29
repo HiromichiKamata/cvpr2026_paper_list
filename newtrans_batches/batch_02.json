@@ -1,0 +1,110 @@
+[
+  {
+    "id": 40013,
+    "cat": "video",
+    "title": "SemVideo: Reconstructs What You Watch from Brain Activity via Hierarchical Semantic Guidance",
+    "abstract": ""
+  },
+  {
+    "id": 39389,
+    "cat": "image",
+    "title": "Streaming Diffusion Model for Fast Infrared and Visible Video Fusion",
+    "abstract": ""
+  },
+  {
+    "id": 40360,
+    "cat": "image",
+    "title": "SenCache: Accelerating Diffusion Model Inference via Sensitivity-Aware Caching",
+    "abstract": ""
+  },
+  {
+    "id": 37566,
+    "cat": "image",
+    "title": "PixelDiT: Pixel Diffusion Transformers for Image Generation",
+    "abstract": ""
+  },
+  {
+    "id": 39577,
+    "cat": "image",
+    "title": "SynthRGB-T: Language-Vision Guided Image Translation for Diversity Synthesis",
+    "abstract": ""
+  },
+  {
+    "id": 39006,
+    "cat": "image",
+    "title": "CREval: An Automated Interpretable Evaluation for Creative Image Manipulation under Complex Instructions",
+    "abstract": ""
+  },
+  {
+    "id": 40353,
+    "cat": "image",
+    "title": "SeaCache: Spectral-Evolution-Aware Cache for Accelerating Diffusion Models",
+    "abstract": ""
+  },
+  {
+    "id": 38895,
+    "cat": "image",
+    "title": "ChordEdit: One-Step Low-Energy Transport for Image Editing",
+    "abstract": ""
+  },
+  {
+    "id": 40271,
+    "cat": "image",
+    "title": "A Style is Worth One Code: Unlocking Code-to-Style Image Generation with Discrete Style Space",
+    "abstract": ""
+  },
+  {
+    "id": 40301,
+    "cat": "image",
+    "title": "SliderEdit: Continuous Image Editing with Fine-Grained Instruction Control",
+    "abstract": ""
+  },
+  {
+    "id": 36946,
+    "cat": "image",
+    "title": "SmokeSVD: Smoke Reconstruction from A Single View via Progressive Novel View Synthesis and Refinement with Diffusion Models",
+    "abstract": ""
+  },
+  {
+    "id": 40206,
+    "cat": "image",
+    "title": "MERIT: Multi-domain Efficient RAW Image Translation",
+    "abstract": ""
+  },
+  {
+    "id": 38463,
+    "cat": "image",
+    "title": "UniDef: Universal Defense Against Unauthorized Image Manipulation",
+    "abstract": ""
+  },
+  {
+    "id": 39486,
+    "cat": "image",
+    "title": "JarvisEvo: Towards a Self-Evolving Photo Editing Agent with Synergistic Editor-Evaluator Optimization",
+    "abstract": ""
+  },
+  {
+    "id": 37588,
+    "cat": "image",
+    "title": "Guiding a Diffusion Model by Swapping Its Tokens",
+    "abstract": ""
+  },
+  {
+    "id": 39141,
+    "cat": "anime",
+    "title": "Harmonic Canvas: Inversion-Free Editing for Visually-Guided Music Style Transfer",
+    "abstract": ""
+  },
+  {
+    "id": 37895,
+    "cat": "anime",
+    "title": "StyleGallery: Training-free and Semantic-aware Personalized Style Transfer from Arbitrary Image References",
+    "abstract": ""
+  },
+  {
+    "id": 39913,
+    "cat": "anime",
+    "title": "Style-GRPO: Semantic-Aware Preference Optimization for Image Style Transfer Guided by Reward Modeling",
+    "abstract": ""
+  }
+]

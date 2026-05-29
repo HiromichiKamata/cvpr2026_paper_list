@@ -111,7 +111,8 @@
     "has_poster": true,
     "project_url": "",
     "title_ja": "Energy-GS：画像エネルギー誘導姿勢整列ガウシアンスプラッティング",
-    "summary_ja": "画像エネルギー制約により段階的なカメラ姿勢整列を実現し、RGBのみから高品質な3Dシーン表現と正確な姿勢推定を同時実現。"
+    "summary_ja": "画像エネルギー制約により段階的なカメラ姿勢整列を実現し、RGBのみから高品質な3Dシーン表現と正確な姿勢推定を同時実現。",
+    "session_oral": "Oral Session 2C: Gaussian Splatting & Reconstruction"
   },
   {
     "id": 37951,
@@ -162,7 +163,8 @@
     "has_poster": true,
     "project_url": "",
     "title_ja": "3DReflecNet：反射・透明・低テクスチャ物体3D再構成用大規模データセット",
-    "summary_ja": "22TB以上の合成・実世界データを含む大規模ハイブリッドデータセットで、困難な材質特性への3Dビジョン手法の性能向上を支援。"
+    "summary_ja": "22TB以上の合成・実世界データを含む大規模ハイブリッドデータセットで、困難な材質特性への3Dビジョン手法の性能向上を支援。",
+    "session_oral": "Oral Session 2B: Materials & Lighting"
   },
   {
     "id": 39770,
@@ -510,7 +512,7 @@
     "summary_ja": "航空画像から大規模な材質・光影情報を抽出するデータセット"
   },
   {
-    "id": 40257,
+    "id": 36381,
     "title": "Neural Field-Based 3D Surface Reconstruction of Microstructures from Multi-Detector Signals in Scanning Electron Microscopy",
     "authors": [
       "Shuo Chen",
@@ -519,19 +521,20 @@
       "Guofeng Zhang"
     ],
     "abstract": "The 3D characterization of microstructures is crucial for understanding and designing functional materials. However, the scanning electron microscope (SEM), widely used in scientific research, captures only 2D electron intensity distributions. Existing SEM 3D reconstruction methods struggle with textureless regions, shadowing artifacts, and calibration dependencies, whereas advanced learning-based approaches fail to generalize to microscopic SEM domains due to the lack of physical priors and domain-specific data. To address these challenges, we introduce NFH-SEM, a neural field-based hybrid reconstruction framework that recovers high-fidelity 3D surfaces from multi-view, multi-detector SEM images. NFH-SEM integrates coarse multi-view geometry with photometric stereo cues from detector signals through a continuous neural field, incorporating a learnable forward model that embeds SEM imaging physics for self-calibrated, shadow-robust reconstruction. NFH-SEM achieves precise recovery across diverse specimens, revealing 478 nm layered features in two-photon lithography samples, 782 nm surface textures on pollen grains, and 1.559 μm fracture steps on silicon carbide particles, demonstrating its accuracy and broad applicability.",
-    "session": "Oral Session 2B: Materials & Lighting",
+    "session": "Poster Session 2 & Exhibit Hall w/ Coffee Break",
     "decision": "Accept (Oral)",
-    "starttime": "2026-06-05T12:25:00-07:00",
+    "starttime": "2026-06-05T15:00:00-07:00",
     "paper_url": "https://openreview.net/group?id=thecvf.com/CVPR/2026/Conference",
     "arxiv_url": "https://arxiv.org/abs/2508.04728",
-    "poster_url": "",
+    "poster_url": "https://cvpr.thecvf.com/media/PosterPDFs/CVPR%202026/36381.png?t=1779283389.8283761",
     "has_poster": true,
     "project_url": "",
-    "title_ja": "ニューラル場ベース微細構造の3D表面再構成",
-    "summary_ja": "ニューラル場で微小スケール3D構造を高精度再構成"
+    "title_ja": "ニューラルフィールドベース3D表面再構成：走査型電子顕微鏡のマルチ検出器信号",
+    "summary_ja": "物理的先行知識を組み込んだニューラルフィールドによるSEM画像からの高忠実度3D再構成",
+    "session_oral": "Oral Session 2B: Materials & Lighting"
   },
   {
-    "id": 40261,
+    "id": 36452,
     "title": "GLINT: Modeling Scene-Scale Transparency via Gaussian Radiance Transport",
     "authors": [
       "Youngju Na",
@@ -542,16 +545,17 @@
       "Suyong Yeon"
     ],
     "abstract": "While 3D Gaussian splatting has emerged as a powerful paradigm, it fundamentally fails to model transparency such as glass panels, which are prevalent in everyday environments. The core challenge lies in decoupling the intertwined radiance contributions from transparent interfaces and the transmitted geometry observed through the glass. We present GLINT, a framework that models scene-scale transparency through explicit decomposed Gaussian representation. GLINT reconstructs the primary interface and separates outgoing radiance into reflection and transmission components according to its optical properties, enabling coherent Gaussian radiance transport. During the optimization, GLINT bootstraps transparency localization by utilizing geometry separation cues that emerge from our decomposition with the geometry and material priors from a pre-trained video relighting model. Extensive experiments demonstrate that GLINT achieves state-of-the-art performance in 3D reconstruction of complex transparent scenes.Our code will be released publicly.",
-    "session": "Oral Session 2B: Materials & Lighting",
+    "session": "Poster Session 2 & Exhibit Hall w/ Coffee Break",
     "decision": "Accept (Oral)",
-    "starttime": "2026-06-05T12:12:30-07:00",
+    "starttime": "2026-06-05T15:00:00-07:00",
     "paper_url": "https://openreview.net/group?id=thecvf.com/CVPR/2026/Conference",
     "arxiv_url": "https://arxiv.org/abs/2603.26181",
-    "poster_url": "",
+    "poster_url": "https://cvpr.thecvf.com/media/PosterPDFs/CVPR%202026/36452.png?t=1779709494.1109180",
     "has_poster": true,
     "project_url": "",
-    "title_ja": "GLINT: ガウシアン放射照度による景観透光性モデリング",
-    "summary_ja": "ガウシアン放射照度で透光性効果を正確にモデル化"
+    "title_ja": "GLINT：シーンスケール透明性モデリング",
+    "summary_ja": "シーンレベルの透明性・反射を表現するニューラル放射輝度フィールド拡張。",
+    "session_oral": "Oral Session 2B: Materials & Lighting"
   },
   {
     "id": 36773,
@@ -576,30 +580,6 @@
     "project_url": "",
     "title_ja": "DiffuView: 3D認識ロボットに向けた多視点拡散事前学習",
     "summary_ja": "拡散モデルで3D認識用の事前学習表現を獲得"
-  },
-  {
-    "id": 40277,
-    "title": "Energy-GS: Image Energy-guided Pose Alignment Gaussian Splatting with redesigned pose gradient flow",
-    "authors": [
-      "Yu Gao",
-      "Lutong Su",
-      "Ruixiang Huang",
-      "Tianji Jiang",
-      "Jiadong Tang",
-      "Yufeng Yue",
-      "Yi Yang"
-    ],
-    "abstract": "High-quality 3D scene representation in radiance fields relies on accurate camera poses which are often difficult to acquire in real-world scenarios. An effective solution is to use RGB images for the joint optimization of radiance fields and camera poses, an approach that has been well explored in NeRF series methods. However, unlike NeRF, joint optimization in 3D Gaussian Splatting (3DGS) often requires additional regularization or prior spatial knowledge to reach comparable performance. To eliminate these dependencies, we introduce Energy-GS, a pose-aware Gaussian splatting framework that jointly optimizes scene representation and camera poses using only RGB images. We observe that pose gradients in joint optimization are unstable due to the point-based rendering mechanism. Furthermore, unlike NeRF’s spatial sampling framework that enables coarse-to-fine pose alignment, rasterization-based 3DGS lacks controllable sampling and thus cannot support progressive pose refinement. To address these challenges, we redesign the optimization strategy of Gaussian primitives and introduce an image-energy-guided constraint that encourages progressive alignment of camera poses. Experiments on both synthetic and real-world datasets show that Energy-GS can effectively optimize the scene reconstruction and resolve camera pose misalignment at the same time. Benefiting from reliance on only RGB images, we believe this work provides promising insights for visual localization and dense mapping applications such as SLAM.",
-    "session": "Oral Session 2C: Gaussian Splatting & Reconstruction",
-    "decision": "Accept (Oral)",
-    "starttime": "2026-06-05T12:00:00-07:00",
-    "paper_url": "https://openreview.net/group?id=thecvf.com/CVPR/2026/Conference",
-    "arxiv_url": "",
-    "poster_url": "",
-    "has_poster": true,
-    "project_url": "",
-    "title_ja": "Energy-GS: 画像エネルギーガイド型姿勢配置ガウススプラッティング",
-    "summary_ja": "画像エネルギー損失で姿勢を正確に配置"
   },
   {
     "id": 36872,
@@ -627,7 +607,7 @@
     "summary_ja": "効率的UV圧縮で4Dビデオボリュームを高速レンダリング"
   },
   {
-    "id": 40287,
+    "id": 37164,
     "title": "GaussianFluent: Gaussian Simulation for Dynamic Scenes with Mixed Materials",
     "authors": [
       "Bei Huang",
@@ -639,19 +619,20 @@
       "Siyuan Huang"
     ],
     "abstract": "3D Gaussian Splatting (3DGS) has emerged as a prominent 3D representation for high-fidelity and real-time rendering. Prior work has coupled physics simulation with Gaussians, but predominantly targets soft, deformable materials, leaving brittle fracture largely unresolved. This stems from two key obstacles: the lack of volumetric interiors with coherent textures in GS representation, and the absence of fracture-aware simulation methods for Gaussians. To address these challenges, we introduce GaussianFluent, a unified framework for realistic simulation and rendering of dynamic object states. First, it synthesizes photorealistic interiors by densifying internal Gaussians guided by generative models. Second, it integrates an optimized Continuum Damage Material Point Method (CD-MPM) to enable brittle fracture simulation at remarkably high speed. Our approach handles complex scenarios including mixed-material objects and multi-stage fracture propagation, achieving results infeasible with previous methods. Experiments clearly demonstrate GaussianFluent's capability for photo-realistic, real-time rendering with structurally consistent interiors, highlighting its potential for downstream application, such as VR and Robotics.",
-    "session": "Oral Session 4C: Spatial Reasoning",
+    "session": "Poster Session 4 & Exhibit Hall w/ Coffee Break",
     "decision": "Accept (Oral)",
-    "starttime": "2026-06-06T13:12:30-07:00",
+    "starttime": "2026-06-06T15:45:00-07:00",
     "paper_url": "https://openreview.net/group?id=thecvf.com/CVPR/2026/Conference",
     "arxiv_url": "https://arxiv.org/abs/2601.09265",
-    "poster_url": "",
+    "poster_url": "https://cvpr.thecvf.com/media/PosterPDFs/CVPR%202026/37164.png?t=1779244590.6639919",
     "has_poster": true,
     "project_url": "",
-    "title_ja": "GaussianFluent: 動的シーン向けガウシアンシミュレーション",
-    "summary_ja": "物理シミュレーションで動く3Dシーンを生成"
+    "title_ja": "GaussianFluent: 混合材料を含む動的シーン用ガウシアンシミュレーション",
+    "summary_ja": "脆性破壊を含む複雑な動的物体の写真リアリスティック物理シミュレーション。",
+    "session_oral": "Oral Session 4C: Spatial Reasoning"
   },
   {
-    "id": 40289,
+    "id": 37177,
     "title": "Proxy-GS: Unified Occlusion Priors for Training and Inference in Structured 3D Gaussian Splatting",
     "authors": [
       "Yuanyuan Gao",
@@ -665,19 +646,20 @@
       "Zhihang Zhong"
     ],
     "abstract": "3D Gaussian Splatting (3DGS) has emerged as an efficient approach for achieving photorealistic rendering. Recent MLP-based variants further improve visual fidelity but introduce substantial decoding overhead during rendering. To alleviate computation cost, several pruning strategies and level-of-detail (LOD) techniques have been introduced, aiming to effectively reduce the number of Gaussian primitives in large-scale scenes. However, our analysis reveals that significant redundancy still remains due to the lack of occlusion awareness. In this work, we propose Proxy-GS, a novel pipeline that exploits a proxy to introduce Gaussian occlusion awareness from any view.At the core of our approach is a fast proxy system capable of producing precise occlusion depth maps at resolution 1000$\\times$1000 under 1 ms. This proxy serves two roles: first, it guides the culling of anchors and Gaussians to accelerate rendering speed. Second, it guides the densification towards surfaces during training, avoiding inconsistencies in occluded regions, and improving the rendering quality. In heavily occluded scenarios, such as the MatrixCity Streets dataset, Proxy-GS not only equips MLP-based Gaussian splatting with stronger rendering capability but also achieves faster rendering speed than the original 3DGS. Specifically, it achieves more than $2.5\\times$ speedup over Octree-GS, and consistently delivers substantially higher rendering quality.",
-    "session": "Oral Session 2C: Gaussian Splatting & Reconstruction",
+    "session": "Poster Session 2 & Exhibit Hall w/ Coffee Break",
     "decision": "Accept (Oral)",
-    "starttime": "2026-06-05T12:25:00-07:00",
+    "starttime": "2026-06-05T15:00:00-07:00",
     "paper_url": "https://openreview.net/group?id=thecvf.com/CVPR/2026/Conference",
     "arxiv_url": "https://arxiv.org/abs/2509.24421",
-    "poster_url": "",
+    "poster_url": "https://cvpr.thecvf.com/media/PosterPDFs/CVPR%202026/37177.png?t=1779292717.8985651",
     "has_poster": true,
     "project_url": "",
-    "title_ja": "Proxy-GS: 学習と推論における統一オクルージョン事前情報",
-    "summary_ja": "プロキシモデルで隠蔽情報を統一的に処理"
+    "title_ja": "プロキシGS：構造化3Dガウシアンスプラッティングの統一的遮蔽先行知識",
+    "summary_ja": "高速プロキシシステムで遮蔽認識ガウシアンを導入し大規模シーンで2.5倍以上高速化",
+    "session_oral": "Oral Session 2C: Gaussian Splatting & Reconstruction"
   },
   {
-    "id": 40290,
+    "id": 37224,
     "title": "POLAR: A Portrait OLAT Dataset and Generative Framework for Illumination-Aware Face Modeling",
     "authors": [
       "Zhuo Chen",
@@ -690,16 +672,17 @@
       "Yichao Yan"
     ],
     "abstract": "Face relighting aims to synthesize realistic portraits under novel illumination while preserving identity and geometry. However, progress remains constrained by the limited availability of large-scale, physically consistent illumination data. To address this, we introduce POLAR, a large-scale and physically calibrated One-Light-at-a-Time (OLAT) dataset containing over 200 subjects captured under 156 lighting directions, multiple views, and diverse expressions. Building upon POLAR, we develop a flow-based generative model POLARNet that predicts per-light OLAT responses from a single portrait, capturing fine-grained and direction-aware illumination effects while preserving facial identity. Unlike diffusion or background-conditioned methods that rely on statistical or contextual cues, our formulation models illumination as a continuous, physically interpretable transformation between lighting states, enabling scalable and controllable relighting. Together, POLAR and POLARNet form a unified illumination learning framework that links real data, generative synthesis, and physically grounded relighting, establishing a self-sustaining “chicken-and-egg’’ cycle for scalable and reproducible portrait illumination.",
-    "session": "Oral Session 5D: Human-Centric Modeling & Lighting",
+    "session": "Poster Session 5 & Exhibit Hall",
     "decision": "Accept (Oral)",
-    "starttime": "2026-06-07T08:50:00-07:00",
+    "starttime": "2026-06-07T10:45:00-07:00",
     "paper_url": "https://openreview.net/group?id=thecvf.com/CVPR/2026/Conference",
     "arxiv_url": "https://arxiv.org/abs/2512.13192",
-    "poster_url": "",
+    "poster_url": "https://cvpr.thecvf.com/media/PosterPDFs/CVPR%202026/37224.png?t=1779203328.8543341",
     "has_poster": true,
     "project_url": "",
     "title_ja": "POLAR: 肖像OLAT生成フレームワーク",
-    "summary_ja": "OLAT技術で肖像写真を3Dアバターに変換"
+    "summary_ja": "OLAT技術で肖像3Dアバター生成",
+    "session_oral": "Oral Session 5D: Human-Centric Modeling & Lighting"
   },
   {
     "id": 37298,
@@ -743,30 +726,11 @@
     "has_poster": true,
     "project_url": "",
     "title_ja": "RAVEN: 新規視点合成による不可視透かし削除",
-    "summary_ja": "視点合成で元画像の不可視透かしを除去"
+    "summary_ja": "視点合成で元画像の不可視透かしを除去",
+    "session_oral": "Oral Session 1B: Visual Security"
   },
   {
-    "id": 40294,
-    "title": "RAVEN: Erasing Invisible Watermarks via Novel View Synthesis",
-    "authors": [
-      "Fahad Shamshad",
-      "Nils Lukas",
-      "Karthik Nandakumar"
-    ],
-    "abstract": "Invisible watermarking has become a critical mechanism for authenticating AI-generated image content, with major platforms deploying watermarking schemes at scale. However, evaluating the vulnerability of these schemes against sophisticated removal attacks remains essential to assess their reliability and guide robust design. In this work, we expose a fundamental vulnerability in invisible watermarks by reformulating watermark removal as a view synthesis problem. Our key insight is that generating a perceptually consistent alternative ``view\" of the same semantic content, akin to re-observing a scene from a shifted perspective, naturally removes the embedded watermark while preserving visual fidelity. This reveals a critical gap: watermarks robust to pixel-space and frequency-domain attacks remain vulnerable to semantic-preserving viewpoint transformations. We introduce a zero-shot diffusion-based framework that applies controlled geometric transformations in latent space, augmented with view-guided correspondence attention to maintain structural consistency during reconstruction. Operating on frozen pre-trained models without detector access or watermark knowledge, our method achieves state-of-the-art watermark suppression across 15 watermarking methods--outperforming 14 baseline attacks while maintaining superior perceptual quality across multiple datasets.",
-    "session": "Oral Session 1B: Visual Security",
-    "decision": "Accept (Oral)",
-    "starttime": "2026-06-05T08:40:00-07:00",
-    "paper_url": "https://openreview.net/group?id=thecvf.com/CVPR/2026/Conference",
-    "arxiv_url": "https://arxiv.org/abs/2601.08832",
-    "poster_url": "",
-    "has_poster": true,
-    "project_url": "",
-    "title_ja": "RAVEN：ノベルビュー合成による見えない透かし削除",
-    "summary_ja": "セマンティック一貫性を保つビューポイント変換でAI生成画像の見えない透かし削除が可能なことを実証。"
-  },
-  {
-    "id": 40313,
+    "id": 37789,
     "title": "PhyGaP: Physically-Grounded Gaussians with Polarization Cues",
     "authors": [
       "Jiale Wu",
@@ -776,16 +740,17 @@
       "YIFAN PENG"
     ],
     "abstract": "Recent advances in 3D Gaussian Splatting (3DGS) have demonstrated great success in modeling reflective 3D objects and their interaction with the environment via **deferred rendering (DR)**. However, existing methods often struggle with correctly reconstructing physical attributes such as albedo and reflectance, and therefore they do not support high-fidelity relighting. Observing that this limitation stems from the lack of **shape and material** information in RGB images, we present PhyGaP, a physically-grounded 3DGS method that leverages polarization cues to facilitate precise reflection decomposition and visually consistent relighting of reconstructed objects. Specifically, we design a polarimetric deferred rendering (PolarDR) process to model polarization by reflection, and a self-occlusion-aware environment map building technique (GridMap) to resolve indirect lighting of non-convex objects. We validate on multiple synthetic and real-world scenes, including those featuring only partial polarization cues, that PhyGaP not only excels in reconstructing the appearance and surface normal of reflective 3D objects (~2 dB in PSNR and 45.7% in Cosine Distance better than existing RGB-based methods on average), but also achieves state-of-the-art inverse rendering and relighting capability.",
-    "session": "Oral Session 2B: Materials & Lighting",
+    "session": "Poster Session 2 & Exhibit Hall w/ Coffee Break",
     "decision": "Accept (Oral)",
-    "starttime": "2026-06-05T12:37:30-07:00",
+    "starttime": "2026-06-05T15:00:00-07:00",
     "paper_url": "https://openreview.net/group?id=thecvf.com/CVPR/2026/Conference",
     "arxiv_url": "https://arxiv.org/abs/2603.14001",
-    "poster_url": "",
+    "poster_url": "https://cvpr.thecvf.com/media/PosterPDFs/CVPR%202026/37789.png?t=1779272516.9383509",
     "has_poster": true,
-    "project_url": "https://kelvar00.github.io/PhyGaP/",
-    "title_ja": "PhyGaP：偏光手がかりを用いた物理的基盤ガウシアン",
-    "summary_ja": "偏光情報を活用して反射分解と高忠実度な再照明実現。"
+    "project_url": "",
+    "title_ja": "フィジガップ：偏光キューを用いた物理的基盤ガウシアン",
+    "summary_ja": "偏光情報を活用した物理的反射分解とガウシアンスプラッティングの高忠実度再ライティング",
+    "session_oral": "Oral Session 2B: Materials & Lighting"
   },
   {
     "id": 38170,
@@ -1007,23 +972,24 @@
     "summary_ja": "VAE微調整で材料潜在空間学習し複数PBRチャネル一貫性保ちながら高品質テクスチャ生成。"
   },
   {
-    "id": 40372,
+    "id": 39517,
     "title": "Evidential Neural Radiance Fields",
     "authors": [
       "Ruxiao Duan",
       "Alex Wong"
     ],
     "abstract": "Understanding sources of uncertainty is fundamental to trustworthy three-dimensional scene modeling. While recent advances in neural radiance fields (NeRFs) achieve impressive accuracy in scene reconstruction and novel view synthesis, the lack of uncertainty estimation significantly limits their deployment in safety-critical settings. Existing uncertainty quantification methods for NeRFs fail to capture both aleatoric and epistemic uncertainty. Among those that do quantify one or the other, many of them either compromise rendering quality or incur significant computational overhead to obtain uncertainty estimates. To address these issues, we introduce Evidential Neural Radiance Fields, a probabilistic approach that seamlessly integrates with the NeRF rendering process and enables direct quantification of both aleatoric and epistemic uncertainty from a single forward pass. We compare multiple uncertainty quantification methods on three standardized benchmarks, where our approach demonstrates state-of-the-art scene reconstruction fidelity and uncertainty estimation quality.",
-    "session": "Oral Session 5A: Dynamic Perception",
+    "session": "Poster Session 5 & Exhibit Hall",
     "decision": "Accept (Oral)",
-    "starttime": "2026-06-07T08:00:00-07:00",
+    "starttime": "2026-06-07T10:45:00-07:00",
     "paper_url": "https://openreview.net/group?id=thecvf.com/CVPR/2026/Conference",
     "arxiv_url": "https://arxiv.org/abs/2602.23574",
-    "poster_url": "",
+    "poster_url": "https://cvpr.thecvf.com/media/PosterPDFs/CVPR%202026/39517.png?t=1779222257.6786890",
     "has_poster": true,
     "project_url": "",
-    "title_ja": "根拠的ニューラル放射輝度フィールド",
-    "summary_ja": "NeRFに統合された確率フレームワークで単一順伝播から偶然的・認識的不確実性同時推定。"
+    "title_ja": "証拠理論に基づくニューラル放射輝度場",
+    "summary_ja": "単一推論でNeRFの偶然的不確実性と認識的不確実性を高精度に推定。",
+    "session_oral": "Oral Session 5A: Dynamic Perception"
   },
   {
     "id": 39537,
@@ -1066,7 +1032,7 @@
     "summary_ja": "分析合成テストで運動マスク生成し背景補完焦点の順伝播で動的シーン高品質合成実現。"
   },
   {
-    "id": 40382,
+    "id": 39786,
     "title": "InfiniBench: Infinite Benchmarking for Visual Spatial Reasoning with Customizable Scene Complexity",
     "authors": [
       "Haoming Wang",
@@ -1074,16 +1040,17 @@
       "Wei Gao"
     ],
     "abstract": "Modern vision-language models (VLMs) are expected to have abilities of spatial reasoning with diverse scene complexities, but evaluating such abilities is difficult due to the lack of benchmarks that are not only diverse and scalable but also fully customizable. Existing benchmarks offer limited customizability over the scene complexity and are incapable of isolating and analyzing specific VLM failure modes under distinct spatial conditions. To address this gap, instead of individually presenting benchmarks for different scene complexities, in this paper we present InfiniBench, a fully automated, customizable and user-friendly benchmark generator that can synthesize a theoretically infinite variety of 3D scenes with parameterized control on scene complexity. InfiniBench uniquely translates scene descriptions in natural language into photo-realistic videos with complex and physically plausible 3D layouts. This is achieved through three key innovations: 1) a LLM-based agentic framework that iteratively refines procedural scene constraints from scene descriptions; 2) a flexible cluster-based layout optimizer that generates dense and cluttered scenes previously intractable for procedural methods; and 3) a task-aware camera trajectory optimization method that renders scenes into videos with full object coverage as VLM input. Experiments demonstrate that InfiniBench outperforms state-of-the-art procedural and LLM-based 3D generation methods in prompt fidelity and physical plausibility, especially in high-complexity scenarios. We further showcased the usefulness of InfiniBench, by generating benchmarks for representative spatial reasoning tasks including measurement, perspective-taking and spatiotemporal tracking.",
-    "session": "Oral Session 4C: Spatial Reasoning",
+    "session": "Poster Session 4 & Exhibit Hall w/ Coffee Break",
     "decision": "Accept (Oral)",
-    "starttime": "2026-06-06T13:25:00-07:00",
+    "starttime": "2026-06-06T15:45:00-07:00",
     "paper_url": "https://openreview.net/group?id=thecvf.com/CVPR/2026/Conference",
     "arxiv_url": "https://arxiv.org/abs/2511.18200",
-    "poster_url": "",
+    "poster_url": "https://cvpr.thecvf.com/media/PosterPDFs/CVPR%202026/39786.png?t=1779324142.3545749",
     "has_poster": true,
     "project_url": "",
-    "title_ja": "InfiniBench：カスタマイズ可能シーン複雑度によるビジュアル空間推理無限ベンチマーク",
-    "summary_ja": "パラメータ化シーン生成でVLMの空間推理能力を無限にカスタマイズ可能に評価。"
+    "title_ja": "InfiniBench: 空間推論の無限カスタマイズ可能ベンチマーク",
+    "summary_ja": "パラメータ化複雑度で3Dシーン自動生成し、VLM空間推論を評価",
+    "session_oral": "Oral Session 4C: Spatial Reasoning"
   },
   {
     "id": 39978,
@@ -1129,7 +1096,7 @@
     "summary_ja": "事前学習3Dインスタンス生成器で空間推理を学習し、未見レイアウトへの汎化可能。"
   },
   {
-    "id": 40390,
+    "id": 39998,
     "title": "Relightable Holoported Characters: Capturing and Relighting Dynamic Human Performance from Sparse Views",
     "authors": [
       "Kunwar Maheep Singh",
@@ -1142,16 +1109,17 @@
       "Christian Theobalt"
     ],
     "abstract": "We present _Relightable Holoported Characters_ (RHC), a novel person-specific method for free-view rendering and relighting of full-body and highly dynamic humans solely observed from sparse-view RGB videos at inference. In contrast to classical one-light-at-a-time (OLAT)-based human relighting, our transformer-based RelightNet predicts relit appearance within a single network pass, avoiding costly OLAT-basis capture and generation. For training such a model, we introduce a new capture strategy and dataset recorded in a multi-view lightstage, where we alternate frames lit by random environment maps with uniformly lit tracking frames, simultaneously enabling accurate motion tracking and diverse illumination as well as dynamics coverage. Inspired by the rendering equation, we derive physics-informed features that encode geometry, albedo, shading, and the virtual camera view from a coarse human mesh proxy and the input views. Our RelightNet then takes these features as input and cross-attends them with a novel lighting condition, and regresses the relit appearance in the form of texel-aligned 3D Gaussian splats attached to the coarse mesh proxy. Consequently, our RelightNet implicitly learns to efficiently compute the rendering equation for novel lighting conditions within a single feed-forward pass. Experiments demonstrate our method’s superior visual fidelity and lighting reproduction compared to state-of-the-art approaches.",
-    "session": "Oral Session 5D: Human-Centric Modeling & Lighting",
+    "session": "Poster Session 5 & Exhibit Hall",
     "decision": "Accept (Oral)",
-    "starttime": "2026-06-07T09:02:30-07:00",
+    "starttime": "2026-06-07T10:45:00-07:00",
     "paper_url": "https://openreview.net/group?id=thecvf.com/CVPR/2026/Conference",
     "arxiv_url": "https://arxiv.org/abs/2512.00255",
-    "poster_url": "",
+    "poster_url": "https://cvpr.thecvf.com/media/PosterPDFs/CVPR%202026/39998.png?t=1779319698.0919061",
     "has_poster": true,
     "project_url": "",
-    "title_ja": "Relightable Holoported Characters：スパースビューから捉えた動的人物の自由視点再照明",
-    "summary_ja": "トランスフォーマーベース RelightNet でスパースビューRGB動画から単一順伝播で再照明。"
+    "title_ja": "Relightable Holoported Characters: 疎視点から動的人間の光照射再現",
+    "summary_ja": "トランスフォーマーベース相互注意で動的人間の自由視点再照射を単一パス実行",
+    "session_oral": "Oral Session 5D: Human-Centric Modeling & Lighting"
   },
   {
     "id": 36273,
@@ -1261,7 +1229,8 @@
     "has_poster": true,
     "project_url": "",
     "title_ja": "3D-LATTE：テキスト指示による潜在空間3D編集",
-    "summary_ja": "ネイティブ3D拡散モデル潜在空間で訓練自由編集、高忠実度で広範囲な意味的操作実現。"
+    "summary_ja": "ネイティブ3D拡散モデル潜在空間で訓練自由編集、高忠実度で広範囲な意味的操作実現。",
+    "session_oral": "Oral Session 3C: Generative Editing"
   },
   {
     "id": 36386,
@@ -1504,7 +1473,8 @@
     "has_poster": true,
     "project_url": "",
     "title_ja": "OLATverse：精密照明制御を備えた大規模現実物体データセット",
-    "summary_ja": "765現実物体の900万画像、331個別制御光源で逆レンダリング・再照明の大規模ベンチマーク実現。"
+    "summary_ja": "765現実物体の900万画像、331個別制御光源で逆レンダリング・再照明の大規模ベンチマーク実現。",
+    "session_oral": "Oral Session 5D: Human-Centric Modeling & Lighting"
   },
   {
     "id": 37185,
@@ -1614,7 +1584,7 @@
     "summary_ja": "単一ビデオから大規模個人化アバター生成で、制限のない表情・動作表現を実現。"
   },
   {
-    "id": 40395,
+    "id": 40136,
     "title": "Chorus: Multi-Teacher Pretraining for Holistic 3D Gaussian Scene Encoding",
     "authors": [
       "Yue Li",
@@ -1630,16 +1600,17 @@
       "Martin R. Oswald"
     ],
     "abstract": "While 3DGS has emerged as a high-fidelity scene representation, encoding rich, general-purpose features directly from its primitives remains under-explored. We address this gap by introducing Chorus, a multi-teacher pretraining framework that learns a holistic feed-forward 3D Gaussian Splatting (3DGS) scene encoder by distilling complementary signals from 2D foundation models.  Chorus employs a shared 3D encoder and teacher-specific projectors to learn from language-aligned, generalist, and object-aware teachers, encouraging a shared embedding space that captures signals from high-level semantics to fine-grained structure.We evaluate Chorus on a wide range of tasks: open-vocabulary semantic and instance segmentation, linear and decoder probing, as well as data-efficient supervision. Besides 3DGS, we also test Chorus on several benchmarks that only support point clouds by pretraining a variant using only Gaussians’ centers, colors, estimated normals as inputs. Interestingly, this encoder shows strong transfer and outperforms the point clouds baseline while using $39.9\\times$ fewer training scenes. Finally, we propose a render-and-distill adaptation that facilitates out-of-domain finetuning. Our code and model will be released upon publication.",
-    "session": "Oral Session 4A: Geometric Understanding",
+    "session": "Poster Session 4 & Exhibit Hall w/ Coffee Break",
     "decision": "Accept (Oral)",
-    "starttime": "2026-06-06T13:00:00-07:00",
+    "starttime": "2026-06-06T15:45:00-07:00",
     "paper_url": "https://openreview.net/group?id=thecvf.com/CVPR/2026/Conference",
     "arxiv_url": "https://arxiv.org/abs/2512.17817",
-    "poster_url": "",
+    "poster_url": "https://cvpr.thecvf.com/media/PosterPDFs/CVPR%202026/40136.png?t=1779661325.8064840",
     "has_poster": true,
     "project_url": "",
     "title_ja": "Chorus：ホログラムアバター学習のための複数教師事前学習",
-    "summary_ja": "複数の学習タスクから事前学習し、単一光学系で多様なアバター生成を実現。"
+    "summary_ja": "複数学習タスクから事前学習し単一光学系で多様アバター生成を実現。",
+    "session_oral": "Oral Session 4A: Geometric Understanding"
   },
   {
     "id": 37039,
@@ -1928,34 +1899,6 @@
     "summary_ja": "物理ガイド付きスコア蒸留を使用した動的天候エフェクト付きシーンアニメーション。"
   },
   {
-    "id": 40136,
-    "title": "Chorus: Multi-Teacher Pretraining for Holistic 3D Gaussian Scene Encoding",
-    "authors": [
-      "Yue Li",
-      "Qi Ma",
-      "Runyi Yang",
-      "Mengjiao Ma",
-      "Bin Ren",
-      "Nikola Popovic",
-      "Nicu Sebe",
-      "Theo Gevers",
-      "Luc Van Gool",
-      "Danda Paudel",
-      "Martin R. Oswald"
-    ],
-    "abstract": "While 3DGS has emerged as a high-fidelity scene representation, encoding rich, general-purpose features directly from its primitives remains under-explored. We address this gap by introducing Chorus, a multi-teacher pretraining framework that learns a holistic feed-forward 3D Gaussian Splatting (3DGS) scene encoder by distilling complementary signals from 2D foundation models.  Chorus employs a shared 3D encoder and teacher-specific projectors to learn from language-aligned, generalist, and object-aware teachers, encouraging a shared embedding space that captures signals from high-level semantics to fine-grained structure.We evaluate Chorus on a wide range of tasks: open-vocabulary semantic and instance segmentation, linear and decoder probing, as well as data-efficient supervision. Besides 3DGS, we also test Chorus on several benchmarks that only support point clouds by pretraining a variant using only Gaussians’ centers, colors, estimated normals as inputs. Interestingly, this encoder shows strong transfer and outperforms the point clouds baseline while using $39.9\\times$ fewer training scenes. Finally, we propose a render-and-distill adaptation that facilitates out-of-domain finetuning. Our code and model will be released upon publication.",
-    "session": "Poster Session 4 & Exhibit Hall w/ Coffee Break",
-    "decision": "Accept (Oral)",
-    "starttime": "2026-06-06T15:45:00-07:00",
-    "paper_url": "https://openreview.net/group?id=thecvf.com/CVPR/2026/Conference",
-    "arxiv_url": "https://arxiv.org/abs/2512.17817",
-    "poster_url": "https://cvpr.thecvf.com/media/PosterPDFs/CVPR%202026/40136.png?t=1779661325.8064840",
-    "has_poster": true,
-    "project_url": "",
-    "title_ja": "Chorus：ホログラムアバター学習のための複数教師事前学習",
-    "summary_ja": "複数学習タスクから事前学習し単一光学系で多様アバター生成を実現。"
-  },
-  {
     "id": 38934,
     "title": "GaussianVision: Vision-Language Alignment from Compressed Image Representations using 2D Gaussian Splatting",
     "authors": [
@@ -1996,29 +1939,6 @@
     "project_url": "",
     "title_ja": "TokenGS：3Dガウシアン予測の分離",
     "summary_ja": "トークンベース表現でガウシアン予測を分離し、効率的・スケーラブルな3D生成実現。"
-  },
-  {
-    "id": 36452,
-    "title": "GLINT: Modeling Scene-Scale Transparency via Gaussian Radiance Transport",
-    "authors": [
-      "Youngju Na",
-      "Jaeseong Yun",
-      "Soohyun Ryu",
-      "Hyunsu Kim",
-      "Sung-Eui Yoon",
-      "Suyong Yeon"
-    ],
-    "abstract": "While 3D Gaussian splatting has emerged as a powerful paradigm, it fundamentally fails to model transparency such as glass panels, which are prevalent in everyday environments. The core challenge lies in decoupling the intertwined radiance contributions from transparent interfaces and the transmitted geometry observed through the glass. We present GLINT, a framework that models scene-scale transparency through explicit decomposed Gaussian representation. GLINT reconstructs the primary interface and separates outgoing radiance into reflection and transmission components according to its optical properties, enabling coherent Gaussian radiance transport. During the optimization, GLINT bootstraps transparency localization by utilizing geometry separation cues that emerge from our decomposition with the geometry and material priors from a pre-trained video relighting model. Extensive experiments demonstrate that GLINT achieves state-of-the-art performance in 3D reconstruction of complex transparent scenes.Our code will be released publicly.",
-    "session": "Poster Session 2 & Exhibit Hall w/ Coffee Break",
-    "decision": "Accept (Oral)",
-    "starttime": "2026-06-05T15:00:00-07:00",
-    "paper_url": "https://openreview.net/group?id=thecvf.com/CVPR/2026/Conference",
-    "arxiv_url": "https://arxiv.org/abs/2603.26181",
-    "poster_url": "https://cvpr.thecvf.com/media/PosterPDFs/CVPR%202026/36452.png?t=1779709494.1109180",
-    "has_poster": true,
-    "project_url": "",
-    "title_ja": "GLINT：シーンスケール透明性モデリング",
-    "summary_ja": "シーンレベルの透明性・反射を表現するニューラル放射輝度フィールド拡張。"
   },
   {
     "id": 39506,
@@ -2135,34 +2055,8 @@
     "has_poster": true,
     "project_url": "",
     "title_ja": "MeshSplatting：差分可能メッシュレンダリング",
-    "summary_ja": "メッシュベースレンダリングを差分可能化し、3D最適化を新たに可能化。"
-  },
-  {
-    "id": 40333,
-    "title": "MeshSplatting: Differentiable Rendering with Opaque Meshes",
-    "authors": [
-      "Jan Held",
-      "Sanghyun Son",
-      "Renaud Vandeghen",
-      "Daniel Rebain",
-      "Matheus Gadelha",
-      "Yi Zhou",
-      "Anthony Cioppa",
-      "Ming C. Lin",
-      "Marc Van Droogenbroeck",
-      "Andrea Tagliasacchi"
-    ],
-    "abstract": "Primitive-based splatting methods like 3D Gaussian Splatting (3DGS) have revolutionized novel view synthesis with real-time rendering.However, their point-based representations remain incompatible with mesh-based pipelines that power AR/VR and game engines. We present MeshSplatting, a mesh-based reconstruction approach that jointly optimizes geometry and appearance through differentiable rendering.By enforcing connectivity via restricted Delaunay triangulation and refining surface consistency, MeshSplatting creates end-to-end smooth, visually high-quality meshes that render efficiently in real-time 3D engines.On Mip-NeRF360, it boosts PSNR by +0.69 dB over the current state-of-the-art MiLo for mesh-based novel view synthesis, while training 2x faster and using 2x less memory, bridging neural rendering and interactive 3D graphics for seamless real-time scene interaction.",
-    "session": "Oral Session 2C: Gaussian Splatting & Reconstruction",
-    "decision": "Accept (Oral)",
-    "starttime": "2026-06-05T12:12:30-07:00",
-    "paper_url": "https://openreview.net/group?id=thecvf.com/CVPR/2026/Conference",
-    "arxiv_url": "https://arxiv.org/abs/2512.06818",
-    "poster_url": "",
-    "has_poster": true,
-    "project_url": "",
-    "title_ja": "MeshSplatting：差分可能メッシュレンダリング",
-    "summary_ja": "メッシュベースレンダリングを差分可能化し、3D最適化を新たに可能化。"
+    "summary_ja": "メッシュベースレンダリングを差分可能化し、3D最適化を新たに可能化。",
+    "session_oral": "Oral Session 2C: Gaussian Splatting & Reconstruction"
   },
   {
     "id": 38055,
@@ -2568,32 +2462,8 @@
     "has_poster": true,
     "project_url": "",
     "title_ja": "AToken：ビジョン言語用統一トークナイザー",
-    "summary_ja": "ビジョンと言語統一トークン化で、マルチモーダル理解を効率化。"
-  },
-  {
-    "id": 40282,
-    "title": "AToken: A Unified Tokenizer for Vision",
-    "authors": [
-      "Jiasen Lu",
-      "Liangchen Song",
-      "Mingze Xu",
-      "Byeongjoo Ahn",
-      "Yanjun Wang",
-      "Chen Chen",
-      "Afshin Dehghan",
-      "Yinfei Yang"
-    ],
-    "abstract": "We present AToken, the first unified visual tokenizer that achieves both high-fidelity reconstruction and semantic understanding across images, videos, and 3D assets. Unlike existing tokenizers that specialize in either reconstruction or understanding for single modalities, AToken encodes these diverse visual inputs into a shared 4D latent space, unifying both tasks and modalities in a single framework. Specifically, we introduce a pure transformer architecture with 4D rotary position embeddings to process visual inputs of arbitrary resolutions and temporal durations. To ensure stable training, we introduce an adversarial-free training objective that combines perceptual and Gram matrix losses, achieving state-of-the-art reconstruction quality. By employing a progressive training curriculum, AToken gradually expands from single images, videos, and 3D, and supports both continuous and discrete latent tokens. AToken achieves 0.21 rFID with 82.2% ImageNet accuracy for images, 3.01 rFVD with 40.2% MSRVTT retrieval for videos, and 28.28 PSNR with 90.9% classification accuracy for 3D.. In downstream applications, AToken enables both visual generation tasks (e.g., image generation with continuous and discrete tokens, text-to-video generation, image-to-3D synthesis) and understanding tasks (e.g., multimodal LLMs), achieving competitive performance across all benchmarks. These results shed light on the next-generation multimodal AI systems built upon unified visual tokenization.",
-    "session": "Oral Session 5B: Generalization and Adaptation",
-    "decision": "Accept (Oral)",
-    "starttime": "2026-06-07T08:00:00-07:00",
-    "paper_url": "https://openreview.net/group?id=thecvf.com/CVPR/2026/Conference",
-    "arxiv_url": "https://arxiv.org/abs/2509.14476",
-    "poster_url": "",
-    "has_poster": true,
-    "project_url": "",
-    "title_ja": "AToken：ビジョン言語用統一トークナイザー",
-    "summary_ja": "ビジョンと言語統一トークン化で、マルチモーダル理解を効率化。"
+    "summary_ja": "ビジョンと言語統一トークン化で、マルチモーダル理解を効率化。",
+    "session_oral": "Oral Session 5B: Generalization and Adaptation"
   },
   {
     "id": 36437,
@@ -2617,33 +2487,7 @@
     "summary_ja": "単一画像から材料の反射・テクスチャ等を逆レンダリングで抽出。"
   },
   {
-    "id": 40310,
-    "title": "3DReflecNet: A Large-Scale Dataset for 3D Reconstruction of Reflective, Transparent, and Low-Texture Objects",
-    "authors": [
-      "Zhicheng Liang",
-      "Haoyi Yu",
-      "Boyan Li",
-      "Dayou Zhang",
-      "Zijian Cao",
-      "Tianyi Gong",
-      "Junhua Liu",
-      "Shuguang Cui",
-      "Fangxin Wang"
-    ],
-    "abstract": "Accurate 3D reconstruction of objects with reflective, transparent, or low-texture surfaces remains a significant challenge. Such materials often violate key assumptions in multi-view reconstruction pipelines, such as photometric consistency and the reliance on distinct geometric texture cues. Existing datasets primarily focus on diffuse, textured objects, thereby offering limited insight into performance under real-world material complexities. In this paper, we introduce 3DReflecNet, a large-scale hybrid dataset exceeding 22 TB that is specifically designed to benchmark and advance 3D vision methods for these challenging materials. 3DReflecNet combines two types of data: over 100,000 synthetic instances generated via physically-based rendering of more than 10,000 shapes, and over 1,000 real-world objects scanned using consumer RGB-D devices. Together, these data consist of more than 7 million multi-view frames. It encompasses diverse materials, complex lighting conditions, and a wide range of geometric forms—including shapes generated from both real and LLM-synthesized 2D images using diffusion-based methods. To support robust evaluation, we design benchmarks for four core tasks: image matching, reflection removal, structure-from-motion, and novel view synthesis. Through extensive experiments, we show that state-of-the-art methods struggle to maintain accuracy across these settings, highlighting the need for more resilient 3D vision models. We release the dataset, baselines, and evaluation suite to facilitate progress in this direction, which can be accessed at supplementary materials.",
-    "session": "Oral Session 2B: Materials & Lighting",
-    "decision": "Accept (Oral)",
-    "starttime": "2026-06-05T12:00:00-07:00",
-    "paper_url": "https://openreview.net/group?id=thecvf.com/CVPR/2026/Conference",
-    "arxiv_url": "https://arxiv.org/abs/2605.10204",
-    "poster_url": "",
-    "has_poster": true,
-    "project_url": "",
-    "title_ja": "3DReflecNet：反射・透明・低テクスチャ物体3D再構成用大規模データセット",
-    "summary_ja": "22TB以上の合成・実世界データで困難材質特性への3Dビジョン手法向上支援。"
-  },
-  {
-    "id": 40312,
+    "id": 37783,
     "title": "RetimeGS: Continuous-Time Reconstruction of 4D Gaussian Splatting",
     "authors": [
       "Xuezhen Wang",
@@ -2653,19 +2497,20 @@
       "Pedro V. Sander"
     ],
     "abstract": "Temporal retiming, the ability to reconstruct and render dynamic scenes at arbitrary timestamps, is crucial for applications such as slow-motion playback, temporal editing, and post-production. However, most existing 4D Gaussian Splatting (4DGS) methods overfit at discrete frame indices but struggle to represent continuous-time frames, leading to ghosting artifacts when interpolating between timestamps. We identify this limitation as a form of temporal aliasing and propose RetimeGS, a simple yet effective 4DGS representation that explicitly defines the temporal behavior of the 3D Gaussian and mitigates temporal aliasing. To achieve smooth and consistent interpolation, we incorporate optical flow–guided initialization and supervision, triple-rendering supervision, and other targeted strategies. Together, these components enable ghost-free, temporally coherent rendering even under large motions. Experiments on datasets featuring fast motion, non-rigid deformation, and severe occlusions demonstrate that RetimeGS achieves superior quality and coherence over state-of-the-art methods.",
-    "session": "Oral Session 2C: Gaussian Splatting & Reconstruction",
+    "session": "Poster Session 2 & Exhibit Hall w/ Coffee Break",
     "decision": "Accept (Oral)",
-    "starttime": "2026-06-05T12:37:30-07:00",
+    "starttime": "2026-06-05T15:00:00-07:00",
     "paper_url": "https://openreview.net/group?id=thecvf.com/CVPR/2026/Conference",
     "arxiv_url": "https://arxiv.org/abs/2603.13783",
-    "poster_url": "",
+    "poster_url": "https://cvpr.thecvf.com/media/PosterPDFs/CVPR%202026/37783.png?t=1779274513.4873891",
     "has_poster": true,
-    "project_url": "",
-    "title_ja": "RetimeGS：連続時間再構成ガウシアンスプラッティング",
-    "summary_ja": "連続時間表現で任意フレームレート動的シーン再構成・フレーム補間実現。"
+    "project_url": "https://william-wang2.github.io/RetimeGS/",
+    "title_ja": "リタイムGS：4Dガウシアンスプラッティングの連続時間再構成",
+    "summary_ja": "時間的エイリアシング軽減による大モーション下でのゴーストフリー連続フレーム補間",
+    "session_oral": "Oral Session 2C: Gaussian Splatting & Reconstruction"
   },
   {
-    "id": 40355,
+    "id": 38972,
     "title": "Selfi: Self-improving Reconstruction Engine via 3D Geometric Feature Alignment",
     "authors": [
       "Youming Deng",
@@ -2678,19 +2523,20 @@
       "Lucy Chai"
     ],
     "abstract": "Novel View Synthesis (NVS) has traditionally relied on models with explicit 3D inductive biases combined with known camera parameters from Structure-from-Motion (SfM) beforehand. Recent vision foundation models like VGGT take an orthogonal approach -- 3D knowledge is gained implicitly through training data and loss objectives, enabling feed-forward prediction of both camera parameters and 3D representations directly from a set of uncalibrated images. While flexible, VGGT features lack explicit multi-view geometric consistency, and we find that improving such 3D feature consistency benefits both NVS and pose estimation tasks. We introduce Selfi, a self-improving 3D reconstruction pipeline via feature alignment, transforming a VGGT backbone into a high-fidelity 3D reconstruction engine by leveraging its own  outputs as pseudo-ground-truth. Specifically, we train a lightweight feature adapter using a reprojection-based consistency loss, which distills VGGT outputs into a new geometrically-aligned feature space that captures spatial proximity in 3D. This enables state-of-the-art performance in both NVS and camera pose estimation, demonstrating that feature alignment is a highly beneficial step for downstream 3D reasoning.",
-    "session": "Oral Session 2C: Gaussian Splatting & Reconstruction",
+    "session": "Poster Session 2 & Exhibit Hall w/ Coffee Break",
     "decision": "Accept (Oral)",
-    "starttime": "2026-06-05T12:50:00-07:00",
+    "starttime": "2026-06-05T15:00:00-07:00",
     "paper_url": "https://openreview.net/group?id=thecvf.com/CVPR/2026/Conference",
     "arxiv_url": "https://arxiv.org/abs/2512.08930",
-    "poster_url": "",
+    "poster_url": "https://cvpr.thecvf.com/media/PosterPDFs/CVPR%202026/38972.png?t=1779221948.3640079",
     "has_poster": true,
     "project_url": "",
-    "title_ja": "Selfi：自己改善再構成エンジン",
-    "summary_ja": "フィードバックループで段階的に品質向上する自己改善3D再構成。"
+    "title_ja": "セルフィ：3D幾何学的特徴アラインメントによる自己改善再構成エンジン",
+    "summary_ja": "再投影整合性損失を用いた視視点合成とカメラ位置推定の同時最適化",
+    "session_oral": "Oral Session 2C: Gaussian Splatting & Reconstruction"
   },
   {
-    "id": 40291,
+    "id": 37247,
     "title": "Z-Order Transformer for Feed-Forward Gaussian Splatting",
     "authors": [
       "Can Wang",
@@ -2699,19 +2545,20 @@
       "Dong Xu"
     ],
     "abstract": "Recent advances in 3D Gaussian Splatting (3DGS) have enabled significant progress in photorealistic novel view synthesis. However, traditional 3DGS relies on a slow, iterative optimization process, which limits its use in scenarios demanding real-time results. To overcome this bottleneck, recent feed-forward methods aim to predict Gaussian attributes directly from images, but they often struggle with the redundancy of Gaussian primitives and rendering quality. In this paper, we introduce a transformer-based architecture specifically designed for feed-forward Gaussian Splatting. Our key insight is that spatial and semantic relationships among Gaussians can be effectively captured through a sparse attention mechanism, enabled by a Z-order strategy that organizes the unstructured Gaussian set into a spatially coherent sequence. Furthermore, we incorporate this Z-order strategy to adaptively suppress redundancy while preserving critical structural details.  This allows the transformer to efficiently model context, compress Gaussian primitives, and predict Gaussian attributes in a single forward pass. Comprehensive experiments demonstrate that our method achieves fast and high-quality novel view synthesis with fewer Gaussian primitives.",
-    "session": "Oral Session 2C: Gaussian Splatting & Reconstruction",
+    "session": "Poster Session 2 & Exhibit Hall w/ Coffee Break",
     "decision": "Accept (Oral)",
-    "starttime": "2026-06-05T13:02:30-07:00",
+    "starttime": "2026-06-05T15:00:00-07:00",
     "paper_url": "https://openreview.net/group?id=thecvf.com/CVPR/2026/Conference",
     "arxiv_url": "https://arxiv.org/abs/2605.13465",
-    "poster_url": "",
+    "poster_url": "https://cvpr.thecvf.com/media/PosterPDFs/CVPR%202026/37247.png?t=1779294286.9582429",
     "has_poster": true,
     "project_url": "",
-    "title_ja": "Z-Order Transformer Feed-Forward Gaussian：Z順序トランスフォーマー順伝播ガウシアン",
-    "summary_ja": "Z順序曲線でピクセル系列化し、順伝播3Dガウシアン高速化。"
+    "title_ja": "Z順序トランスフォーマー：フィードフォワード型ガウシアンスプラッティング",
+    "summary_ja": "Z順序戦略で空間コヒーレント配列化し単一フォワードパスでガウシアン予測",
+    "session_oral": "Oral Session 2C: Gaussian Splatting & Reconstruction"
   },
   {
-    "id": 40279,
+    "id": 36946,
     "title": "SmokeSVD: Smoke Reconstruction from A Single View via Progressive Novel View Synthesis and Refinement with Diffusion Models",
     "authors": [
       "Chen Li",
@@ -2723,44 +2570,21 @@
       "Taku Komura",
       "Kemeng Huang"
     ],
-    "abstract": "Reconstructing dynamic fluids from sparse views is a long-standing and challenging problem, due to the severe lack of 3D information from insufficient view coverage. While several pioneering approaches have attempted to address this issue using differentiable rendering or novel view synthesis, they are often limited by time-consuming optimization under ill-posed conditions. We propose SmokeSVD, an efficient and effective framework to progressively reconstruct dynamic smoke from a single video by integrating the generative capabilities of diffusion models with physically guided consistency optimization. Specifically, we first propose a physically guided side-view synthesizer based on diffusion models, which explicitly incorporates velocity field constraints to generate spatio-temporally consistent side-view images frame by frame, significantly alleviating the ill-posedness of single-view reconstruction. Subsequently, we iteratively refine novel-view images and reconstruct 3D density fields through a progressive multi-stage process that renders and enhances images from increasing viewing angles, generating high-quality multi-view sequences. Finally, we estimate fine-grained density and velocity fields via differentiable advection by leveraging the Navier-Stokes equations. Our approach supports re-simulation and downstream applications while achieving superior reconstruction quality and computational efficiency compared to state-of-the-art methods.",
-    "session": "Oral Session 2D: Spatio-Temporal Reconstruction",
+    "abstract": "",
+    "session": "Poster Session 2 & Exhibit Hall w/ Coffee Break",
     "decision": "Accept (Oral)",
-    "starttime": "2026-06-05T12:50:00-07:00",
-    "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Li_SmokeSVD_Smoke_Reconstruction_from_A_Single_View_via_Progressive_Novel_CVPR_2026_paper.html",
-    "arxiv_url": "https://arxiv.org/abs/2507.12156",
-    "poster_url": "",
-    "poster_url_full": "",
-    "poster_url_thumb": "",
+    "starttime": "2026-06-05T15:00:00-07:00",
+    "paper_url": "https://openreview.net/group?id=thecvf.com/CVPR/2026/Conference",
+    "arxiv_url": "",
+    "poster_url": "https://cvpr.thecvf.com/media/PosterPDFs/CVPR%202026/36946.png?t=1779275890.8352749",
     "has_poster": false,
     "project_url": "",
-    "title_ja": "動画拡散モデルによる単一視点からの煙再構成（SmokeSVD）",
-    "summary_ja": "拡散モデルと物理的一貫性最適化を組み合わせた、単一ビデオからの動的流体煙の効率的な再構成。"
+    "title_ja": "スモークSVD：段階的新規視点合成と拡散モデルによる煙再構成",
+    "summary_ja": "段階的新規視点合成で煙を単一視点から再構成",
+    "session_oral": "Oral Session 2D: Spatio-Temporal Reconstruction"
   },
   {
-    "id": 40368,
-    "title": "3D-LATTE: Latent Space 3D Editing from Textual Instructions",
-    "authors": [
-      "Maria Parelli",
-      "Michael Oechsle",
-      "Michael Niemeyer",
-      "Federico Tombari",
-      "Andreas Geiger"
-    ],
-    "abstract": "Despite the recent success of multi-view diffusion models for text/image-based 3D asset generation, instruction-based editing of 3D assets lacks surprisingly far behind the quality of generation models. The main reason is that recent approaches using 2D priors suffer from view-inconsistent editing signals.   Going beyond 2D prior distillation methods and multi-view editing strategies, we propose a training-free editing method that operates within the latent space of a native 3D diffusion model, allowing us to directly manipulate 3D geometry. We guide the edit synthesis by blending 3D attention maps from the generation with the source object. Coupled with geometry-aware regularization guidance, a spectral modulation strategy in the Fourier domain and a refinement step for 3D enhancement, our method outperforms previous 3D editing methods enabling high-fidelity and precise edits across a wide range of shapes and semantic manipulations. Code will be publicly released.",
-    "session": "Oral Session 3C: Generative Editing",
-    "decision": "Accept (Oral)",
-    "starttime": "2026-06-06T08:00:00-07:00",
-    "paper_url": "https://openreview.net/group?id=thecvf.com/CVPR/2026/Conference",
-    "arxiv_url": "https://arxiv.org/abs/2509.00269",
-    "poster_url": "",
-    "has_poster": true,
-    "project_url": "",
-    "title_ja": "3D-LATTE：テキスト指示による潜在空間3D編集",
-    "summary_ja": "ネイティブ3D拡散モデル潜在空間で訓練自由編集、高忠実度意味操作実現。"
-  },
-  {
-    "id": 40283,
+    "id": 37074,
     "title": "Native and Compact Structured Latents for 3D Generation",
     "authors": [
       "Jianfeng XIANG",
@@ -2776,43 +2600,17 @@
       "Jiaolong Yang"
     ],
     "abstract": "Recent advancements in 3D generative modeling have significantly improved the generation realism, yet the field is still hampered by existing representations, which struggle to capture assets with complex topologies and detailed appearance. This paper present an approach for learning a structured latent representation from native 3D data to address this challenge. At its core is a new sparse voxel structure called O-Voxel, an omni-voxel representation that encodes both geometry and appearance. O-Voxel can robustly model arbitrary topology, including open, non-manifold, and fully-enclosed surfaces, while capturing comprehensive surface attributes beyond texture color, such as physically-based rendering parameters. Based on O-Voxel, we design a Sparse Compression VAE which provides a high spatial compression rate and a compact latent space. We train large-scale flow-matching models comprising 4B parameters for 3D generation using diverse public 3D asset datasets. Despite their scale, inference remains highly efficient. Meanwhile, the geometry and material quality of our generated assets far exceed those of existing models. We believe our approach offers a significant advancement in 3D generative modeling.",
-    "session": "Oral Session 3C: Generative Editing",
+    "session": "Poster Session 3 & Exhibit Hall",
     "decision": "Accept (Oral)",
-    "starttime": "2026-06-06T08:50:00-07:00",
+    "starttime": "2026-06-06T10:45:00-07:00",
     "paper_url": "https://openreview.net/group?id=thecvf.com/CVPR/2026/Conference",
     "arxiv_url": "https://arxiv.org/abs/2512.14692",
-    "poster_url": "",
+    "poster_url": "https://cvpr.thecvf.com/media/PosterPDFs/CVPR%202026/37074.png?t=1779072030.3273880",
     "has_poster": true,
     "project_url": "",
-    "title_ja": "ネイティブ・コンパクト構造化潜在空間",
-    "summary_ja": "3D生成モデル固有の構造化潜在表現でコンパクト・解釈可能な3D表現。"
-  },
-  {
-    "id": 40328,
-    "title": "OLATverse: A Large-scale Real-world Object Dataset with Precise Lighting Control",
-    "authors": [
-      "Xilong Zhou",
-      "Jianchun Chen",
-      "Pramod Rao",
-      "Timo Teufel",
-      "Linjie Lyu",
-      "Tigran Minasian",
-      "Oleksandr Sotnychenko",
-      "Xiaoxiao Long",
-      "Marc Habermann",
-      "Christian Theobalt"
-    ],
-    "abstract": "We introduce OLATverse, a large-scale dataset comprising around 9M images of 765 real-world objects, captured from multiple viewpoints under a diverse set of precisely controlled lighting conditions. While recent advances in object-centric inverse rendering, novel view synthesis and relighting have shown promising results, most techniques still heavily rely on the synthetic datasets for training and small-scale real-world datasets for benchmarking, which limits their realism and generalization. To address this gap, OLATverse offers two key advantages over existing datasets: large-scale coverage of real objects and high-fidelity appearance under precisely controlled illuminations. Specifically, OLATverse contains 765 common and uncommon real-world objects, spanning a wide range of material categories. Each object is captured using 35 DSLR cameras and 331 individually controlled light sources, enabling the simulation of diverse illumination conditions. In addition, for each object, we provide well-calibrated camera parameters, accurate object masks, photometric surface normals, and diffuse albedo as auxiliary resources. We also construct an extensive evaluation set, establishing the first comprehensive real-world object-centric benchmark for inverse rendering and normal estimation. We believe that OLATverse represents a pivotal step toward integrating the next generation of inverse rendering and relighting methods with real-world data.",
-    "session": "Oral Session 5D: Human-Centric Modeling & Lighting",
-    "decision": "Accept (Oral)",
-    "starttime": "2026-06-07T08:25:00-07:00",
-    "paper_url": "https://openreview.net/group?id=thecvf.com/CVPR/2026/Conference",
-    "arxiv_url": "https://arxiv.org/abs/2511.02483",
-    "poster_url": "",
-    "has_poster": true,
-    "project_url": "",
-    "title_ja": "OLATverse：精密照明制御を備えた大規模現実物体データセット",
-    "summary_ja": "765現実物体900万画像、331個別制御光源で逆レンダリング・再照明ベンチマーク。"
+    "title_ja": "ネイティブとコンパクト構造潜在3D生成",
+    "summary_ja": "構造化潜在表現で効率的で高品質な3D生成を実現",
+    "session_oral": "Oral Session 3C: Generative Editing"
   },
   {
     "id": 38877,
@@ -3950,168 +3748,6 @@
     "summary_ja": "参照ガイド分解型フレームワークで任意リギング3Dアセットからアニメーション駆動回転を再構成"
   },
   {
-    "id": 36381,
-    "title": "Neural Field-Based 3D Surface Reconstruction of Microstructures from Multi-Detector Signals in Scanning Electron Microscopy",
-    "authors": [
-      "Shuo Chen",
-      "Yijin Li",
-      "Xi Zheng",
-      "Guofeng Zhang"
-    ],
-    "abstract": "The 3D characterization of microstructures is crucial for understanding and designing functional materials. However, the scanning electron microscope (SEM), widely used in scientific research, captures only 2D electron intensity distributions. Existing SEM 3D reconstruction methods struggle with textureless regions, shadowing artifacts, and calibration dependencies, whereas advanced learning-based approaches fail to generalize to microscopic SEM domains due to the lack of physical priors and domain-specific data. To address these challenges, we introduce NFH-SEM, a neural field-based hybrid reconstruction framework that recovers high-fidelity 3D surfaces from multi-view, multi-detector SEM images. NFH-SEM integrates coarse multi-view geometry with photometric stereo cues from detector signals through a continuous neural field, incorporating a learnable forward model that embeds SEM imaging physics for self-calibrated, shadow-robust reconstruction. NFH-SEM achieves precise recovery across diverse specimens, revealing 478 nm layered features in two-photon lithography samples, 782 nm surface textures on pollen grains, and 1.559 μm fracture steps on silicon carbide particles, demonstrating its accuracy and broad applicability.",
-    "session": "Poster Session 2 & Exhibit Hall w/ Coffee Break",
-    "decision": "Accept (Oral)",
-    "starttime": "2026-06-05T15:00:00-07:00",
-    "paper_url": "https://openreview.net/group?id=thecvf.com/CVPR/2026/Conference",
-    "arxiv_url": "https://arxiv.org/abs/2508.04728",
-    "poster_url": "https://cvpr.thecvf.com/media/PosterPDFs/CVPR%202026/36381.png?t=1779283389.8283761",
-    "has_poster": true,
-    "project_url": "",
-    "title_ja": "ニューラルフィールドベース3D表面再構成：走査型電子顕微鏡のマルチ検出器信号",
-    "summary_ja": "物理的先行知識を組み込んだニューラルフィールドによるSEM画像からの高忠実度3D再構成"
-  },
-  {
-    "id": 37789,
-    "title": "PhyGaP: Physically-Grounded Gaussians with Polarization Cues",
-    "authors": [
-      "Jiale Wu",
-      "Xiaoyang Bai",
-      "Zongqi He",
-      "Weiwei Xu",
-      "YIFAN PENG"
-    ],
-    "abstract": "Recent advances in 3D Gaussian Splatting (3DGS) have demonstrated great success in modeling reflective 3D objects and their interaction with the environment via **deferred rendering (DR)**. However, existing methods often struggle with correctly reconstructing physical attributes such as albedo and reflectance, and therefore they do not support high-fidelity relighting. Observing that this limitation stems from the lack of **shape and material** information in RGB images, we present PhyGaP, a physically-grounded 3DGS method that leverages polarization cues to facilitate precise reflection decomposition and visually consistent relighting of reconstructed objects. Specifically, we design a polarimetric deferred rendering (PolarDR) process to model polarization by reflection, and a self-occlusion-aware environment map building technique (GridMap) to resolve indirect lighting of non-convex objects. We validate on multiple synthetic and real-world scenes, including those featuring only partial polarization cues, that PhyGaP not only excels in reconstructing the appearance and surface normal of reflective 3D objects (~2 dB in PSNR and 45.7% in Cosine Distance better than existing RGB-based methods on average), but also achieves state-of-the-art inverse rendering and relighting capability.",
-    "session": "Poster Session 2 & Exhibit Hall w/ Coffee Break",
-    "decision": "Accept (Oral)",
-    "starttime": "2026-06-05T15:00:00-07:00",
-    "paper_url": "https://openreview.net/group?id=thecvf.com/CVPR/2026/Conference",
-    "arxiv_url": "https://arxiv.org/abs/2603.14001",
-    "poster_url": "https://cvpr.thecvf.com/media/PosterPDFs/CVPR%202026/37789.png?t=1779272516.9383509",
-    "has_poster": true,
-    "project_url": "",
-    "title_ja": "フィジガップ：偏光キューを用いた物理的基盤ガウシアン",
-    "summary_ja": "偏光情報を活用した物理的反射分解とガウシアンスプラッティングの高忠実度再ライティング"
-  },
-  {
-    "id": 37177,
-    "title": "Proxy-GS: Unified Occlusion Priors for Training and Inference in Structured 3D Gaussian Splatting",
-    "authors": [
-      "Yuanyuan Gao",
-      "YUNING GONG",
-      "Yifei Liu",
-      "Jingfeng Li",
-      "Dan Xu",
-      "Yanci Zhang",
-      "Dingwen Zhang",
-      "Xiao Sun",
-      "Zhihang Zhong"
-    ],
-    "abstract": "3D Gaussian Splatting (3DGS) has emerged as an efficient approach for achieving photorealistic rendering. Recent MLP-based variants further improve visual fidelity but introduce substantial decoding overhead during rendering. To alleviate computation cost, several pruning strategies and level-of-detail (LOD) techniques have been introduced, aiming to effectively reduce the number of Gaussian primitives in large-scale scenes. However, our analysis reveals that significant redundancy still remains due to the lack of occlusion awareness. In this work, we propose Proxy-GS, a novel pipeline that exploits a proxy to introduce Gaussian occlusion awareness from any view.At the core of our approach is a fast proxy system capable of producing precise occlusion depth maps at resolution 1000$\\times$1000 under 1 ms. This proxy serves two roles: first, it guides the culling of anchors and Gaussians to accelerate rendering speed. Second, it guides the densification towards surfaces during training, avoiding inconsistencies in occluded regions, and improving the rendering quality. In heavily occluded scenarios, such as the MatrixCity Streets dataset, Proxy-GS not only equips MLP-based Gaussian splatting with stronger rendering capability but also achieves faster rendering speed than the original 3DGS. Specifically, it achieves more than $2.5\\times$ speedup over Octree-GS, and consistently delivers substantially higher rendering quality.",
-    "session": "Poster Session 2 & Exhibit Hall w/ Coffee Break",
-    "decision": "Accept (Oral)",
-    "starttime": "2026-06-05T15:00:00-07:00",
-    "paper_url": "https://openreview.net/group?id=thecvf.com/CVPR/2026/Conference",
-    "arxiv_url": "https://arxiv.org/abs/2509.24421",
-    "poster_url": "https://cvpr.thecvf.com/media/PosterPDFs/CVPR%202026/37177.png?t=1779292717.8985651",
-    "has_poster": true,
-    "project_url": "",
-    "title_ja": "プロキシGS：構造化3Dガウシアンスプラッティングの統一的遮蔽先行知識",
-    "summary_ja": "高速プロキシシステムで遮蔽認識ガウシアンを導入し大規模シーンで2.5倍以上高速化"
-  },
-  {
-    "id": 37783,
-    "title": "RetimeGS: Continuous-Time Reconstruction of 4D Gaussian Splatting",
-    "authors": [
-      "Xuezhen Wang",
-      "Li Ma",
-      "Yulin Shen",
-      "Zeyu Wang",
-      "Pedro V. Sander"
-    ],
-    "abstract": "Temporal retiming, the ability to reconstruct and render dynamic scenes at arbitrary timestamps, is crucial for applications such as slow-motion playback, temporal editing, and post-production. However, most existing 4D Gaussian Splatting (4DGS) methods overfit at discrete frame indices but struggle to represent continuous-time frames, leading to ghosting artifacts when interpolating between timestamps. We identify this limitation as a form of temporal aliasing and propose RetimeGS, a simple yet effective 4DGS representation that explicitly defines the temporal behavior of the 3D Gaussian and mitigates temporal aliasing. To achieve smooth and consistent interpolation, we incorporate optical flow–guided initialization and supervision, triple-rendering supervision, and other targeted strategies. Together, these components enable ghost-free, temporally coherent rendering even under large motions. Experiments on datasets featuring fast motion, non-rigid deformation, and severe occlusions demonstrate that RetimeGS achieves superior quality and coherence over state-of-the-art methods.",
-    "session": "Poster Session 2 & Exhibit Hall w/ Coffee Break",
-    "decision": "Accept (Oral)",
-    "starttime": "2026-06-05T15:00:00-07:00",
-    "paper_url": "https://openreview.net/group?id=thecvf.com/CVPR/2026/Conference",
-    "arxiv_url": "https://arxiv.org/abs/2603.13783",
-    "poster_url": "https://cvpr.thecvf.com/media/PosterPDFs/CVPR%202026/37783.png?t=1779274513.4873891",
-    "has_poster": true,
-    "project_url": "https://william-wang2.github.io/RetimeGS/",
-    "title_ja": "リタイムGS：4Dガウシアンスプラッティングの連続時間再構成",
-    "summary_ja": "時間的エイリアシング軽減による大モーション下でのゴーストフリー連続フレーム補間"
-  },
-  {
-    "id": 38972,
-    "title": "Selfi: Self-improving Reconstruction Engine via 3D Geometric Feature Alignment",
-    "authors": [
-      "Youming Deng",
-      "Songyou Peng",
-      "Junyi Zhang",
-      "Kathryn Heal",
-      "Tiancheng Sun",
-      "John Flynn",
-      "Steve Marschner",
-      "Lucy Chai"
-    ],
-    "abstract": "Novel View Synthesis (NVS) has traditionally relied on models with explicit 3D inductive biases combined with known camera parameters from Structure-from-Motion (SfM) beforehand. Recent vision foundation models like VGGT take an orthogonal approach -- 3D knowledge is gained implicitly through training data and loss objectives, enabling feed-forward prediction of both camera parameters and 3D representations directly from a set of uncalibrated images. While flexible, VGGT features lack explicit multi-view geometric consistency, and we find that improving such 3D feature consistency benefits both NVS and pose estimation tasks. We introduce Selfi, a self-improving 3D reconstruction pipeline via feature alignment, transforming a VGGT backbone into a high-fidelity 3D reconstruction engine by leveraging its own  outputs as pseudo-ground-truth. Specifically, we train a lightweight feature adapter using a reprojection-based consistency loss, which distills VGGT outputs into a new geometrically-aligned feature space that captures spatial proximity in 3D. This enables state-of-the-art performance in both NVS and camera pose estimation, demonstrating that feature alignment is a highly beneficial step for downstream 3D reasoning.",
-    "session": "Poster Session 2 & Exhibit Hall w/ Coffee Break",
-    "decision": "Accept (Oral)",
-    "starttime": "2026-06-05T15:00:00-07:00",
-    "paper_url": "https://openreview.net/group?id=thecvf.com/CVPR/2026/Conference",
-    "arxiv_url": "https://arxiv.org/abs/2512.08930",
-    "poster_url": "https://cvpr.thecvf.com/media/PosterPDFs/CVPR%202026/38972.png?t=1779221948.3640079",
-    "has_poster": true,
-    "project_url": "",
-    "title_ja": "セルフィ：3D幾何学的特徴アラインメントによる自己改善再構成エンジン",
-    "summary_ja": "再投影整合性損失を用いた視視点合成とカメラ位置推定の同時最適化"
-  },
-  {
-    "id": 37247,
-    "title": "Z-Order Transformer for Feed-Forward Gaussian Splatting",
-    "authors": [
-      "Can Wang",
-      "Lei Liu",
-      "Wei Jiang",
-      "Dong Xu"
-    ],
-    "abstract": "Recent advances in 3D Gaussian Splatting (3DGS) have enabled significant progress in photorealistic novel view synthesis. However, traditional 3DGS relies on a slow, iterative optimization process, which limits its use in scenarios demanding real-time results. To overcome this bottleneck, recent feed-forward methods aim to predict Gaussian attributes directly from images, but they often struggle with the redundancy of Gaussian primitives and rendering quality. In this paper, we introduce a transformer-based architecture specifically designed for feed-forward Gaussian Splatting. Our key insight is that spatial and semantic relationships among Gaussians can be effectively captured through a sparse attention mechanism, enabled by a Z-order strategy that organizes the unstructured Gaussian set into a spatially coherent sequence. Furthermore, we incorporate this Z-order strategy to adaptively suppress redundancy while preserving critical structural details.  This allows the transformer to efficiently model context, compress Gaussian primitives, and predict Gaussian attributes in a single forward pass. Comprehensive experiments demonstrate that our method achieves fast and high-quality novel view synthesis with fewer Gaussian primitives.",
-    "session": "Poster Session 2 & Exhibit Hall w/ Coffee Break",
-    "decision": "Accept (Oral)",
-    "starttime": "2026-06-05T15:00:00-07:00",
-    "paper_url": "https://openreview.net/group?id=thecvf.com/CVPR/2026/Conference",
-    "arxiv_url": "https://arxiv.org/abs/2605.13465",
-    "poster_url": "https://cvpr.thecvf.com/media/PosterPDFs/CVPR%202026/37247.png?t=1779294286.9582429",
-    "has_poster": true,
-    "project_url": "",
-    "title_ja": "Z順序トランスフォーマー：フィードフォワード型ガウシアンスプラッティング",
-    "summary_ja": "Z順序戦略で空間コヒーレント配列化し単一フォワードパスでガウシアン予測"
-  },
-  {
-    "id": 36946,
-    "title": "SmokeSVD: Smoke Reconstruction from A Single View via Progressive Novel View Synthesis and Refinement with Diffusion Models",
-    "authors": [
-      "Chen Li",
-      "Shanshan Dong",
-      "Sheng Qiu",
-      "Jianmin Han",
-      "Yibo Zhao",
-      "Zan Gao",
-      "Taku Komura",
-      "Kemeng Huang"
-    ],
-    "abstract": "",
-    "session": "Poster Session 2 & Exhibit Hall w/ Coffee Break",
-    "decision": "Accept (Oral)",
-    "starttime": "2026-06-05T15:00:00-07:00",
-    "paper_url": "https://openreview.net/group?id=thecvf.com/CVPR/2026/Conference",
-    "arxiv_url": "",
-    "poster_url": "https://cvpr.thecvf.com/media/PosterPDFs/CVPR%202026/36946.png?t=1779275890.8352749",
-    "has_poster": false,
-    "project_url": "",
-    "title_ja": "スモークSVD：段階的新規視点合成と拡散モデルによる煙再構成",
-    "summary_ja": "段階的新規視点合成で煙を単一視点から再構成"
-  },
-  {
     "id": 39102,
     "title": "Affostruction: 3D Affordance Grounding with Generative Reconstruction",
     "authors": [
@@ -5226,62 +4862,8 @@
     "has_poster": true,
     "project_url": "",
     "title_ja": "忠実なコンタリング：ほぼロスレス3Dボクセル表現",
-    "summary_ja": "ロスレスに近いエンコーディングで高忠実度3Dボクセル圧縮表現"
-  },
-  {
-    "id": 40325,
-    "title": "Faithful Contouring: Near-Lossless 3D Voxel Representation Free from Iso-surface",
-    "authors": [
-      "Yihao Luo",
-      "Xianglong He",
-      "Chuanyu Pan",
-      "Yiwen Chen",
-      "Jiaqi Wu",
-      "Yangguang Li",
-      "Wanli Ouyang",
-      "Yuanming Hu",
-      "Guang Yang",
-      "Choon Hwai Yap"
-    ],
-    "abstract": "Accurate and efficient voxelized representations of 3D meshes are the foundation of 3D reconstruction and generation. However, existing representations based on iso-surface heavily rely on water-tightening or rendering optimization, which inevitably compromise geometric fidelity. We propose Faithful Contouring, a sparse voxelized representation that supports 2048+ resolutions for arbitrary meshes, requiring neither converting meshes to field functions nor extracting the isosurface during remeshing. It achieves near-lossless fidelity by preserving sharpness and internal structures, even for challenging cases with complex geometry and topology. The proposed method also shows flexibility for texturing, manipulation, and editing. Beyond representation, we design a dual-mode autoencoder for Faithful Contouring, enabling scalable and detail-preserving shape reconstruction. Extensive experiments show that Faithful Contouring surpasses existing methods in accuracy and efficiency for both representation and reconstruction. For direct representation, it achieves distance errors at the $10^{-5}$ level; for mesh reconstruction, it yields a 93\\% reduction in Chamfer Distance and a 35\\% improvement in F-score over strong baselines, confirming superior fidelity as a representation for 3D learning tasks.",
-    "session": "Oral Session 3C: Generative Editing",
-    "decision": "Accept (Oral)",
-    "starttime": "2026-06-06T08:37:30-07:00",
-    "paper_url": "https://openreview.net/group?id=thecvf.com/CVPR/2026/Conference",
-    "arxiv_url": "https://arxiv.org/abs/2511.04029",
-    "poster_url": "",
-    "has_poster": true,
-    "project_url": "",
-    "title_ja": "忠実なコンタリング2：最適化ボクセル境界符号化",
-    "summary_ja": "最適化コンタリングで複雑形状のボクセル境界正確表現"
-  },
-  {
-    "id": 37074,
-    "title": "Native and Compact Structured Latents for 3D Generation",
-    "authors": [
-      "Jianfeng XIANG",
-      "Xiaoxue Chen",
-      "Sicheng Xu",
-      "Ruicheng Wang",
-      "Zelong Lv",
-      "Yu Deng",
-      "Hongyuan Zhu",
-      "Yue Dong",
-      "Hao Zhao",
-      "Nicholas Jing Yuan",
-      "Jiaolong Yang"
-    ],
-    "abstract": "Recent advancements in 3D generative modeling have significantly improved the generation realism, yet the field is still hampered by existing representations, which struggle to capture assets with complex topologies and detailed appearance. This paper present an approach for learning a structured latent representation from native 3D data to address this challenge. At its core is a new sparse voxel structure called O-Voxel, an omni-voxel representation that encodes both geometry and appearance. O-Voxel can robustly model arbitrary topology, including open, non-manifold, and fully-enclosed surfaces, while capturing comprehensive surface attributes beyond texture color, such as physically-based rendering parameters. Based on O-Voxel, we design a Sparse Compression VAE which provides a high spatial compression rate and a compact latent space. We train large-scale flow-matching models comprising 4B parameters for 3D generation using diverse public 3D asset datasets. Despite their scale, inference remains highly efficient. Meanwhile, the geometry and material quality of our generated assets far exceed those of existing models. We believe our approach offers a significant advancement in 3D generative modeling.",
-    "session": "Poster Session 3 & Exhibit Hall",
-    "decision": "Accept (Oral)",
-    "starttime": "2026-06-06T10:45:00-07:00",
-    "paper_url": "https://openreview.net/group?id=thecvf.com/CVPR/2026/Conference",
-    "arxiv_url": "https://arxiv.org/abs/2512.14692",
-    "poster_url": "https://cvpr.thecvf.com/media/PosterPDFs/CVPR%202026/37074.png?t=1779072030.3273880",
-    "has_poster": true,
-    "project_url": "",
-    "title_ja": "ネイティブとコンパクト構造潜在3D生成",
-    "summary_ja": "構造化潜在表現で効率的で高品質な3D生成を実現"
+    "summary_ja": "ロスレスに近いエンコーディングで高忠実度3Dボクセル圧縮表現",
+    "session_oral": "Oral Session 3C: Generative Editing"
   },
   {
     "id": 36714,
@@ -6285,30 +5867,6 @@
     "project_url": "https://github.com/Kilitoku/GSV2X",
     "title_ja": "GSV2X: 頑健な路側知覚のための幾何対応不確実性モデリングと直交融合",
     "summary_ja": "多視点路側センサからの3D知覚。カメラとLiDARの頑健な融合フレームワーク。"
-  },
-  {
-    "id": 37164,
-    "title": "GaussianFluent: Gaussian Simulation for Dynamic Scenes with Mixed Materials",
-    "authors": [
-      "Bei Huang",
-      "Yixin Chen",
-      "Ruijie Lu",
-      "Gang Zeng",
-      "Hongbin Zha",
-      "Yuru Pei",
-      "Siyuan Huang"
-    ],
-    "abstract": "3D Gaussian Splatting (3DGS) has emerged as a prominent 3D representation for high-fidelity and real-time rendering. Prior work has coupled physics simulation with Gaussians, but predominantly targets soft, deformable materials, leaving brittle fracture largely unresolved. This stems from two key obstacles: the lack of volumetric interiors with coherent textures in GS representation, and the absence of fracture-aware simulation methods for Gaussians. To address these challenges, we introduce GaussianFluent, a unified framework for realistic simulation and rendering of dynamic object states. First, it synthesizes photorealistic interiors by densifying internal Gaussians guided by generative models. Second, it integrates an optimized Continuum Damage Material Point Method (CD-MPM) to enable brittle fracture simulation at remarkably high speed. Our approach handles complex scenarios including mixed-material objects and multi-stage fracture propagation, achieving results infeasible with previous methods. Experiments clearly demonstrate GaussianFluent's capability for photo-realistic, real-time rendering with structurally consistent interiors, highlighting its potential for downstream application, such as VR and Robotics.",
-    "session": "Poster Session 4 & Exhibit Hall w/ Coffee Break",
-    "decision": "Accept (Oral)",
-    "starttime": "2026-06-06T15:45:00-07:00",
-    "paper_url": "https://openreview.net/group?id=thecvf.com/CVPR/2026/Conference",
-    "arxiv_url": "https://arxiv.org/abs/2601.09265",
-    "poster_url": "https://cvpr.thecvf.com/media/PosterPDFs/CVPR%202026/37164.png?t=1779244590.6639919",
-    "has_poster": true,
-    "project_url": "",
-    "title_ja": "GaussianFluent: 混合材料を含む動的シーン用ガウシアンシミュレーション",
-    "summary_ja": "脆性破壊を含む複雑な動的物体の写真リアリスティック物理シミュレーション。"
   },
   {
     "id": 39514,
@@ -7479,31 +7037,6 @@
     "project_url": "",
     "title_ja": "3D存在感への肖像表現",
     "summary_ja": "2D肖像から3Dアバター表現へ変換"
-  },
-  {
-    "id": 37224,
-    "title": "POLAR: A Portrait OLAT Dataset and Generative Framework for Illumination-Aware Face Modeling",
-    "authors": [
-      "Zhuo Chen",
-      "Chengqun Yang",
-      "Zhuo Su",
-      "Zheng Lv",
-      "Jingnan Gao",
-      "Xiaoyuan Zhang",
-      "Xiaokang Yang",
-      "Yichao Yan"
-    ],
-    "abstract": "Face relighting aims to synthesize realistic portraits under novel illumination while preserving identity and geometry. However, progress remains constrained by the limited availability of large-scale, physically consistent illumination data. To address this, we introduce POLAR, a large-scale and physically calibrated One-Light-at-a-Time (OLAT) dataset containing over 200 subjects captured under 156 lighting directions, multiple views, and diverse expressions. Building upon POLAR, we develop a flow-based generative model POLARNet that predicts per-light OLAT responses from a single portrait, capturing fine-grained and direction-aware illumination effects while preserving facial identity. Unlike diffusion or background-conditioned methods that rely on statistical or contextual cues, our formulation models illumination as a continuous, physically interpretable transformation between lighting states, enabling scalable and controllable relighting. Together, POLAR and POLARNet form a unified illumination learning framework that links real data, generative synthesis, and physically grounded relighting, establishing a self-sustaining “chicken-and-egg’’ cycle for scalable and reproducible portrait illumination.",
-    "session": "Poster Session 5 & Exhibit Hall",
-    "decision": "Accept (Oral)",
-    "starttime": "2026-06-07T10:45:00-07:00",
-    "paper_url": "https://openreview.net/group?id=thecvf.com/CVPR/2026/Conference",
-    "arxiv_url": "https://arxiv.org/abs/2512.13192",
-    "poster_url": "https://cvpr.thecvf.com/media/PosterPDFs/CVPR%202026/37224.png?t=1779203328.8543341",
-    "has_poster": true,
-    "project_url": "",
-    "title_ja": "POLAR: 肖像OLAT生成フレームワーク",
-    "summary_ja": "OLAT技術で肖像3Dアバター生成"
   },
   {
     "id": 38857,
@@ -9491,70 +9024,6 @@
     "project_url": "https://vrroom.github.io/tokenlight/",
     "title_ja": "TokenLight: 属性トークンを使用した画像の正確な照明制御",
     "summary_ja": "属性トークンで強度・色・光位置を符号化し、画像の正確な照明制御を実現"
-  },
-  {
-    "id": 39998,
-    "title": "Relightable Holoported Characters: Capturing and Relighting Dynamic Human Performance from Sparse Views",
-    "authors": [
-      "Kunwar Maheep Singh",
-      "Jianchun Chen",
-      "Vladislav Golyanik",
-      "Stephan Garbin",
-      "Thabo Beeler",
-      "Rishabh Dabral",
-      "Marc Habermann",
-      "Christian Theobalt"
-    ],
-    "abstract": "We present _Relightable Holoported Characters_ (RHC), a novel person-specific method for free-view rendering and relighting of full-body and highly dynamic humans solely observed from sparse-view RGB videos at inference. In contrast to classical one-light-at-a-time (OLAT)-based human relighting, our transformer-based RelightNet predicts relit appearance within a single network pass, avoiding costly OLAT-basis capture and generation. For training such a model, we introduce a new capture strategy and dataset recorded in a multi-view lightstage, where we alternate frames lit by random environment maps with uniformly lit tracking frames, simultaneously enabling accurate motion tracking and diverse illumination as well as dynamics coverage. Inspired by the rendering equation, we derive physics-informed features that encode geometry, albedo, shading, and the virtual camera view from a coarse human mesh proxy and the input views. Our RelightNet then takes these features as input and cross-attends them with a novel lighting condition, and regresses the relit appearance in the form of texel-aligned 3D Gaussian splats attached to the coarse mesh proxy. Consequently, our RelightNet implicitly learns to efficiently compute the rendering equation for novel lighting conditions within a single feed-forward pass. Experiments demonstrate our method’s superior visual fidelity and lighting reproduction compared to state-of-the-art approaches.",
-    "session": "Poster Session 5 & Exhibit Hall",
-    "decision": "Accept (Oral)",
-    "starttime": "2026-06-07T10:45:00-07:00",
-    "paper_url": "https://openreview.net/group?id=thecvf.com/CVPR/2026/Conference",
-    "arxiv_url": "https://arxiv.org/abs/2512.00255",
-    "poster_url": "https://cvpr.thecvf.com/media/PosterPDFs/CVPR%202026/39998.png?t=1779319698.0919061",
-    "has_poster": true,
-    "project_url": "",
-    "title_ja": "Relightable Holoported Characters: 疎視点から動的人間の光照射再現",
-    "summary_ja": "トランスフォーマーベース相互注意で動的人間の自由視点再照射を単一パス実行"
-  },
-  {
-    "id": 39517,
-    "title": "Evidential Neural Radiance Fields",
-    "authors": [
-      "Ruxiao Duan",
-      "Alex Wong"
-    ],
-    "abstract": "Understanding sources of uncertainty is fundamental to trustworthy three-dimensional scene modeling. While recent advances in neural radiance fields (NeRFs) achieve impressive accuracy in scene reconstruction and novel view synthesis, the lack of uncertainty estimation significantly limits their deployment in safety-critical settings. Existing uncertainty quantification methods for NeRFs fail to capture both aleatoric and epistemic uncertainty. Among those that do quantify one or the other, many of them either compromise rendering quality or incur significant computational overhead to obtain uncertainty estimates. To address these issues, we introduce Evidential Neural Radiance Fields, a probabilistic approach that seamlessly integrates with the NeRF rendering process and enables direct quantification of both aleatoric and epistemic uncertainty from a single forward pass. We compare multiple uncertainty quantification methods on three standardized benchmarks, where our approach demonstrates state-of-the-art scene reconstruction fidelity and uncertainty estimation quality.",
-    "session": "Poster Session 5 & Exhibit Hall",
-    "decision": "Accept (Oral)",
-    "starttime": "2026-06-07T10:45:00-07:00",
-    "paper_url": "https://openreview.net/group?id=thecvf.com/CVPR/2026/Conference",
-    "arxiv_url": "https://arxiv.org/abs/2602.23574",
-    "poster_url": "https://cvpr.thecvf.com/media/PosterPDFs/CVPR%202026/39517.png?t=1779222257.6786890",
-    "has_poster": true,
-    "project_url": "",
-    "title_ja": "証拠理論に基づくニューラル放射輝度場",
-    "summary_ja": "単一推論でNeRFの偶然的不確実性と認識的不確実性を高精度に推定。"
-  },
-  {
-    "id": 39786,
-    "title": "InfiniBench: Infinite Benchmarking for Visual Spatial Reasoning with Customizable Scene Complexity",
-    "authors": [
-      "Haoming Wang",
-      "Qiyao Xue",
-      "Wei Gao"
-    ],
-    "abstract": "Modern vision-language models (VLMs) are expected to have abilities of spatial reasoning with diverse scene complexities, but evaluating such abilities is difficult due to the lack of benchmarks that are not only diverse and scalable but also fully customizable. Existing benchmarks offer limited customizability over the scene complexity and are incapable of isolating and analyzing specific VLM failure modes under distinct spatial conditions. To address this gap, instead of individually presenting benchmarks for different scene complexities, in this paper we present InfiniBench, a fully automated, customizable and user-friendly benchmark generator that can synthesize a theoretically infinite variety of 3D scenes with parameterized control on scene complexity. InfiniBench uniquely translates scene descriptions in natural language into photo-realistic videos with complex and physically plausible 3D layouts. This is achieved through three key innovations: 1) a LLM-based agentic framework that iteratively refines procedural scene constraints from scene descriptions; 2) a flexible cluster-based layout optimizer that generates dense and cluttered scenes previously intractable for procedural methods; and 3) a task-aware camera trajectory optimization method that renders scenes into videos with full object coverage as VLM input. Experiments demonstrate that InfiniBench outperforms state-of-the-art procedural and LLM-based 3D generation methods in prompt fidelity and physical plausibility, especially in high-complexity scenarios. We further showcased the usefulness of InfiniBench, by generating benchmarks for representative spatial reasoning tasks including measurement, perspective-taking and spatiotemporal tracking.",
-    "session": "Poster Session 4 & Exhibit Hall w/ Coffee Break",
-    "decision": "Accept (Oral)",
-    "starttime": "2026-06-06T15:45:00-07:00",
-    "paper_url": "https://openreview.net/group?id=thecvf.com/CVPR/2026/Conference",
-    "arxiv_url": "https://arxiv.org/abs/2511.18200",
-    "poster_url": "https://cvpr.thecvf.com/media/PosterPDFs/CVPR%202026/39786.png?t=1779324142.3545749",
-    "has_poster": true,
-    "project_url": "",
-    "title_ja": "InfiniBench: 空間推論の無限カスタマイズ可能ベンチマーク",
-    "summary_ja": "パラメータ化複雑度で3Dシーン自動生成し、VLM空間推論を評価"
   },
   {
     "id": 39144,

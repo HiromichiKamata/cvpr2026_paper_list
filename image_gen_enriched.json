@@ -349,7 +349,8 @@
     "has_poster": false,
     "project_url": "",
     "title_ja": "ストリーミング拡散モデルによる高速赤外線・可視光ビデオ融合",
-    "summary_ja": "ストリーミング拡散モデルで赤外線と可視光ビデオを高速融合"
+    "summary_ja": "ストリーミング拡散モデルで赤外線と可視光ビデオを高速融合",
+    "session_oral": "Oral Session 3A: Generative Diffusion Modeling"
   },
   {
     "id": 36355,
@@ -566,7 +567,8 @@
     "has_poster": true,
     "project_url": "",
     "title_ja": "SenCache：感度認識キャッシュによる拡散モデル推論の高速化",
-    "summary_ja": "入力感度に応じて再利用時刻を動的選択し、画質を保って動画生成を高速化する。"
+    "summary_ja": "入力感度に応じて再利用時刻を動的選択し、画質を保って動画生成を高速化する。",
+    "session_oral": "Oral Session 3A: Generative Diffusion Modeling"
   },
   {
     "id": 38045,
@@ -1186,7 +1188,8 @@
     "has_poster": true,
     "project_url": "https://armanzarei.github.io/SliderEdit/",
     "title_ja": "SliderEdit：細粒度な指示制御による連続画像編集",
-    "summary_ja": "複数編集指示を独立スライダー化し、各編集強度を連続的かつ解釈可能に調整する。"
+    "summary_ja": "複数編集指示を独立スライダー化し、各編集強度を連続的かつ解釈可能に調整する。",
+    "session_oral": "Oral Session 3C: Generative Editing"
   },
   {
     "id": 36875,
@@ -1365,25 +1368,6 @@
     "project_url": "",
     "title_ja": "NEAF: テキスト誘導画像編集の汎化的テスト時最適化のための注意融合による自然な画像編集",
     "summary_ja": "注意融合メカニズムでテスト時最適化を活用し、テキスト誘導画像編集の汎化性を向上。"
-  },
-  {
-    "id": 40360,
-    "title": "SenCache: Accelerating Diffusion Model Inference via Sensitivity-Aware Caching",
-    "authors": [
-      "Yasaman Haghighi",
-      "Alex Alahi"
-    ],
-    "abstract": "",
-    "session": "Oral Session 3A: Generative Diffusion Modeling",
-    "decision": "Accept (Oral)",
-    "starttime": "2026-06-06T08:50:00-07:00",
-    "paper_url": "https://openreview.net/group?id=thecvf.com/CVPR/2026/Conference",
-    "arxiv_url": "",
-    "poster_url": "",
-    "has_poster": false,
-    "project_url": "",
-    "title_ja": "セン キャッシュ：感度認識キャッシングによる拡散モデル推論加速",
-    "summary_ja": "感度認識キャッシングで拡散モデルの推論を加速化"
   },
   {
     "id": 39640,
@@ -2345,7 +2329,8 @@
     "has_poster": false,
     "project_url": "",
     "title_ja": "ピクセルディット：画像生成用ピクセル拡散トランスフォーマー",
-    "summary_ja": "ピクセルレベル拡散トランスフォーマーで画像生成"
+    "summary_ja": "ピクセルレベル拡散トランスフォーマーで画像生成",
+    "session_oral": "Oral Session 3A: Generative Diffusion Modeling"
   },
   {
     "id": 36610,
@@ -3300,7 +3285,8 @@
     "has_poster": true,
     "project_url": "",
     "title_ja": "スタイルは一コードの価値: 離散スタイル空間によるコード・スタイル画像生成",
-    "summary_ja": "離散スタイル空間を用いてコードからスタイルに基づく画像を生成。"
+    "summary_ja": "離散スタイル空間を用いてコードからスタイルに基づく画像を生成。",
+    "session_oral": "Oral Session 1A: Multimodal Vision"
   },
   {
     "id": 36833,
@@ -3984,7 +3970,7 @@
     "summary_ja": "線形計算量実現: 従来の二次計算量から線形計算量への効率化を実現する事後学習フレームワーク"
   },
   {
-    "id": 40306,
+    "id": 37588,
     "title": "Guiding a Diffusion Model by Swapping Its Tokens",
     "authors": [
       "Weijia Zhang",
@@ -3995,22 +3981,21 @@
       "Wei Li",
       "Chao Ma"
     ],
-    "abstract": "Classifier-Free Guidance (CFG) is a widely used inference-time technique to boost the image quality of diffusion models. Yet, its reliance on text conditions prevents its use in unconditional generation. We propose a simple method to enable CFG-like guidance for both conditional and unconditional generation. The key idea is to generate a perturbed prediction via simple token swap operations, and use the direction between it and the clean prediction to steer sampling toward higher-fidelity distributions. In practice, we swap pairs of most semantically dissimilar tokens in either spatial or channel dimensions.Unlike existing methods that apply perturbation in a global or  less constrained manner, our approach modifies only selected tokens, allowing finer control over perturbation and its influence on generated samples. Experiments on MS-COCO2014, MS-COCO 2017, and ImageNet datasets demonstrate that our Self-Swap Guidance (SSG), when applied to  state-of-the-art diffusion models, outperforms previous condition-free methods in image fidelity and prompt alignment under different set-ups. Its fine-grained perturbation granularity also improves robustness, reducing side-effects across a wider range of perturbation strengths. Overall, SSG extends CFG to a broader scope of applications including both conditional and unconditional generation, and can be readily inserted into any diffusion model as a plug-in to gain immediate improvements.",
-    "session": "Oral Session 3A: Generative Diffusion Modeling",
+    "abstract": "",
+    "session": "Poster Session 3 & Exhibit Hall",
     "decision": "Accept (Oral)",
-    "starttime": "2026-06-06T08:12:30-07:00",
-    "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_Guiding_a_Diffusion_Model_by_Swapping_Its_Tokens_CVPR_2026_paper.html",
-    "arxiv_url": "https://arxiv.org/abs/2604.08048",
+    "starttime": "2026-06-06T10:45:00-07:00",
+    "paper_url": "https://openreview.net/group?id=thecvf.com/CVPR/2026/Conference",
+    "arxiv_url": "",
     "poster_url": "",
-    "poster_url_full": "",
-    "poster_url_thumb": "",
     "has_poster": false,
     "project_url": "",
     "title_ja": "トークン交換による拡散モデルのガイディング",
-    "summary_ja": "意味的に離れたトークン交換で擾乱方向を作り、条件付き・無条件生成の品質を高める。"
+    "summary_ja": "トークン交換によって拡散モデルをガイディング",
+    "session_oral": "Oral Session 3A: Generative Diffusion Modeling"
   },
   {
-    "id": 40352,
+    "id": 38895,
     "title": "ChordEdit: One-Step Low-Energy Transport for Image Editing",
     "authors": [
       "Liangsi Lu",
@@ -4020,19 +4005,18 @@
       "Jingchao Wang",
       "Yang Shi"
     ],
-    "abstract": "The advent of one-step text-to-image (T2I) models offers unprecedented synthesis speed. However, their application to text-guided image editing remains severely hampered, as forcing existing training-free editors into a single inference step fails. This failure manifests as severe object distortion and a critical loss of consistency in non-edited regions, resulting from the high-energy, erratic trajectories produced by naive vector arithmetic on the models' structured fields. To address this problem, we introduce \\textbf{ChordEdit}, a model agnostic, training-free, and inversion-free method that facilitates high-fidelity one-step editing. We recast editing as a transport problem between the source and target distributions defined by the source and target text prompts. Leveraging dynamic optimal transport theory, we derive a principled, low-energy control strategy. This strategy yields a smoothed, variance-reduced editing field that is inherently stable, facilitating the field to be traversed in a single, large integration step. A theoretically grounded and experimentally validated approach allows ChordEdit to deliver fast, lightweight and precise edits, finally achieving true real-time editing on these challenging models.",
-    "session": "Oral Session 3C: Generative Editing",
+    "abstract": "",
+    "session": "Poster Session 3 & Exhibit Hall",
     "decision": "Accept (Oral)",
-    "starttime": "2026-06-06T08:25:00-07:00",
-    "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Lu_ChordEdit_One-Step_Low-Energy_Transport_for_Image_Editing_CVPR_2026_paper.html",
-    "arxiv_url": "https://arxiv.org/abs/2602.19083",
-    "poster_url": "",
-    "poster_url_full": "",
-    "poster_url_thumb": "",
+    "starttime": "2026-06-06T10:45:00-07:00",
+    "paper_url": "https://openreview.net/group?id=thecvf.com/CVPR/2026/Conference",
+    "arxiv_url": "",
+    "poster_url": "https://cvpr.thecvf.com/media/PosterPDFs/CVPR%202026/38895.png?t=1779175316.3170731",
     "has_poster": false,
     "project_url": "https://chordedit.github.io/",
-    "title_ja": "ChordEdit：画像編集のための一段低エネルギー輸送",
-    "summary_ja": "低エネルギー輸送として編集場を設計し、一段推論でも高忠実な画像編集を実現する。"
+    "title_ja": "コードエディット：画像編集のための1ステップ低エネルギー輸送",
+    "summary_ja": "1ステップ低エネルギー輸送で画像編集実現",
+    "session_oral": "Oral Session 3C: Generative Editing"
   },
   {
     "id": 38336,
@@ -4887,7 +4871,7 @@
     "summary_ja": "複数の視点情報を効果的に統合して、高精度な3次元構造復元を実現する新しいアルゴリズムを開発した。"
   },
   {
-    "id": 40353,
+    "id": 38909,
     "title": "SeaCache: Spectral-Evolution-Aware Cache for Accelerating Diffusion Models",
     "authors": [
       "Jiwoo Chung",
@@ -4899,17 +4883,20 @@
       "Youngjun Hong",
       "Jae-Pil Heo"
     ],
-    "abstract": "",
-    "session": "Oral Session 3A: Generative Diffusion Modeling",
+    "abstract": "Diffusion models are a strong backbone for visual generation, but their inherently sequential denoising process leads to slow inference. Previous methods accelerate sampling by caching and reusing intermediate outputs based on feature distances between adjacent timesteps. However, existing caching strategies typically rely on raw feature differences that entangle content and noise. This design overlooks spectral evolution, where low-frequency structure appears early and high-frequency detail is refined later. We introduce Spectral-Evolution-Aware Cache (SeaCache), a training-free cache schedule that bases reuse decisions on a spectrally aligned representation. Through theoretical and empirical analysis, we derive a Spectral-Evolution-Aware (SEA) filter that preserves content-relevant components while suppressing noise. Employing SEA-filtered input features to estimate redundancy leads to dynamic schedules that adapt to content while respecting the spectral priors of the underlying diffusion model. Extensive experiments on diverse visual generative models and the baselines show that SeaCache achieves state-of-the-art latency-quality trade-offs.",
+    "session": "Poster Session 3 & Exhibit Hall",
     "decision": "Accept (Oral)",
-    "starttime": "2026-06-06T08:37:30-07:00",
-    "paper_url": "https://openreview.net/group?id=thecvf.com/CVPR/2026/Conference",
-    "arxiv_url": "",
+    "starttime": "2026-06-06T10:45:00-07:00",
+    "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Chung_SeaCache_Spectral-Evolution-Aware_Cache_for_Accelerating_Diffusion_Models_CVPR_2026_paper.html",
+    "arxiv_url": "https://arxiv.org/abs/2602.18993",
     "poster_url": "",
+    "poster_url_full": "",
+    "poster_url_thumb": "",
     "has_poster": false,
     "project_url": "",
-    "title_ja": "シーキャッシュ：スペクトル進化認識キャッシュによる拡散モデル加速",
-    "summary_ja": "スペクトル進化認識キャッシュで拡散モデル高速化"
+    "title_ja": "SeaCache: スペクトル進化認識キャッシュによる拡散モデル加速",
+    "summary_ja": "スペクトル情報を活用したキャッシュで拡散モデルを高速化。",
+    "session_oral": "Oral Session 3A: Generative Diffusion Modeling"
   },
   {
     "id": 36403,
@@ -5246,29 +5233,6 @@
     "summary_ja": "流れマッチングに基づいた決定的なニューラルレンダリングフレームワークにより、拡散モデルの遅延と確率性を排除し、物理ベースレンダリングと生成モデルの効率性を融合させる。"
   },
   {
-    "id": 38895,
-    "title": "ChordEdit: One-Step Low-Energy Transport for Image Editing",
-    "authors": [
-      "Liangsi Lu",
-      "Xuhang Chen",
-      "Minzhe Guo",
-      "Shichu Li",
-      "Jingchao Wang",
-      "Yang Shi"
-    ],
-    "abstract": "",
-    "session": "Poster Session 3 & Exhibit Hall",
-    "decision": "Accept (Oral)",
-    "starttime": "2026-06-06T10:45:00-07:00",
-    "paper_url": "https://openreview.net/group?id=thecvf.com/CVPR/2026/Conference",
-    "arxiv_url": "",
-    "poster_url": "https://cvpr.thecvf.com/media/PosterPDFs/CVPR%202026/38895.png?t=1779175316.3170731",
-    "has_poster": false,
-    "project_url": "https://chordedit.github.io/",
-    "title_ja": "コードエディット：画像編集のための1ステップ低エネルギー輸送",
-    "summary_ja": "1ステップ低エネルギー輸送で画像編集実現"
-  },
-  {
     "id": 37993,
     "title": "Graph-Guided Online Concept Erasure for Text-to-Image Diffusion Models",
     "authors": [
@@ -5292,31 +5256,6 @@
     "project_url": "",
     "title_ja": "グラフ誘導オンライン概念削除：テキスト・ツー・イメージ拡散モデル向け",
     "summary_ja": "意味グラフの動的構築と多ホップトラバーサルによる適応的概念除去で、訓練不要で有害・著作権保護対象概念を除去し非関連概念を保存する手法。"
-  },
-  {
-    "id": 40304,
-    "title": "PixelDiT: Pixel Diffusion Transformers for Image Generation",
-    "authors": [
-      "Yongsheng Yu",
-      "Wei Xiong",
-      "Weili Nie",
-      "Yichen Sheng",
-      "Shiqiu Liu",
-      "Jiebo Luo"
-    ],
-    "abstract": "Latent-space modeling has been the standard for Diffusion Transformers (DiTs). However, it relies on a two-stage pipeline where the pretrained autoencoder introduces lossy reconstruction, leading to error accumulation while hindering joint optimization. To address these issues, we propose PixelDiT, a single-stage, end-to-end model that eliminates the need for the autoencoder and learns the diffusion process directly in the pixel space. PixelDiT adopts a fully transformer-based architecture shaped by a dual-level design: a patch-level DiT that captures global semantics and a pixel-level DiT that refines texture details, enabling efficient training of a pixel-space diffusion model while preserving fine details. PixelDiT achieves 1.61 FID on ImageNet 256 and 2.21 FID on ImageNet 512, surpassing existing pixel generative models by a large margin. We further extend PixelDiT to text-to-image generation and  pretrain it at the $1024^{2}$ resolution in pixel space. It achieves 0.74 on GenEval and 83.5 on DPG-bench, approaching the best latent diffusion models.",
-    "session": "Oral Session 3A: Generative Diffusion Modeling",
-    "decision": "Accept (Oral)",
-    "starttime": "2026-06-06T08:25:00-07:00",
-    "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Yu_PixelDiT_Pixel_Diffusion_Transformers_for_Image_Generation_CVPR_2026_paper.html",
-    "arxiv_url": "https://arxiv.org/abs/2511.20645",
-    "poster_url": "",
-    "poster_url_full": "",
-    "poster_url_thumb": "",
-    "has_poster": false,
-    "project_url": "",
-    "title_ja": "PixelDiT：画像生成のためのピクセル拡散トランスフォーマー",
-    "summary_ja": "画素空間で直接拡散を学習する二層DiTにより、細部を保った高精細生成を実現する。"
   },
   {
     "id": 39869,
@@ -5799,29 +5738,6 @@
     "summary_ja": "テキスト画像モデルのプロンプト最適化を自動化。"
   },
   {
-    "id": 40271,
-    "title": "A Style is Worth One Code: Unlocking Code-to-Style Image Generation with Discrete Style Space",
-    "authors": [
-      "Huijie Liu",
-      "Shuhao Cui",
-      "Haoxiang Cao",
-      "Shuai Ma",
-      "Kai Wu",
-      "Guoliang Kang"
-    ],
-    "abstract": "",
-    "session": "Oral Session 1A: Multimodal Vision",
-    "decision": "Accept (Oral)",
-    "starttime": "2026-06-05T08:15:00-07:00",
-    "paper_url": "https://openreview.net/group?id=thecvf.com/CVPR/2026/Conference",
-    "arxiv_url": "",
-    "poster_url": "",
-    "has_poster": false,
-    "project_url": "",
-    "title_ja": "スタイルは1つのコード価値：離散スタイル空間によるコード-スタイル画像生成",
-    "summary_ja": "離散スタイル空間でコード-スタイル画像生成"
-  },
-  {
     "id": 40226,
     "title": "Reviving ConvNeXt for Efficient Convolutional Diffusion Models",
     "authors": [
@@ -5972,29 +5888,6 @@
     "summary_ja": "手話映像とLLM記述から汎化性の高いテキスト条件3D手動作生成器を学習"
   },
   {
-    "id": 40301,
-    "title": "SliderEdit: Continuous Image Editing with Fine-Grained Instruction Control",
-    "authors": [
-      "Arman Zarei",
-      "Samyadeep Basu",
-      "Mobina Pournemat",
-      "Sayan Nag",
-      "Ryan A. Rossi",
-      "Soheil Feizi"
-    ],
-    "abstract": "",
-    "session": "Oral Session 3C: Generative Editing",
-    "decision": "Accept (Oral)",
-    "starttime": "2026-06-06T09:02:30-07:00",
-    "paper_url": "https://openreview.net/group?id=thecvf.com/CVPR/2026/Conference",
-    "arxiv_url": "",
-    "poster_url": "",
-    "has_poster": false,
-    "project_url": "",
-    "title_ja": "スライダーエディット：細粒度指示制御による連続画像編集",
-    "summary_ja": "細粒度指示で連続的な画像編集を実現"
-  },
-  {
     "id": 37248,
     "title": "Beyond Pixel Simulation: Pathology Image Generation via Diagnostic Semantic Tokens and Prototype Control",
     "authors": [
@@ -6118,7 +6011,8 @@
     "has_poster": false,
     "project_url": "",
     "title_ja": "スモークSVD：段階的新規視点合成と拡散モデルによる煙再構成",
-    "summary_ja": "段階的新規視点合成で煙を単一視点から再構成"
+    "summary_ja": "段階的新規視点合成で煙を単一視点から再構成",
+    "session_oral": "Oral Session 2D: Spatio-Temporal Reconstruction"
   },
   {
     "id": 38593,
@@ -6390,33 +6284,6 @@
     "project_url": "",
     "title_ja": "規模から速度へ: 画像編集のための適応的テスト時スケーリング",
     "summary_ja": "テスト時に適応的にスケーリングすることで、画像編集の計算効率と品質のバランスを実現。"
-  },
-  {
-    "id": 40367,
-    "title": "Streaming Diffusion Model for Fast Infrared and Visible Video Fusion",
-    "authors": [
-      "Jinyuan Liu",
-      "Ludan Sun",
-      "Tengyu Ma",
-      "Chunyan Yang",
-      "Zhiying Jiang",
-      "Long Ma",
-      "Risheng Liu",
-      "Xin Fan"
-    ],
-    "abstract": "Infrared and visible video fusion is pivotal for robust perceptual systems, aiming to synthesize a comprehensive video stream that leverages both thermal resilience and textured details. However, prevailing methods, by treating video as independent frames, inherently introduce temporal incoherence, such as flickering and ghosting artifacts. While diffusion models possess strong generative priors to remedy this, their iterative nature is prohibitively slow for video. To resolve this fundamental dilemma, we propose a streaming diffusion model for efficient infrared and visible video fusion, termed SDMFusion. Our key insight is to distill the generative prior of a pre-trained diffusion model into a one-step sampling framework, while explicitly modeling temporal dynamics. We design a memory-augmented latent pipeline where a temporal aggregation adapter aligns and propagates cross-frame features to ensure coherence, supported by a dedicated temporal consistency loss. This approach effectively decouples the challenge of achieving high fidelity from maintaining temporal stability. Extensive experiments on four benchmarks demonstrate that our method establishes a new state-of-the-art, generating fused videos with exceptional spatio-temporal consistency at a speed suitable for real-time application.",
-    "session": "Oral Session 3A: Generative Diffusion Modeling",
-    "decision": "Accept (Oral)",
-    "starttime": "2026-06-06T09:02:30-07:00",
-    "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Liu_Streaming_Diffusion_Model_for_Fast_Infrared_and_Visible_Video_Fusion_CVPR_2026_paper.html",
-    "arxiv_url": "",
-    "poster_url": "",
-    "poster_url_full": "",
-    "poster_url_thumb": "",
-    "has_poster": false,
-    "project_url": "",
-    "title_ja": "高速な赤外・可視動画融合のためのストリーミング拡散モデル",
-    "summary_ja": "時間一貫性を明示的に扱う一段拡散で、赤外・可視動画融合を実時間で実現する。"
   },
   {
     "id": 38513,
@@ -8522,33 +8389,6 @@
     "summary_ja": "最新のテキスト画像モデルが美観中心の狭い分布に崩壊し、合成データとしての有用性が実際のテストセットで低下することを実証する。"
   },
   {
-    "id": 38909,
-    "title": "SeaCache: Spectral-Evolution-Aware Cache for Accelerating Diffusion Models",
-    "authors": [
-      "Jiwoo Chung",
-      "Sangeek Hyun",
-      "MinKyu Lee",
-      "Byeongju Han",
-      "Geonho Cha",
-      "Dongyoon Wee",
-      "Youngjun Hong",
-      "Jae-Pil Heo"
-    ],
-    "abstract": "Diffusion models are a strong backbone for visual generation, but their inherently sequential denoising process leads to slow inference. Previous methods accelerate sampling by caching and reusing intermediate outputs based on feature distances between adjacent timesteps. However, existing caching strategies typically rely on raw feature differences that entangle content and noise. This design overlooks spectral evolution, where low-frequency structure appears early and high-frequency detail is refined later. We introduce Spectral-Evolution-Aware Cache (SeaCache), a training-free cache schedule that bases reuse decisions on a spectrally aligned representation. Through theoretical and empirical analysis, we derive a Spectral-Evolution-Aware (SEA) filter that preserves content-relevant components while suppressing noise. Employing SEA-filtered input features to estimate redundancy leads to dynamic schedules that adapt to content while respecting the spectral priors of the underlying diffusion model. Extensive experiments on diverse visual generative models and the baselines show that SeaCache achieves state-of-the-art latency-quality trade-offs.",
-    "session": "Poster Session 3 & Exhibit Hall",
-    "decision": "Accept (Oral)",
-    "starttime": "2026-06-06T10:45:00-07:00",
-    "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Chung_SeaCache_Spectral-Evolution-Aware_Cache_for_Accelerating_Diffusion_Models_CVPR_2026_paper.html",
-    "arxiv_url": "https://arxiv.org/abs/2602.18993",
-    "poster_url": "",
-    "poster_url_full": "",
-    "poster_url_thumb": "",
-    "has_poster": false,
-    "project_url": "",
-    "title_ja": "SeaCache: スペクトル進化認識キャッシュによる拡散モデル加速",
-    "summary_ja": "スペクトル情報を活用したキャッシュで拡散モデルを高速化。"
-  },
-  {
     "id": 38522,
     "title": "RAPID: Reusing Attention Sparsity with Inter-step Adaptation for Efficient Video Diffusion",
     "authors": [
@@ -8796,33 +8636,6 @@
     "summary_ja": "検索拡張で単一ステップのテキスト・画像生成を実現する高速化手法。"
   },
   {
-    "id": 40279,
-    "title": "SmokeSVD: Smoke Reconstruction from A Single View via Progressive Novel View Synthesis and Refinement with Diffusion Models",
-    "authors": [
-      "Chen Li",
-      "Shanshan Dong",
-      "Sheng Qiu",
-      "Jianmin Han",
-      "Yibo Zhao",
-      "Zan Gao",
-      "Taku Komura",
-      "Kemeng Huang"
-    ],
-    "abstract": "Reconstructing dynamic fluids from sparse views is a long-standing and challenging problem, due to the severe lack of 3D information from insufficient view coverage. While several pioneering approaches have attempted to address this issue using differentiable rendering or novel view synthesis, they are often limited by time-consuming optimization under ill-posed conditions. We propose SmokeSVD, an efficient and effective framework to progressively reconstruct dynamic smoke from a single video by integrating the generative capabilities of diffusion models with physically guided consistency optimization. Specifically, we first propose a physically guided side-view synthesizer based on diffusion models, which explicitly incorporates velocity field constraints to generate spatio-temporally consistent side-view images frame by frame, significantly alleviating the ill-posedness of single-view reconstruction. Subsequently, we iteratively refine novel-view images and reconstruct 3D density fields through a progressive multi-stage process that renders and enhances images from increasing viewing angles, generating high-quality multi-view sequences. Finally, we estimate fine-grained density and velocity fields via differentiable advection by leveraging the Navier-Stokes equations. Our approach supports re-simulation and downstream applications while achieving superior reconstruction quality and computational efficiency compared to state-of-the-art methods.",
-    "session": "Oral Session 2D: Spatio-Temporal Reconstruction",
-    "decision": "Accept (Oral)",
-    "starttime": "2026-06-05T12:50:00-07:00",
-    "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Li_SmokeSVD_Smoke_Reconstruction_from_A_Single_View_via_Progressive_Novel_CVPR_2026_paper.html",
-    "arxiv_url": "https://arxiv.org/abs/2507.12156",
-    "poster_url": "",
-    "poster_url_full": "",
-    "poster_url_thumb": "",
-    "has_poster": false,
-    "project_url": "",
-    "title_ja": "動画拡散モデルによる単一視点からの煙再構成（SmokeSVD）",
-    "summary_ja": "拡散モデルと物理的一貫性最適化を組み合わせた、単一ビデオからの動的流体煙の効率的な再構成。"
-  },
-  {
     "id": 39862,
     "title": "HalluGen: Synthesizing Realistic and Controllable Hallucinations for Evaluating Image Restoration",
     "authors": [
@@ -8994,30 +8807,6 @@
     "project_url": "",
     "title_ja": "UniPercept：汎用視覚知覚のための統一拡散モデル",
     "summary_ja": "基盤・アダプター構造で多様な知覚タスク間の共通知識を学習し、僅少データとパラメータ数で新規タスクへの効率的適応を実現する汎用知覚フレームワーク。"
-  },
-  {
-    "id": 37588,
-    "title": "Guiding a Diffusion Model by Swapping Its Tokens",
-    "authors": [
-      "Weijia Zhang",
-      "Yuehao Liu",
-      "Shanyan Guan",
-      "Wu Ran",
-      "Yanhao Ge",
-      "Wei Li",
-      "Chao Ma"
-    ],
-    "abstract": "",
-    "session": "Poster Session 3 & Exhibit Hall",
-    "decision": "Accept (Oral)",
-    "starttime": "2026-06-06T10:45:00-07:00",
-    "paper_url": "https://openreview.net/group?id=thecvf.com/CVPR/2026/Conference",
-    "arxiv_url": "",
-    "poster_url": "",
-    "has_poster": false,
-    "project_url": "",
-    "title_ja": "トークン交換による拡散モデルのガイディング",
-    "summary_ja": "トークン交換によって拡散モデルをガイディング"
   },
   {
     "id": 36782,

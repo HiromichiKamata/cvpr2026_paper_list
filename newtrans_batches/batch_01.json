@@ -1,0 +1,182 @@
+[
+  {
+    "id": 38367,
+    "cat": "video",
+    "title": "Spk2VidNet: A Hierarchical Recurrent Architecture for High-Fidelity Video Reconstruction from Long Spike-Camera Streams",
+    "abstract": ""
+  },
+  {
+    "id": 39503,
+    "cat": "video",
+    "title": "Scaling4D: Pushing the Frontier of Video Novel View Synthesis through Large-Scale Monocular Videos",
+    "abstract": ""
+  },
+  {
+    "id": 36396,
+    "cat": "video",
+    "title": "FUN REC Reconstructing Functional 3D Scenes from Egocentric Interaction Videos",
+    "abstract": ""
+  },
+  {
+    "id": 38700,
+    "cat": "video",
+    "title": "Audio-sync Video Instance Editing with Granularity-Aware Mask Refiner",
+    "abstract": ""
+  },
+  {
+    "id": 40209,
+    "cat": "video",
+    "title": "MotionV2V: Editing Motion in a Video",
+    "abstract": ""
+  },
+  {
+    "id": 40343,
+    "cat": "video",
+    "title": "CineBrain: A Large-Scale Multi-Modal Audiovisual Brain Dataset for Brain-Conditioned Video Generation",
+    "abstract": ""
+  },
+  {
+    "id": 39020,
+    "cat": "video",
+    "title": "MuKV: Multi-Grained KV Cache Compression for Long Streaming Video Question-Answering",
+    "abstract": ""
+  },
+  {
+    "id": 38328,
+    "cat": "video",
+    "title": "AnyLift: Scaling Motion Reconstruction from Internet Videos via 2D Diffusion",
+    "abstract": ""
+  },
+  {
+    "id": 37575,
+    "cat": "video",
+    "title": "Single-step Diffusion-based Video Coding with Semantic-Temporal Guidance",
+    "abstract": ""
+  },
+  {
+    "id": 38911,
+    "cat": "video",
+    "title": "Bridging Brain and Semantics: A Hierarchical Framework for Semantically Enhanced fMRI-to-Video Reconstruction",
+    "abstract": ""
+  },
+  {
+    "id": 37192,
+    "cat": "video",
+    "title": "AE2VID: Event-based Video Reconstruction via Aperture Modulation",
+    "abstract": ""
+  },
+  {
+    "id": 36868,
+    "cat": "video",
+    "title": "Accelerating Streaming Video Large Language Models via Hierarchical Token Compression",
+    "abstract": ""
+  },
+  {
+    "id": 39327,
+    "cat": "video",
+    "title": "PAVAS: Physics-Aware Video-to-Audio Synthesis",
+    "abstract": ""
+  },
+  {
+    "id": 36226,
+    "cat": "video",
+    "title": "TROPHIES: Temporal Reconstruction of Places, Humans, and Cameras from Multi-view Videos",
+    "abstract": ""
+  },
+  {
+    "id": 39594,
+    "cat": "video",
+    "title": "Cross-Subject EEG-to-Video Reconstruction and Beyond",
+    "abstract": ""
+  },
+  {
+    "id": 36792,
+    "cat": "video",
+    "title": "Cross-Modal Emotion Transfer for Emotion Editing in Talking Face Video",
+    "abstract": ""
+  },
+  {
+    "id": 37139,
+    "cat": "video",
+    "title": "DetectSCI: Toward Object-Guided ROI Reconstruction for High-Resolution Video Snapshot Compressive Imaging",
+    "abstract": ""
+  },
+  {
+    "id": 37916,
+    "cat": "video",
+    "title": "UniComp: Rethinking Video Compression Through Informational Uniqueness",
+    "abstract": ""
+  },
+  {
+    "id": 40154,
+    "cat": "video",
+    "title": "One-Shot Flow, Any-Time Frame: A Bidirectional Warping Framework for Event-Based Video Frame Interpolation",
+    "abstract": ""
+  },
+  {
+    "id": 38553,
+    "cat": "video",
+    "title": "Question-guided Visual Compression with Memory Feedback for Long-Term Video Understanding",
+    "abstract": ""
+  },
+  {
+    "id": 36754,
+    "cat": "video",
+    "title": "Perceptual Neural Video Compression with Color Separation and Rank Chain",
+    "abstract": ""
+  },
+  {
+    "id": 36433,
+    "cat": "video",
+    "title": "Real-Time Neural Video Compression with Unified Intra and Inter Coding",
+    "abstract": ""
+  },
+  {
+    "id": 40116,
+    "cat": "video",
+    "title": "Towards Holistic Modeling for Video Frame Interpolation with Auto-regressive Diffusion Transformers",
+    "abstract": ""
+  },
+  {
+    "id": 40357,
+    "cat": "video",
+    "title": "TEAR: Temporal-aware Automated Red-teaming for Text-to-Video Models",
+    "abstract": ""
+  },
+  {
+    "id": 39238,
+    "cat": "video",
+    "title": "F^2HDR: Two-Stage HDR Video Reconstruction via Flow Adapter and Physical Motion Modeling",
+    "abstract": ""
+  },
+  {
+    "id": 37830,
+    "cat": "video",
+    "title": "4DEquine: Disentangling Motion and Appearance for 4D Equine Reconstruction from Monocular Video",
+    "abstract": ""
+  },
+  {
+    "id": 36714,
+    "cat": "video",
+    "title": "Mesh4D: 4D Mesh Reconstruction and Tracking from Monocular Video",
+    "abstract": ""
+  },
+  {
+    "id": 38898,
+    "cat": "video",
+    "title": "VideoWeaver: Multimodal Multi-View Video-to-Video Transfer for Embodied Agents",
+    "abstract": ""
+  },
+  {
+    "id": 40122,
+    "cat": "video",
+    "title": "ActivityForensics: A Comprehensive Benchmark for Localizing Manipulated Activity in Videos",
+    "abstract": ""
+  },
+  {
+    "id": 40107,
+    "cat": "video",
+    "title": "CamDirector: Towards Long-Term Coherent Video Trajectory Editing",
+    "abstract": ""
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "id": 39378,
+    "cat": "video",
+    "title": "DeRVOS: Decoupling Consistent Trajectory Generation and Multimodal Understanding for Referring Video Object Segmentation",
+    "abstract": ""
+  },
+  {
+    "id": 40364,
+    "cat": "video",
+    "title": "PAVAS: Physics-Aware Video-to-Audio Synthesis",
+    "abstract": ""
+  },
+  {
+    "id": 37950,
+    "cat": "video",
+    "title": "EarlyTom: Early Token Compression Completes Fast Video Understanding",
+    "abstract": ""
+  },
+  {
+    "id": 38691,
+    "cat": "video",
+    "title": "EchoFoley: Event-Centric Hierarchical Control for Video Grounded Creative Sound Generation",
+    "abstract": ""
+  },
+  {
+    "id": 39775,
+    "cat": "video",
+    "title": "DreamStereo: Towards Real-Time Stereo Inpainting for HD Videos",
+    "abstract": ""
+  },
+  {
+    "id": 36537,
+    "cat": "video",
+    "title": "Ultra-Fast Neural Video Compression",
+    "abstract": ""
+  },
+  {
+    "id": 39439,
+    "cat": "video",
+    "title": "V-DPM: 4D Video Reconstruction with Dynamic Point Maps",
+    "abstract": ""
+  },
+  {
+    "id": 39520,
+    "cat": "video",
+    "title": "RHINO: Reconstructing Human Interactions with Novel Objects from Monocular Videos",
+    "abstract": ""
+  },
+  {
+    "id": 37808,
+    "cat": "video",
+    "title": "OmniSonic: Towards Universal and Holistic Audio Generation from Video and Text",
+    "abstract": ""
+  },
+  {
+    "id": 38776,
+    "cat": "video",
+    "title": "3D sans 3D Scans: Scalable Pre-training from Video-Generated Point Clouds",
+    "abstract": ""
+  },
+  {
+    "id": 38291,
+    "cat": "video",
+    "title": "Echoes Over Time: Unlocking Length Generalization in Video-to-Audio Generation Models",
+    "abstract": ""
+  },
+  {
+    "id": 39389,
+    "cat": "video",
+    "title": "Streaming Diffusion Model for Fast Infrared and Visible Video Fusion",
+    "abstract": ""
+  },
+  {
+    "id": 37093,
+    "cat": "video",
+    "title": "Ego-InBetween: Generating Object State Transitions in Ego-Centric Videos",
+    "abstract": ""
+  },
+  {
+    "id": 37759,
+    "cat": "video",
+    "title": "Ov3R: Open-Vocabulary Semantic 3D Reconstruction from RGB Videos",
+    "abstract": ""
+  },
+  {
+    "id": 38881,
+    "cat": "video",
+    "title": "EfficientMonoHair: Fast Strand-Level Reconstruction from Monocular Video via Multi-View Direction Fusion",
+    "abstract": ""
+  },
+  {
+    "id": 39789,
+    "cat": "video",
+    "title": "Hierarchical Codec Diffusion for Video-to-Speech Generation",
+    "abstract": ""
+  },
+  {
+    "id": 36370,
+    "cat": "video",
+    "title": "ForeHOI: Feed-forward 3D Object Reconstruction from Daily Hand-Object Interaction Videos",
+    "abstract": ""
+  },
+  {
+    "id": 38393,
+    "cat": "video",
+    "title": "Hear What Matters! Text-conditioned Selective Video-to-Audio Generation",
+    "abstract": ""
+  },
+  {
+    "id": 39165,
+    "cat": "video",
+    "title": "Unified Spatiotemporal Token Compression for Video-LLMs at Ultra-Low Retention",
+    "abstract": ""
+  },
+  {
+    "id": 38337,
+    "cat": "video",
+    "title": "FoleyDirector: Directing Temporal Controllable Video-to-Audio Generation via Fine-Grained Temporal Scripts",
+    "abstract": ""
+  },
+  {
+    "id": 39492,
+    "cat": "video",
+    "title": "SimRecon: SimReady Compositional Scene Reconstruction from Real Videos",
+    "abstract": ""
+  },
+  {
+    "id": 38439,
+    "cat": "video",
+    "title": "Active Intelligence in Video Avatars via Closed-loop World Modeling",
+    "abstract": ""
+  },
+  {
+    "id": 37255,
+    "cat": "video",
+    "title": "ELITE: Efficient Gaussian Head Avatar from a Monocular Video via Learned Initialization and Test-time Generative Adaptation",
+    "abstract": ""
+  },
+  {
+    "id": 39825,
+    "cat": "video",
+    "title": "HumanVBench: Probing Human-Centric Video Understanding in MLLMs with Automatically Synthesized Benchmarks",
+    "abstract": ""
+  },
+  {
+    "id": 39754,
+    "cat": "video",
+    "title": "Reconstruction-Guided Slot Curriculum: Addressing Object Over-Fragmentation in Video Object-Centric Learning",
+    "abstract": ""
+  },
+  {
+    "id": 36757,
+    "cat": "video",
+    "title": "LRHDR: Learning Representation-enhanced HDR Video Reconstruction",
+    "abstract": ""
+  },
+  {
+    "id": 37618,
+    "cat": "video",
+    "title": "Exploring Spatiotemporal Feature Propagation for Video-Level Compressive Spectral Reconstruction: Dataset, Model and Benchmark",
+    "abstract": ""
+  },
+  {
+    "id": 37969,
+    "cat": "video",
+    "title": "Illumination-Consistent Human-Scene Reconstruction from Monocular Video",
+    "abstract": ""
+  },
+  {
+    "id": 39087,
+    "cat": "video",
+    "title": "StreamingTOM: Streaming Token Compression for Efficient Video Understanding",
+    "abstract": ""
+  },
+  {
+    "id": 38995,
+    "cat": "video",
+    "title": "GauMVC: Generative Decoupled Gaussian Representation for Human-centric Multi-view Video Compression",
+    "abstract": ""
+  }
+]

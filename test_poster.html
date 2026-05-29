@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="UTF-8"><title>Poster Test</title>
+<style>
+img.loading { opacity: 0; transition: opacity .3s; }
+img.loaded  { opacity: 1; }
+.spinner { color: gray; font-size: 14px; }
+.spinner.hidden { display: none; }
+</style>
+</head>
+<body>
+<h3>36858 Energy-GS:</h3>
+<div id="spinner-1" class="spinner">Loading...</div>
+<img src="https://cvpr.thecvf.com/media/PosterPDFs/CVPR%202026/36858.png?t=1779344105.2447009"
+  class="loading" style="max-width:600px"
+  onload="console.log('LOADED'); this.classList.remove('loading');this.classList.add('loaded');document.getElementById('spinner-1').classList.add('hidden');"
+  onerror="console.log('ERROR'); document.getElementById('spinner-1').textContent='Error loading';">
+
+<h3>直接imgテスト（classなし）:</h3>
+<img src="https://cvpr.thecvf.com/media/PosterPDFs/CVPR%202026/36858.png?t=1779344105.2447009" style="max-width:600px">
+</body>
+</html>

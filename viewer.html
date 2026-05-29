@@ -133,6 +133,11 @@
     padding: 2px 8px; border-radius: 20px;
     background: #ecfdf5; color: #065f46;
   }
+  .oral-badge {
+    display: inline-block; font-size: 0.68rem; font-weight: 700;
+    padding: 2px 8px; border-radius: 20px;
+    background: #fef3c7; color: #92400e;
+  }
 
   /* ── Title ── */
   .paper-title {
@@ -622,6 +627,7 @@ function cardHTML(num, p) {
 
   // セッション・採択種別バッジ
   const badges = [
+    p.session_oral ? `<span class="oral-badge" title="${esc(p.session_oral)}">🎤 Oral</span>` : '',
     p.session  ? `<span class="session-badge">${esc(p.session)}</span>`  : '',
     p.decision ? `<span class="decision-badge">${esc(p.decision)}</span>` : '',
   ].filter(Boolean).join('');
