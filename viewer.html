@@ -223,6 +223,26 @@
   }
   @keyframes spin { to { transform: rotate(360deg); } }
 
+  /* ── Pagination ── */
+  .pagination {
+    display: flex; justify-content: center; align-items: center;
+    gap: 4px; padding: 32px 0 8px; flex-wrap: wrap;
+  }
+  .pg-btn {
+    min-width: 36px; height: 36px; padding: 0 10px;
+    border-radius: 8px; border: 1px solid var(--border);
+    background: var(--surface); color: var(--text-2);
+    font-size: 0.85rem; font-weight: 500; cursor: pointer;
+    display: inline-flex; align-items: center; justify-content: center;
+    transition: all .15s;
+  }
+  .pg-btn:hover:not(:disabled) { background: #f1f5f9; border-color: #cbd5e1; }
+  .pg-btn.active {
+    background: #1d4ed8; color: #fff; border-color: #1d4ed8; font-weight: 700;
+  }
+  .pg-btn:disabled { opacity: 0.35; cursor: default; }
+  .pg-ellipsis { min-width: 32px; text-align: center; color: var(--text-3); font-size: 0.9rem; line-height: 36px; }
+
   /* ── Table view ── */
   #table-view { display: none; overflow-x: auto; }
   #table-view.active { display: block; }
@@ -270,6 +290,9 @@
   <div id="loading"><div class="spinner"></div>Loading…</div>
   <div id="cards-view"></div>
   <div id="table-view"></div>
+  <div id="pagination-top" class="pagination"></div>
+  <div id="cards-container"></div>
+  <div id="pagination-bottom" class="pagination"></div>
 </main>
 
 <script>
@@ -288,18 +311,24 @@ const CAT_LABELS = {
 let currentCat  = 'video';
 let currentData = [];
 let cache       = {};
+let currentPage = 1;
+const PAGE_SIZE = 20;
 
 // ── 初期化 ───────────────────────────────────────────────
 document.addEventListener('DOMContentLoaded', () => {
   document.querySelectorAll('.tab-btn').forEach(btn => {
     btn.addEventListener('click', () => {
       currentCat = btn.dataset.cat;
+      currentPage = 1;
       document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
       loadCategory(currentCat);
     });
   });
-  document.getElementById('search-box').addEventListener('input', debounce(applyFilter, 250));
+  document.getElementById('search-box').addEventListener('input', debounce(() => {
+    currentPage = 1;
+    applyFilter();
+  }, 250));
   loadCategory(currentCat);
 });
 
@@ -344,17 +373,69 @@ function getFiltered() {
 function renderAll() {
   showLoading(false);
   const filtered = getFiltered();
+  const total = filtered.length;
+  const totalPages = Math.max(1, Math.ceil(total / PAGE_SIZE));
+  if (currentPage > totalPages) currentPage = totalPages;
+
   document.getElementById('stats').textContent =
-    `${filtered.length} / ${currentData.length} papers`;
+    `${total} / ${currentData.length} papers`;
 
   const view = document.querySelector('#btn-cards.active') ? 'cards' : 'table';
-  if (view === 'cards') renderCards(filtered);
-  else                  renderTable(filtered);
+  const start = (currentPage - 1) * PAGE_SIZE;
+  const paged = filtered.slice(start, start + PAGE_SIZE);
+
+  if (view === 'cards') renderCards(paged, start);
+  else                  renderTable(paged, start);
+
+  renderPagination(totalPages);
 }
 
-function renderCards(papers) {
+function renderPagination(totalPages) {
+  const html = buildPaginationHTML(totalPages);
+  document.getElementById('pagination-top').innerHTML = totalPages > 1 ? html : '';
+  document.getElementById('pagination-bottom').innerHTML = totalPages > 1 ? html : '';
+}
+
+function buildPaginationHTML(totalPages) {
+  if (totalPages <= 1) return '';
+  const p = currentPage;
+  const pages = [];
+
+  // Google風のページ番号リスト生成
+  const addPage = (n) => pages.push({ type: 'page', n });
+  const addEllipsis = () => { if (pages[pages.length-1]?.type !== 'ellipsis') pages.push({ type: 'ellipsis' }); };
+
+  addPage(1);
+  if (p > 4) addEllipsis();
+  for (let i = Math.max(2, p-2); i <= Math.min(totalPages-1, p+2); i++) addPage(i);
+  if (p < totalPages - 3) addEllipsis();
+  if (totalPages > 1) addPage(totalPages);
+
+  const parts = pages.map(item => {
+    if (item.type === 'ellipsis') return `<span class="pg-ellipsis">…</span>`;
+    const active = item.n === p ? ' active' : '';
+    return `<button class="pg-btn${active}" onclick="goPage(${item.n})">${item.n}</button>`;
+  });
+
+  return [
+    `<button class="pg-btn" onclick="goPage(${p-1})" ${p<=1?'disabled':''}>‹ 前へ</button>`,
+    ...parts,
+    `<button class="pg-btn" onclick="goPage(${p+1})" ${p>=totalPages?'disabled':''}>次へ ›</button>`,
+  ].join('');
+}
+
+function goPage(n) {
+  const filtered = getFiltered();
+  const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
+  if (n < 1 || n > totalPages) return;
+  currentPage = n;
+  renderAll();
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function renderCards(papers, startIdx) {
   const container = document.getElementById('cards-view');
-  container.innerHTML = papers.map((p, i) => cardHTML(i+1, p)).join('');
+  container.innerHTML = papers.map((p, i) => cardHTML(startIdx + i + 1, p)).join('');
 
   // IntersectionObserver で画像の遅延読み込み
   container.querySelectorAll('img[data-src]').forEach(img => {
@@ -446,7 +527,7 @@ function cardHTML(num, p) {
 }
 
 // ── テーブルビュー ────────────────────────────────────────
-function renderTable(papers) {
+function renderTable(papers, startIdx) {
   const rows = papers.map((p, i) => {
     const links = [
       p.paper_url   ? `<a class="tbl-link" href="${esc(p.paper_url)}"   target="_blank" title="Paper">📄</a>` : '',
@@ -456,7 +537,7 @@ function renderTable(papers) {
     const authors = (p.authors||[]).slice(0,3).join(', ')
       + (p.authors?.length > 3 ? ' et al.' : '');
     return `<tr>
-      <td style="color:#888;white-space:nowrap">${i+1}</td>
+      <td style="color:#888;white-space:nowrap">${startIdx + i + 1}</td>
       <td class="title-cell">${esc(p.title)}</td>
       <td class="ja-cell">${esc(p.title_ja||'')}</td>
       <td class="sum-cell">${esc(p.summary_ja||'')}</td>
@@ -482,6 +563,7 @@ function switchView(v) {
   document.getElementById('btn-table').classList.toggle('active', v==='table');
   cardsView.classList.toggle('hidden', v!=='cards');
   tableView.classList.toggle('active', v==='table');
+  currentPage = 1;
   renderAll();
 }
 
