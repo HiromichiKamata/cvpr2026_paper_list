@@ -840,8 +840,8 @@
     "poster_local": "",
     "has_poster": false,
     "project_url": "",
-    "title_ja": "[翻訳が必要]",
-    "summary_ja": "[まとめが必要]"
+    "title_ja": "潜在マスクは誤り: 拡散モデルのためのピクセル等価潜在合成",
+    "summary_ja": "ピクセルレベルの等価性を保つ潜在合成で拡散モデル性能を改善。"
   },
   {
     "id": 38472,
@@ -1859,8 +1859,8 @@
     "poster_local": "",
     "has_poster": false,
     "project_url": "",
-    "title_ja": "[翻訳が必要]",
-    "summary_ja": "[まとめが必要]"
+    "title_ja": "ObjectMorpher: 変形可能3DGS による3D認識画像編集",
+    "summary_ja": "変形可能3DGS を活用した3D対応の高度な画像編集技術。"
   },
   {
     "id": 39339,

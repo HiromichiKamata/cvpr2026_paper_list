@@ -2,7 +2,7 @@
 
 **Total: 378 papers** | Poster: 282 | Project page: 70 | 和訳済み: 378
 
-*Generated: 2026-05-29 12:10*
+*Generated: 2026-05-29 12:32*
 
 > 📝 **データソース:** `image_gen_enriched.json` — レイアウト変更は `generate_md.py` を編集後に再実行してください。
 
@@ -52,9 +52,9 @@
 
 ## 3. NanoSD: Edge Efficient Foundation Model for Real Time Image Restoration
 
-> 🇯🇵 **[翻訳が必要]**
+> 🇯🇵 **NanoSD：リアルタイム画像復元のためのエッジ効率的基盤モデル**
 
-> 💡 [まとめが必要]
+> 💡 U-NetとVAEを協調縮小し、端末上で高速かつ高品質な画像復元を可能にする。
 
 **著者:** Subhajit Sanyal, Srinivas Soumitri Miriyala, Akshay Janardan Bankar, Manjunath Arveti, Sowmya Vajrala, Shreyas Pandith, Sravanth Kodavanti, Abhishek Ameta, Harshit Harshit, Amit Unde
 
@@ -94,9 +94,9 @@
 
 ## 5. Anatomica: Localized Control over Geometric and Topological Properties for Anatomical Diffusion Models
 
-> 🇯🇵 **[翻訳が必要]**
+> 🇯🇵 **Anatomica：解剖学的拡散モデルの幾何・位相特性に対する局所制御**
 
-> 💡 [まとめが必要]
+> 💡 局所領域の幾何量と位相量に罰則を課し、3D解剖ボクセル生成を精密制御する。
 
 **著者:** Karim Kadry, Abdalla Abdelwahed, Ajay Manicka, Naravich Chutisilp, Farhad R. Nezami, Elazer R Edelman
 
@@ -186,9 +186,9 @@
 
 ## 9. DBMSolver: A Training-free Diffusion Bridge Sampler for High-Quality Image-to-Image Translation
 
-> 🇯🇵 **[翻訳が必要]**
+> 🇯🇵 **DBMSolver: 高品質画像・画像変換のための学習不要な拡散ブリッジサンプラー**
 
-> 💡 [まとめが必要]
+> 💡 学習なしで拡散ブリッジを用いた高品質な画像・画像変換を実行。
 
 **著者:** SANKARSHANA VENUGOPAL, Mohammad Mostafavi, Jonghyun Choi
 
@@ -367,9 +367,9 @@
 
 ## 17. Training-free, Perceptually Consistent Low-Resolution Previews with High-Resolution Image for Efficient Workflows of Diffusion Models
 
-> 🇯🇵 **[翻訳が必要]**
+> 🇯🇵 **拡散モデルの効率運用に向けた高解像画像と知覚整合する低解像プレビューの学習不要生成**
 
-> 💡 [まとめが必要]
+> 💡 高解像画像と見た目が整合する低解像プレビューを先に作り、計算量を大きく削減する。
 
 **著者:** Wongi Jeong, Hoigi Seo, Se Young Chun
 
@@ -525,9 +525,9 @@
 
 ## 23. SenCache: Accelerating Diffusion Model Inference via Sensitivity-Aware Caching
 
-> 🇯🇵 **[翻訳が必要]**
+> 🇯🇵 **SenCache：感度認識キャッシュによる拡散モデル推論の高速化**
 
-> 💡 [まとめが必要]
+> 💡 入力感度に応じて再利用時刻を動的選択し、画質を保って動画生成を高速化する。
 
 **著者:** Yasaman Haghighi, Alex Alahi
 
@@ -651,9 +651,9 @@
 
 ## 29. ObjectMorpher: 3D-Aware Image Editing via Deformable 3DGS
 
-> 🇯🇵 **[翻訳が必要]**
+> 🇯🇵 **ObjectMorpher: 変形可能3DGS による3D認識画像編集**
 
-> 💡 [まとめが必要]
+> 💡 変形可能3DGS を活用した3D対応の高度な画像編集技術。
 
 **著者:** Yuhuan Xie, Aoxuan Pan, Yihua Huang, Chirui Chang, Peng Dai, Xin Yu, Xiaojuan Qi
 
@@ -924,9 +924,9 @@
 
 ## 42. Flash-DMD: Towards High-Fidelity Few-Step Image Generation with Efficient Distillation and Joint Reinforcement Learning
 
-> 🇯🇵 **[翻訳が必要]**
+> 🇯🇵 **Flash-DMD：効率的蒸留と強化学習の共同最適化による高忠実度少ステップ画像生成**
 
-> 💡 [まとめが必要]
+> 💡 時間段階蒸留と強化学習を同時学習し、少ステップ生成の画質と安定性を向上させる。
 
 **著者:** Guanjie Chen, Shirui Huang, Yifu Sun, Kai Liu, Jianchen Zhu, Xiaoye Qu, Yu Cheng, Peng Chen
 
@@ -1050,9 +1050,9 @@
 
 ## 48. SliderEdit: Continuous Image Editing with Fine-Grained Instruction Control
 
-> 🇯🇵 **[翻訳が必要]**
+> 🇯🇵 **SliderEdit：細粒度な指示制御による連続画像編集**
 
-> 💡 [まとめが必要]
+> 💡 複数編集指示を独立スライダー化し、各編集強度を連続的かつ解釈可能に調整する。
 
 **著者:** Arman Zarei, Samyadeep Basu, Mobina Pournemat, Sayan Nag, Ryan A. Rossi, Soheil Feizi
 
@@ -1179,9 +1179,9 @@
 
 ## 53. It's Never Too Late: Noise Optimization for Collapse Recovery in Trained Diffusion Models
 
-> 🇯🇵 **[翻訳が必要]**
+> 🇯🇵 **手遅れではない：学習済み拡散モデルの崩壊回復に向けたノイズ最適化**
 
-> 💡 [まとめが必要]
+> 💡 推論時のノイズ最適化により、崩壊した拡散モデルの多様性と画質の回復を図る。
 
 **著者:** Anne Harrington, A. Koepke, Shyamgopal Karthik, Trevor Darrell, Alexei A. Efros
 
@@ -1360,9 +1360,9 @@
 
 ## 61. VOSR: A Vision-Only Generative Model for Image Super-Resolution
 
-> 🇯🇵 **[翻訳が必要]**
+> 🇯🇵 **VOSR：画像超解像のための視覚のみの生成モデル**
 
-> 💡 [まとめが必要]
+> 💡 視覚情報のみを用いて学習し、大規模テキスト事前学習なしで高精細超解像を実現する。
 
 **著者:** Rongyuan Wu, Lingchen Sun, Zhengqiang ZHANG, Xiangtao Kong, Jixin Zhao, Shihao Wang, Lei Zhang
 
@@ -1765,9 +1765,9 @@
 
 ## 78. Beyond the Ground Truth: Enhanced Supervision for Image Restoration
 
-> 🇯🇵 **[翻訳が必要]**
+> 🇯🇵 **グラウンドトゥルースを超えて：画像復元のための強化教師信号**
 
-> 💡 [まとめが必要]
+> 💡 強化した疑似正解画像で教師信号を改善し、実環境での画像復元品質を底上げする。
 
 **著者:** Donghun Ryou, Inju Ha, Sanghyeok Chu, Bohyung Han
 
@@ -1857,9 +1857,9 @@
 
 ## 82. Omni IIE Bench: Benchmarking the Practical Capabilities of Image Editing Models
 
-> 🇯🇵 **[翻訳が必要]**
+> 🇯🇵 **Omni IIE Bench：画像編集モデルの実用能力を測るベンチマーク**
 
-> 💡 [まとめが必要]
+> 💡 意味尺度の異なる編集課題での一貫性を測り、実用場面の弱点を診断する。
 
 **著者:** Yujia Yang, Yuanxiang Wang, Zhenyu Guan, Tiankun Yang, Chenxi Bao, Haopeng Jin, Jinwen Luo, Xinyu Zuo, Lisheng Duan, Haijin Liang, Jin Ma, Xinming Wang, Ruiwen Tao, Hongzhu Yi
 
@@ -2177,9 +2177,9 @@
 
 ## 97. MotionEdit: Benchmarking and Learning Motion-Centric Image Editing
 
-> 🇯🇵 **[翻訳が必要]**
+> 🇯🇵 **MotionEdit: 動作中心画像編集のベンチマーク化と学習**
 
-> 💡 [まとめが必要]
+> 💡 動作情報を活用した画像編集のベンチマークと学習手法。
 
 **著者:** Yixin Wan, Lei Ke, Wenhao Yu, Kai-Wei Chang, Dong Yu
 
@@ -2219,9 +2219,9 @@
 
 ## 99. Curriculum Group Policy Optimization: Adaptive Sampling for Unleashing the Potential of Text-to-Image Generation
 
-> 🇯🇵 **[翻訳が必要]**
+> 🇯🇵 **カリキュラム群方策最適化：テキスト画像生成の潜在力を引き出す適応サンプリング**
 
-> 💡 [まとめが必要]
+> 💡 報酬分散に基づく難度適応サンプリングで、GRPOによるT2I学習効率と性能を高める。
 
 **著者:** Baoteng Li, Xianghao Zang, Xinran Wang, Xiangyu Na, Zhixiang He, Hao Sun, Chi Zhang, Zhongjiang He, Tianwei Cao, Kongming Liang, Zhanyu Ma
 
@@ -2240,9 +2240,9 @@
 
 ## 100. RAISE: Requirement-Adaptive Evolutionary Refinement for Training-Free Text-to-Image Alignment
 
-> 🇯🇵 **[翻訳が必要]**
+> 🇯🇵 **RAISE：学習不要なテキスト画像整合のための要求適応型進化的精緻化**
 
-> 💡 [まとめが必要]
+> 💡 要件未達項目だけを進化的に再改善し、複雑プロンプトとの整合性を学習なしで高める。
 
 **著者:** Liyao Jiang, Ruichen Chen, Chao Gao, Di Niu
 
@@ -2332,9 +2332,9 @@
 
 ## 104. Delta Rectified Flow Sampling for Text-to-Image Editing
 
-> 🇯🇵 **[翻訳が必要]**
+> 🇯🇵 **テキスト画像編集のためのデルタ整流フローサンプリング**
 
-> 💡 [まとめが必要]
+> 💡 元画像と目標軌道の差分を明示化し、反転不要で忠実なテキスト画像編集を実現する。
 
 **著者:** Gaspard Beaudouin, Minghan LI, Jaeyeon Kim, Sung-Hoon Yoon, Mengyu Wang
 
@@ -2353,9 +2353,9 @@
 
 ## 105. Sampling-Aware Quantization for Diffusion Models
 
-> 🇯🇵 **[翻訳が必要]**
+> 🇯🇵 **拡散モデルのためのサンプリング認識量子化**
 
-> 💡 [まとめが必要]
+> 💡 サンプリング軌道の誤差を意識して量子化し、高速化と高画質を同時に達成する。
 
 **著者:** Qian Zeng, Jie Song, Yuanyu Wan, Huiqiong Wang, Mingli Song
 
@@ -2495,9 +2495,9 @@
 
 ## 111. ClusterMark: Towards Robust Watermarking for Autoregressive Image Generators with Visual Token Clustering
 
-> 🇯🇵 **[翻訳が必要]**
+> 🇯🇵 **ClusterMark：視覚トークンクラスタリングによる自己回帰画像生成器向け頑健透かし**
 
-> 💡 [まとめが必要]
+> 💡 視覚トークンのクラスタ構造を利用し、自己回帰生成器に頑健な透かしを埋め込む。
 
 **著者:** Denis Lukovnikov, Andreas Müller, Erwin Quiring, Asja Fischer
 
@@ -2576,9 +2576,9 @@
 
 ## 115. Pico-Banana-400K: A Large-Scale Dataset for Text-Guided Image Editing
 
-> 🇯🇵 **[翻訳が必要]**
+> 🇯🇵 **Pico-Banana-400K：大規模テキスト誘導画像編集データセット**
 
-> 💡 [まとめが必要]
+> 💡 実画像由来の40万件編集対と多様な派生集合を整備し、画像編集研究の基盤を築く。
 
 **著者:** Yusu Qian, Eli Bocek-Rivele, Liangchen Song, Jialing Tong, Yinfei Yang, Jiasen Lu, Wenze Hu, Zhe Gan
 
@@ -2639,9 +2639,9 @@
 
 ## 118. Retrieve-to-Restore: Efficient All-in-One Image Restoration with a Retrieval-Based Degradation Bank
 
-> 🇯🇵 **[翻訳が必要]**
+> 🇯🇵 **Retrieve-to-Restore：検索型劣化バンクによる効率的な万能画像復元**
 
-> 💡 [まとめが必要]
+> 💡 検索型劣化バンクで劣化知識を外在化し、少計算で多劣化画像を安定復元する。
 
 **著者:** Chenxu Wang, Kai Zhang, Jian Yang
 
@@ -2760,9 +2760,9 @@
 
 ## 123. OrthoFuse: Training-free Riemannian Fusion of Orthogonal Style-Concept Adapters for Diffusion Models
 
-> 🇯🇵 **[翻訳が必要]**
+> 🇯🇵 **OrthoFuse：拡散モデル向け直交スタイル概念アダプタの学習不要リーマン融合**
 
-> 💡 [まとめが必要]
+> 💡 直交アダプタをリーマン幾何で融合し、追加学習なしに概念とスタイルを自然合成する。
 
 **著者:** Ali Aliev, Kamil Garifullin, Nikolay Yudin, Vera Soboleva, Alexander Molozhavenko, Ivan Oseledets, Aibek Alanov, Maxim Rakhuba
 
@@ -2970,9 +2970,9 @@
 
 ## 133. A Style is Worth One Code: Unlocking Code-to-Style Image Generation with Discrete Style Space
 
-> 🇯🇵 **[翻訳が必要]**
+> 🇯🇵 **スタイルは一コードの価値: 離散スタイル空間によるコード・スタイル画像生成**
 
-> 💡 [まとめが必要]
+> 💡 離散スタイル空間を用いてコードからスタイルに基づく画像を生成。
 
 **著者:** Huijie Liu, Shuhao Cui, Haoxiang Cao, Shuai Ma, Kai Wu, Guoliang Kang
 
@@ -3125,9 +3125,9 @@
 
 ## 140. Self-Evaluation Unlocks Any-Step Text-to-Image Generation
 
-> 🇯🇵 **[翻訳が必要]**
+> 🇯🇵 **自己評価が解き放つ任意ステップのテキスト画像生成**
 
-> 💡 [まとめが必要]
+> 💡 自己評価を教師として併用し、少数から多数まで任意ステップで高品質生成を可能にする。
 
 **著者:** Xin Yu, Xiaojuan Qi, Zhengqi Li, Kai Zhang, Richard Zhang, Zhe Lin, Eli Shechtman, Tianyu Wang, Yotam Nitzan
 
@@ -3146,9 +3146,9 @@
 
 ## 141. Exploring Conditions for Diffusion Models in Robotic Control
 
-> 🇯🇵 **[翻訳が必要]**
+> 🇯🇵 **ロボット制御における拡散モデル条件付けの探究**
 
-> 💡 [まとめが必要]
+> 💡 学習可能な課題プロンプトと視覚プロンプトで、ロボット制御向け表現を適応化する。
 
 **著者:** Heeseong Shin, Byeongho Heo, Dongyoon Han, Seungryong Kim, Taekyung Kim
 
@@ -3259,9 +3259,9 @@
 
 ## 146. ZeroIDIR: Zero-Reference Illumination Degradation Image Restoration with Perturbed Consistency Diffusion Models
 
-> 🇯🇵 **[翻訳が必要]**
+> 🇯🇵 **ZeroIDIR：摂動整合拡散モデルによる参照不要な照明劣化画像復元**
 
-> 💡 [まとめが必要]
+> 💡 照明補正と拡散再構成を分離し、参照画像なしで暗所劣化画像を高精度に復元する。
 
 **著者:** Hai Jiang, Zhen Liu, Yinjie Lei, Songchen Han, Bing Zeng, Shuaicheng Liu
 
@@ -3611,9 +3611,9 @@
 
 ## 162. Guiding a Diffusion Model by Swapping Its Tokens
 
-> 🇯🇵 **[翻訳が必要]**
+> 🇯🇵 **トークン交換による拡散モデルのガイディング**
 
-> 💡 [まとめが必要]
+> 💡 意味的に離れたトークン交換で擾乱方向を作り、条件付き・無条件生成の品質を高める。
 
 **著者:** Weijia Zhang, Yuehao Liu, Shanyan Guan, Wu Ran, Yanhao Ge, Wei Li, Chao Ma
 
@@ -3632,9 +3632,9 @@
 
 ## 163. ChordEdit: One-Step Low-Energy Transport for Image Editing
 
-> 🇯🇵 **[翻訳が必要]**
+> 🇯🇵 **ChordEdit：画像編集のための一段低エネルギー輸送**
 
-> 💡 [まとめが必要]
+> 💡 低エネルギー輸送として編集場を設計し、一段推論でも高忠実な画像編集を実現する。
 
 **著者:** Liangsi Lu, Xuhang Chen, Minzhe Guo, Shichu Li, Jingchao Wang, Yang Shi
 
@@ -3661,9 +3661,9 @@
 
 ## 164. Synthetic Curriculum Reinforces Compositional Text-to-Image Generation
 
-> 🇯🇵 **[翻訳が必要]**
+> 🇯🇵 **合成カリキュラムが強化する構成的テキスト画像生成**
 
-> 💡 [まとめが必要]
+> 💡 シーングラフ難度に基づく強化学習カリキュラムで、複雑構成のT2I生成力を伸ばす。
 
 **著者:** Shijian Wang, Runhao Fu, Siyi Zhao, Qingqin Zhan, Xingjian Wang, Jiarui Jin, Yuan Lu, Hanqian Wu, Cunjian Chen
 
@@ -3732,9 +3732,9 @@
 
 ## 167. UltraFlux: Data-Model Co-Design for High-quality Native 4K Text-to-Image Generation across Diverse Aspect Ratios
 
-> 🇯🇵 **[翻訳が必要]**
+> 🇯🇵 **UltraFlux：多様な縦横比に対応する高品質ネイティブ4Kテキスト画像生成のためのデータ・モデル協調設計**
 
-> 💡 [まとめが必要]
+> 💡 4K多縦横比データと位置・VAE・損失設計を協調最適化し、高精細生成を実現する。
 
 **著者:** Tian Ye, Song Fei, Lei Zhu
 
@@ -3879,9 +3879,9 @@
 
 ## 174. RewardFlow: Generate Images by Optimizing What You Reward
 
-> 🇯🇵 **[翻訳が必要]**
+> 🇯🇵 **RewardFlow：報酬最適化による画像生成**
 
-> 💡 [まとめが必要]
+> 💡 微分可能報酬と適応更新方策で、学習なしでも編集忠実度と構成整合性を高める。
 
 **著者:** Onkar Susladkar, Dong-Hwan Jang, Tushar Prakash, Adheesh Juvekar, Vedant Shah, Ayush Barik, Nabeel Bashir, Muntasir Wahed, Ritish Shrirao, Ismini Lourentzou
 
@@ -3966,9 +3966,9 @@
 
 ## 177. MultiBanana: A Challenging Benchmark for Multi-Reference Text-to-Image Generation
 
-> 🇯🇵 **[翻訳が必要]**
+> 🇯🇵 **MultiBanana: 複数参照テキスト・画像生成の高難易度ベンチマーク**
 
-> 💡 [まとめが必要]
+> 💡 複数の参照画像を用いたテキスト・画像生成の性能評価ベンチマーク。
 
 **著者:** Yuta Oshima, Daiki Miyake, Kohsei Matsutani, Yusuke Iwasawa, Masahiro Suzuki, Yutaka Matsuo, Hiroki Furuta
 
@@ -4016,9 +4016,9 @@
 
 ## 179. OPRO: Orthogonal Panel-Relative Operators for Panel-Aware In-Context Image Generation
 
-> 🇯🇵 **[翻訳が必要]**
+> 🇯🇵 **OPRO：パネル認識インコンテキスト画像生成のための直交パネル相対演算子**
 
-> 💡 [まとめが必要]
+> 💡 直交演算子を位置符号へ付加し、既存生成力を保ったままパネル相対学習を強化する。
 
 **著者:** Sanghyeon Lee, Minwoo Lee, Euijin Shin, Kangyeol Kim, Seunghwan Choi, Jaegul Choo
 
@@ -4339,9 +4339,9 @@
 
 ## 193. VisiLock: Authorizing Instruction-based Image editing with Dual Score Distillation
 
-> 🇯🇵 **[翻訳が必要]**
+> 🇯🇵 **VisiLock：二重スコア蒸留による指示画像編集の認可制御**
 
-> 💡 [まとめが必要]
+> 💡 視覚トリガーがない入力では編集不能にし、許可時のみ高品質編集できる保護法を示す。
 
 **著者:** Van Thanh, Yun Fu
 
@@ -4554,9 +4554,9 @@
 
 ## 203. Masked Region Transformer for Layered Image Generation and Editing at Scale
 
-> 🇯🇵 **[翻訳が必要]**
+> 🇯🇵 **Masked Region Transformer：大規模なレイヤー画像生成・編集のためのマスク領域トランスフォーマー**
 
-> 💡 [まとめが必要]
+> 💡 多層透明画像を対象に、領域マスク拡散で生成・編集・再構成を統一的に扱う。
 
 **著者:** Zhicong Tang, Jingye Chen, Zhao Zhang, Mohan Zhou, Yuchi Liu, Yifan Pu, Yalong Bai, Ethan Smith, Yuhui Yuan
 
@@ -4575,9 +4575,9 @@
 
 ## 204. OctoT2I: A Self-Evolving Agentic Text-to-Image Router
 
-> 🇯🇵 **[翻訳が必要]**
+> 🇯🇵 **OctoT2I：自己進化するエージェント型テキスト画像ルータ**
 
-> 💡 [まとめが必要]
+> 💡 自己進化知識ベースで最適生成器を選び、画質と推論効率を両立するT2Iルータ。
 
 **著者:** Jiang Xu, Bin Chen, Gehui Li, Yule Duan, Ronggang Wang, Jian Zhang
 
@@ -4596,9 +4596,9 @@
 
 ## 205. SpatialReward: Verifiable Spatial Reward Modeling for Fine-Grained Spatial Consistency in Text-to-Image Generation
 
-> 🇯🇵 **[翻訳が必要]**
+> 🇯🇵 **SpatialReward：細粒度な空間整合性のための検証可能な空間報酬モデル**
 
-> 💡 [まとめが必要]
+> 💡 物体位置や関係を検証可能に評価する報酬モデルで、T2Iの空間整合性を向上させる。
 
 **著者:** Sashuai zhou, Qiang Zhou, Ma Junpeng, Yue Cao, Ruofan Hu, Ziang Zhang, Xiaoda Yang, Zhibin Wang, Jun Song, Cheng Yu, Bo Zheng, Zhou Zhao
 
@@ -4638,9 +4638,9 @@
 
 ## 207. SeeThrough3D: Occlusion Aware 3D Control in Text-to-Image Generation
 
-> 🇯🇵 **[翻訳が必要]**
+> 🇯🇵 **SeeThrough3D：テキスト画像生成における遮蔽認識3D制御**
 
-> 💡 [まとめが必要]
+> 💡 半透明3D箱表現で遮蔽と視点を明示し、奥行き整合な複数物体生成を可能にする。
 
 **著者:** Vaibhav Agrawal, Rishubh Parihar, Pradhaan S Bhat, Ravi Kiran Sarvadevabhatla, R. Venkatesh Babu
 
@@ -4688,9 +4688,9 @@
 
 ## 209. Diffusion Probe: Generated Image Result Prediction Using CNN Probes
 
-> 🇯🇵 **[翻訳が必要]**
+> 🇯🇵 **Diffusion Probe：CNNプローブによる生成画像結果予測**
 
-> 💡 [まとめが必要]
+> 💡 初期クロスアテンションから最終画質を早期予測し、探索計算を削減して生成効率を高める。
 
 **著者:** Bukun Huang, Benlei Cui, Zhizeng Ye, Xuemei Dong, Tuo Chen, Hui Xue, Dingkang Yang, Longtao Huang, Haiwen Hong, Jingqun Tang
 
@@ -4798,9 +4798,9 @@
 
 ## 214. PixelDiT: Pixel Diffusion Transformers for Image Generation
 
-> 🇯🇵 **[翻訳が必要]**
+> 🇯🇵 **PixelDiT：画像生成のためのピクセル拡散トランスフォーマー**
 
-> 💡 [まとめが必要]
+> 💡 画素空間で直接拡散を学習する二層DiTにより、細部を保った高精細生成を実現する。
 
 **著者:** Yongsheng Yu, Wei Xiong, Weili Nie, Yichen Sheng, Shiqiu Liu, Jiebo Luo
 
@@ -4987,9 +4987,9 @@
 
 ## 223. When Anonymity Breaks: Identifying Models Behind Text-to-Image Leaderboards
 
-> 🇯🇵 **[翻訳が必要]**
+> 🇯🇵 **匿名性が破れるとき：テキスト画像リーダーボード背後のモデル同定**
 
-> 💡 [まとめが必要]
+> 💡 生成画像の埋め込み署名から匿名モデルを高精度に特定し、評価基盤の脆弱性を示す。
 
 **著者:** Ali Naseh, Anshuman Suri, Yuefeng Peng, Harsh Chaudhari, Alina Oprea, Amir Houmansadr
 
@@ -5029,9 +5029,9 @@
 
 ## 225. LESA: Learnable Stage-Aware Predictors for Diffusion Model Acceleration
 
-> 🇯🇵 **[翻訳が必要]**
+> 🇯🇵 **LESA：拡散モデル高速化のための学習可能な段階認識予測器**
 
-> 💡 [まとめが必要]
+> 💡 ノイズ段階別の予測器で特徴を高精度に再利用し、生成画質を保って大幅高速化する。
 
 **著者:** Peiliang Cai, Jiacheng Liu, Haowen Xu, Xinyu Wang, Chang Zou, Linfeng Zhang
 
@@ -5273,9 +5273,9 @@
 
 ## 236. Reviving ConvNeXt for Efficient Convolutional Diffusion Models
 
-> 🇯🇵 **[翻訳が必要]**
+> 🇯🇵 **効率的な畳み込み拡散モデルのためのConvNeXt再興**
 
-> 💡 [まとめが必要]
+> 💡 ConvNeXt系完全畳み込み拡散モデルで、DiT並み性能と大幅な高速化を両立する。
 
 **著者:** Taesung Kwon, Lorenzo Bianchi, Lennart Wittke, Felix Watine, Fabio Carrara, Jong Chul, Romann Weber, Vinicius Azevedo
 
@@ -5344,9 +5344,9 @@
 
 ## 239. CogniEdit: Dense Gradient Flow Optimization for Fine-Grained Image Editing
 
-> 🇯🇵 **[翻訳が必要]**
+> 🇯🇵 **CogniEdit：細粒度画像編集のための密な勾配フロー最適化**
 
-> 💡 [まとめが必要]
+> 💡 推論軌跡全体へ密に報酬勾配を流し、属性や位置など細かな指示編集を改善する。
 
 **著者:** Yan Li, Lin Liu, Xiaopeng Zhang, Wei Xue, Wenhan Luo, Yike Guo, Qi Tian
 
@@ -5637,9 +5637,9 @@
 
 ## 253. Disentangling to Re-couple: Resolving the Similarity-Controllability Paradox in Subject-Driven Text-to-Image Generation
 
-> 🇯🇵 **[翻訳が必要]**
+> 🇯🇵 **分離して再結合する：主題駆動テキスト画像生成の類似性・制御性パラドックスの解消**
 
-> 💡 [まとめが必要]
+> 💡 被写体情報と編集指示を分離して再結合し、同一性保持と編集制御を両立する。
 
 **著者:** Shuang Li, Chao Deng, Hang Chen, Liqun Liu, zhenyu hu, Te Cao, Mengge Xue, Yuan Chen, Peng Shu, Huan Yu, Jie Jiang
 
@@ -5658,9 +5658,9 @@
 
 ## 254. CARE-Edit: Condition-Aware Routing of Experts for Contextual Image Editing
 
-> 🇯🇵 **[翻訳が必要]**
+> 🇯🇵 **CARE-Edit: 文脈画像編集のための条件認識エキスパートルーティング**
 
-> 💡 [まとめが必要]
+> 💡 条件認識ルーティングで文脈に応じた正確な画像編集を実現。
 
 **著者:** Yucheng Wang, Zedong Wang, Yuetong Wu, Yue Ma, Dan Xu
 
@@ -5742,9 +5742,9 @@
 
 ## 258. Streaming Diffusion Model for Fast Infrared and Visible Video Fusion
 
-> 🇯🇵 **[翻訳が必要]**
+> 🇯🇵 **高速な赤外・可視動画融合のためのストリーミング拡散モデル**
 
-> 💡 [まとめが必要]
+> 💡 時間一貫性を明示的に扱う一段拡散で、赤外・可視動画融合を実時間で実現する。
 
 **著者:** Jinyuan Liu, Ludan Sun, Tengyu Ma, Chunyan Yang, Zhiying Jiang, Long Ma, Risheng Liu, Xin Fan
 
@@ -5889,9 +5889,9 @@
 
 ## 265. Your Latent Mask is Wrong: Pixel-Equivalent Latent Compositing for Diffusion Models
 
-> 🇯🇵 **[翻訳が必要]**
+> 🇯🇵 **潜在マスクは誤り: 拡散モデルのためのピクセル等価潜在合成**
 
-> 💡 [まとめが必要]
+> 💡 ピクセルレベルの等価性を保つ潜在合成で拡散モデル性能を改善。
 
 **著者:** Rowan Bradbury, Dazhi Zhong
 
@@ -5994,9 +5994,9 @@
 
 ## 270. OSPO: Object-Centric Self-Improving Preference Optimization for Text-to-Image Generation
 
-> 🇯🇵 **[翻訳が必要]**
+> 🇯🇵 **OSPO：テキスト画像生成のための物体中心自己改善選好最適化**
 
-> 💡 [まとめが必要]
+> 💡 物体中心の自己生成選好データで学習し、属性整合性を高めて幻覚物体を減らす。
 
 **著者:** Yoonjin Oh, Yongjin Kim, Hyomin Kim, Donghwan Chi, Sungwoong Kim
 
@@ -6183,9 +6183,9 @@
 
 ## 278. BiFM: Bidirectional Flow Matching for Few-Step Image Editing and Generation
 
-> 🇯🇵 **[翻訳が必要]**
+> 🇯🇵 **BiFM：少ステップ画像編集・生成のための双方向フローマッチング**
 
-> 💡 [まとめが必要]
+> 💡 画像とノイズの双方向速度場を同時学習し、少ステップでも高品質な生成と編集を実現する。
 
 **著者:** Yasong Dai, Zeeshan Hayder, David Ahmedt-Aristizabal, Hongdong Li
 
@@ -6359,9 +6359,9 @@
 
 ## 286. Roots Beneath the Cut: Uncovering the Risk of Concept Recovery in Pruning-Based Unlearning for Diffusion Models
 
-> 🇯🇵 **[翻訳が必要]**
+> 🇯🇵 **切断の下に残る根：拡散モデルの剪定型忘却における概念復元リスクの解明**
 
-> 💡 [まとめが必要]
+> 💡 剪定位置が消去概念の手掛かりとなり、追加学習なしで概念復元され得る危険を示す。
 
 **著者:** Ci Zhang, Zhaojun Ding, Chence Yang, Jun Liu, Xiaoming Zhai, Shaoyi Huang, Beiwen Li, Xiaolong Ma, Jin Lu, Geng Yuan
 
@@ -6380,9 +6380,9 @@
 
 ## 287. CompBench: Benchmarking Complex Instruction-guided Image Editing
 
-> 🇯🇵 **[翻訳が必要]**
+> 🇯🇵 **CompBench：複雑な指示誘導画像編集のベンチマーク**
 
-> 💡 [まとめが必要]
+> 💡 位置・外観・動き・物体を含む複雑指示で、現行画像編集モデルの限界を詳しく測る。
 
 **著者:** Bohan Jia, Wenxuan Huang, Yuntian Tang, Junbo Qiao, Jincheng Liao, Shaosheng Cao, Fei Zhao, Zhaopeng Feng, Zhouhong Gu, Zhenfei Yin, Lei Bai, Wanli Ouyang, Lin Chen, Fei Zhao, Zihan Wang, Yuan Xie, Shaohui Lin
 
@@ -6556,9 +6556,9 @@
 
 ## 295. A Difference-in-Difference Approach to Detecting AI-Generated Images
 
-> 🇯🇵 **[翻訳が必要]**
+> 🇯🇵 **差分の差分によるAI生成画像検出**
 
-> 💡 [まとめが必要]
+> 💡 再構成誤差の差分をさらに比較する二次差分で、AI生成画像検出の汎化性能を高める。
 
 **著者:** Xinyi Qi, Kai Ye, Chengchun Shi, Ying Yang, Jin Zhu, Hongyi Zhou
 
@@ -6577,9 +6577,9 @@
 
 ## 296. UniEdit-I: Training-free Image Editing for Unified VLM via Iterative Understanding, Editing and Verifying
 
-> 🇯🇵 **[翻訳が必要]**
+> 🇯🇵 **UniEdit-I：反復的理解・編集・検証による統合VLM向け学習不要画像編集**
 
-> 💡 [まとめが必要]
+> 💡 理解・編集・検証の閉ループで意味潜在空間を自己修正し、高精度な画像編集を実現する。
 
 **著者:** Bai Chengyu, Jintao Chen, Xiang Bai, Yilong Chen, Qi She, Ming Lu, Shanghang Zhang
 
@@ -6819,9 +6819,9 @@
 
 ## 306. DMAligner: Enhancing Image Alignment via Diffusion Model Based View Synthesis
 
-> 🇯🇵 **[翻訳が必要]**
+> 🇯🇵 **DMAligner：拡散モデルによる視点合成で画像位置合わせを強化**
 
-> 💡 [まとめが必要]
+> 💡 整合向け視点合成を用いて、遮蔽や照明変化に強い画像位置合わせを実現する。
 
 **著者:** Xinglong Luo, Ao Luo, Zhengning Wang, Yueqi Yang, Chaoyu Feng, Lei Lei, Bing Zeng, Shuaicheng Liu
 
@@ -6869,9 +6869,9 @@
 
 ## 308. Event-Illumination Collaborative Low-light Image Enhancement with a High-resolution Real-world Dataset
 
-> 🇯🇵 **[翻訳が必要]**
+> 🇯🇵 **高解像実世界データセットを用いたイベント・照明協調型低照度画像強調**
 
-> 💡 [まとめが必要]
+> 💡 イベント情報と照明情報を協調利用し、実世界の低照度画像強調性能を大きく向上させる。
 
 **著者:** Senyan Xu, Zhijing Sun, Kean Liu, Xin Lu, Ruixuan Jiang, Xueyang Fu, Zheng-Jun Zha
 
@@ -6890,9 +6890,9 @@
 
 ## 309. DRiffusion: Draft-and-Refine Process Parallelizes Diffusion Models with Ease
 
-> 🇯🇵 **[翻訳が必要]**
+> 🇯🇵 **DRiffusion: ドラフト・リファイン・プロセスによる拡散モデルの並列化**
 
-> 💡 [まとめが必要]
+> 💡 拡散モデルの推論を並列化し、生成速度を大幅に高速化するフレームワーク。
 
 **著者:** Runsheng Bai, Chengyu Zhang, Yangdong Deng
 
@@ -6911,9 +6911,9 @@
 
 ## 310. InvAD: Inversion-based Reconstruction-Free Anomaly Detection with Diffusion Models
 
-> 🇯🇵 **[翻訳が必要]**
+> 🇯🇵 **InvAD: 拡散モデルを用いた逆変換ベースの再構成不要な異常検知**
 
-> 💡 [まとめが必要]
+> 💡 逆変換を利用して拡散モデルで効率的に異常検知を行う手法。
 
 **著者:** Shunsuke Sakai, Xiangteng He, Chunzhi Gu, Leonid Sigal, Tatsuhito Hasegawa
 
@@ -7431,9 +7431,9 @@
 
 ## 333. Coupled Diffusion Sampling for Training-Free Multi-View Image Editing
 
-> 🇯🇵 **[翻訳が必要]**
+> 🇯🇵 **結合拡散サンプリング: 学習不要な多視点画像編集**
 
-> 💡 [まとめが必要]
+> 💡 学習なしで複数視点の画像を一貫性を保ちながら編集する技術。
 
 **著者:** Hadi Alzayer, Yunzhi Zhang, Chen Geng, Jia-Bin Huang, Jiajun Wu
 
@@ -7481,9 +7481,9 @@
 
 ## 335. GROW: Watermark Generation with Progressive Guidance for Diffusion Models
 
-> 🇯🇵 **[翻訳が必要]**
+> 🇯🇵 **GROW: 拡散モデルのための段階的ガイダンス付きウォーターマーク生成**
 
-> 💡 [まとめが必要]
+> 💡 段階的ガイダンスでロバストなウォーターマーク生成を実現。
 
 **著者:** Pengcheng Luo, Zexi Jia, Yijia Zhong, Jinchao Zhang, Jie Zhou
 
@@ -7552,9 +7552,9 @@
 
 ## 338. What Is It Like to Be a Noise? An Entropy-based Gaussian Noise Regularization for Diffusion Models
 
-> 🇯🇵 **[翻訳が必要]**
+> 🇯🇵 **ノイズの本質: 拡散モデルのためのエントロピーベースガウスノイズ正則化**
 
-> 💡 [まとめが必要]
+> 💡 エントロピー最適化によるノイズ正則化で拡散モデル性能を向上。
 
 **著者:** Pascal Chang, Kai Lascheit, Jingwei Tang, Markus Gross, Vinicius Azevedo
 
@@ -7573,9 +7573,9 @@
 
 ## 339. Denoising, Fast and Slow: Difficulty-Aware Adaptive Sampling for Image Generation
 
-> 🇯🇵 **[翻訳が必要]**
+> 🇯🇵 **高速・低速除去: 画像生成のための難易度適応的サンプリング**
 
-> 💡 [まとめが必要]
+> 💡 難易度に応じたサンプリング調整で高速な画像生成を実現。
 
 **著者:** Johannes Schusterbauer, Ming Gui, Yusong Li, Pingchuan Ma, Felix Krause, Björn Ommer
 
@@ -7636,9 +7636,9 @@
 
 ## 342. SeaCache: Spectral-Evolution-Aware Cache for Accelerating Diffusion Models
 
-> 🇯🇵 **[翻訳が必要]**
+> 🇯🇵 **SeaCache: スペクトル進化認識キャッシュによる拡散モデル加速**
 
-> 💡 [まとめが必要]
+> 💡 スペクトル情報を活用したキャッシュで拡散モデルを高速化。
 
 **著者:** Jiwoo Chung, Sangeek Hyun, MinKyu Lee, Byeongju Han, Geonho Cha, Dongyoon Wee, Youngjun Hong, Jae-Pil Heo
 
@@ -7804,9 +7804,9 @@
 
 ## 350. Image Diffusion Preview with Consistency Solver
 
-> 🇯🇵 **[翻訳が必要]**
+> 🇯🇵 **一貫性ソルバーを用いた画像拡散プレビュー**
 
-> 💡 [まとめが必要]
+> 💡 一貫性を保証するソルバーで拡散生成の中間結果を活用。
 
 **著者:** Fu-Yun Wang, Hao Zhou, Liangzhe Yuan, Sanghyun Woo, Boqing Gong, Bohyung Han, Ming-Hsuan Yang, Han Zhang, Yukun Zhu, Ting Liu, Long Zhao
 
@@ -7862,9 +7862,9 @@
 
 ## 352. ImageRAGTurbo: Towards One-step Text-to-Image Generation with Retrieval-Augmented Diffusion Models
 
-> 🇯🇵 **[翻訳が必要]**
+> 🇯🇵 **ImageRAGTurbo: 検索拡張拡散モデルによるワンステップテキスト・画像生成**
 
-> 💡 [まとめが必要]
+> 💡 検索拡張で単一ステップのテキスト・画像生成を実現する高速化手法。
 
 **著者:** Peijie Qiu, Hariharan Ramshankar, Arnau Ramisa, Amit C C, Rene Vidal, Vamsi Salaka, Rahul Bhagat
 
@@ -7904,9 +7904,9 @@
 
 ## 354. HalluGen: Synthesizing Realistic and Controllable Hallucinations for Evaluating Image Restoration
 
-> 🇯🇵 **[翻訳が必要]**
+> 🇯🇵 **HalluGen: 画像復元評価のための現実的で制御可能な幻覚合成**
 
-> 💡 [まとめが必要]
+> 💡 制御可能な幻覚生成で画像復元手法の評価指標を改善。
 
 **著者:** Seunghoi Kim, Henry F. J. Tregidgo, Chen Jin, Matteo Figini, Daniel C. Alexander
 
@@ -7954,9 +7954,9 @@
 
 ## 356. GenColorBench: A Color Evaluation Benchmark for Text-to-Image Generation
 
-> 🇯🇵 **[翻訳が必要]**
+> 🇯🇵 **GenColorBench: テキスト・画像生成の色評価ベンチマーク**
 
-> 💡 [まとめが必要]
+> 💡 テキスト・画像生成における色の正確性を評価するベンチマーク。
 
 **著者:** Muhammad Atif Butt, Alexandra Gomez-Villa, Tao Wu, Javier Vazquez-Corral, Joost van de Weijer, Kai Wang
 
@@ -8198,9 +8198,9 @@
 
 ## 367. Frequency-Aware Flow Matching for High-Quality Image Generation
 
-> 🇯🇵 **[翻訳が必要]**
+> 🇯🇵 **周波数認識フロー・マッチングによる高品質画像生成**
 
-> 💡 [まとめが必要]
+> 💡 周波数特性を考慮したフロー・マッチングで高品質画像を生成。
 
 **著者:** Sucheng Ren, Qihang Yu, Ju He, Xiaohui Shen, Liang-Chieh Chen
 
@@ -8324,9 +8324,9 @@
 
 ## 373. OrionEdit: Bridging Reference and Source Images for Generalized Cross-Image Editing
 
-> 🇯🇵 **[翻訳が必要]**
+> 🇯🇵 **OrionEdit: 参照画像と原画像を結ぶ一般的なクロス画像編集**
 
-> 💡 [まとめが必要]
+> 💡 参照と原画像を活用した柔軟なクロス画像編集フレームワーク。
 
 **著者:** Zeyu Jiang, Lai-Man Po, XUYUAN XU, Yexin Wang, Guoping Gong, Haoxuan Wu, Chenbo Yan, Kun Li, Yuyang Liu
 

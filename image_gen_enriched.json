@@ -76,8 +76,8 @@
     "poster_local": "posters/image_generation/38843.png",
     "has_poster": true,
     "project_url": "",
-    "title_ja": "[翻訳が必要]",
-    "summary_ja": "[まとめが必要]"
+    "title_ja": "NanoSD：リアルタイム画像復元のためのエッジ効率的基盤モデル",
+    "summary_ja": "U-NetとVAEを協調縮小し、端末上で高速かつ高品質な画像復元を可能にする。"
   },
   {
     "id": 37696,
@@ -125,8 +125,8 @@
     "poster_local": "",
     "has_poster": false,
     "project_url": "",
-    "title_ja": "[翻訳が必要]",
-    "summary_ja": "[まとめが必要]"
+    "title_ja": "Anatomica：解剖学的拡散モデルの幾何・位相特性に対する局所制御",
+    "summary_ja": "局所領域の幾何量と位相量に罰則を課し、3D解剖ボクセル生成を精密制御する。"
   },
   {
     "id": 39965,
@@ -223,8 +223,8 @@
     "poster_local": "posters/image_generation/37178.png",
     "has_poster": true,
     "project_url": "https://github.com/snumprlab/dbmsolver",
-    "title_ja": "[翻訳が必要]",
-    "summary_ja": "[まとめが必要]"
+    "title_ja": "DBMSolver: 高品質画像・画像変換のための学習不要な拡散ブリッジサンプラー",
+    "summary_ja": "学習なしで拡散ブリッジを用いた高品質な画像・画像変換を実行。"
   },
   {
     "id": 37287,
@@ -439,8 +439,8 @@
     "poster_local": "posters/image_generation/39735.png",
     "has_poster": true,
     "project_url": "https://ignoww.github.io/Preview_project/",
-    "title_ja": "[翻訳が必要]",
-    "summary_ja": "[まとめが必要]"
+    "title_ja": "拡散モデルの効率運用に向けた高解像画像と知覚整合する低解像プレビューの学習不要生成",
+    "summary_ja": "高解像画像と見た目が整合する低解像プレビューを先に作り、計算量を大きく削減する。"
   },
   {
     "id": 38506,
@@ -588,8 +588,8 @@
     "poster_local": "posters/image_generation/39219.png",
     "has_poster": true,
     "project_url": "",
-    "title_ja": "[翻訳が必要]",
-    "summary_ja": "[まとめが必要]"
+    "title_ja": "SenCache：感度認識キャッシュによる拡散モデル推論の高速化",
+    "summary_ja": "入力感度に応じて再利用時刻を動的選択し、画質を保って動画生成を高速化する。"
   },
   {
     "id": 38045,
@@ -745,8 +745,8 @@
     "poster_local": "",
     "has_poster": false,
     "project_url": "",
-    "title_ja": "[翻訳が必要]",
-    "summary_ja": "[まとめが必要]"
+    "title_ja": "ObjectMorpher: 変形可能3DGS による3D認識画像編集",
+    "summary_ja": "変形可能3DGS を活用した3D対応の高度な画像編集技術。"
   },
   {
     "id": 37758,
@@ -1082,8 +1082,8 @@
     "poster_local": "posters/image_generation/38389.png",
     "has_poster": true,
     "project_url": "",
-    "title_ja": "[翻訳が必要]",
-    "summary_ja": "[まとめが必要]"
+    "title_ja": "Flash-DMD：効率的蒸留と強化学習の共同最適化による高忠実度少ステップ画像生成",
+    "summary_ja": "時間段階蒸留と強化学習を同時学習し、少ステップ生成の画質と安定性を向上させる。"
   },
   {
     "id": 36917,
@@ -1233,8 +1233,8 @@
     "poster_local": "posters/image_generation/37433.png",
     "has_poster": true,
     "project_url": "https://armanzarei.github.io/SliderEdit/",
-    "title_ja": "[翻訳が必要]",
-    "summary_ja": "[まとめが必要]"
+    "title_ja": "SliderEdit：細粒度な指示制御による連続画像編集",
+    "summary_ja": "複数編集指示を独立スライダー化し、各編集強度を連続的かつ解釈可能に調整する。"
   },
   {
     "id": 36875,
@@ -1371,8 +1371,8 @@
     "poster_local": "posters/image_generation/36895.png",
     "has_poster": true,
     "project_url": "",
-    "title_ja": "[翻訳が必要]",
-    "summary_ja": "[まとめが必要]"
+    "title_ja": "手遅れではない：学習済み拡散モデルの崩壊回復に向けたノイズ最適化",
+    "summary_ja": "推論時のノイズ最適化により、崩壊した拡散モデルの多様性と画質の回復を図る。"
   },
   {
     "id": 37007,
@@ -1569,8 +1569,8 @@
     "poster_local": "posters/image_generation/39146.png",
     "has_poster": true,
     "project_url": "",
-    "title_ja": "[翻訳が必要]",
-    "summary_ja": "[まとめが必要]"
+    "title_ja": "VOSR：画像超解像のための視覚のみの生成モデル",
+    "summary_ja": "視覚情報のみを用いて学習し、大規模テキスト事前学習なしで高精細超解像を実現する。"
   },
   {
     "id": 40140,
@@ -1998,8 +1998,8 @@
     "poster_local": "posters/image_generation/38942.png",
     "has_poster": true,
     "project_url": "https://hij1112.github.io/beyond-the-ground-truth/",
-    "title_ja": "[翻訳が必要]",
-    "summary_ja": "[まとめが必要]"
+    "title_ja": "グラウンドトゥルースを超えて：画像復元のための強化教師信号",
+    "summary_ja": "強化した疑似正解画像で教師信号を改善し、実環境での画像復元品質を底上げする。"
   },
   {
     "id": 39664,
@@ -2118,8 +2118,8 @@
     "poster_local": "posters/image_generation/40173.png",
     "has_poster": true,
     "project_url": "",
-    "title_ja": "[翻訳が必要]",
-    "summary_ja": "[まとめが必要]"
+    "title_ja": "Omni IIE Bench：画像編集モデルの実用能力を測るベンチマーク",
+    "summary_ja": "意味尺度の異なる編集課題での一貫性を測り、実用場面の弱点を診断する。"
   },
   {
     "id": 38847,
@@ -2511,8 +2511,8 @@
     "poster_local": "posters/image_generation/36746.png",
     "has_poster": true,
     "project_url": "",
-    "title_ja": "[翻訳が必要]",
-    "summary_ja": "[まとめが必要]"
+    "title_ja": "MotionEdit: 動作中心画像編集のベンチマーク化と学習",
+    "summary_ja": "動作情報を活用した画像編集のベンチマークと学習手法。"
   },
   {
     "id": 40114,
@@ -2569,8 +2569,8 @@
     "poster_local": "posters/image_generation/39083.png",
     "has_poster": true,
     "project_url": "",
-    "title_ja": "[翻訳が必要]",
-    "summary_ja": "[まとめが必要]"
+    "title_ja": "カリキュラム群方策最適化：テキスト画像生成の潜在力を引き出す適応サンプリング",
+    "summary_ja": "報酬分散に基づく難度適応サンプリングで、GRPOによるT2I学習効率と性能を高める。"
   },
   {
     "id": 39206,
@@ -2593,8 +2593,8 @@
     "poster_local": "posters/image_generation/39206.png",
     "has_poster": true,
     "project_url": "https://github.com/LiyaoJiang1998/RAISE",
-    "title_ja": "[翻訳が必要]",
-    "summary_ja": "[まとめが必要]"
+    "title_ja": "RAISE：学習不要なテキスト画像整合のための要求適応型進化的精緻化",
+    "summary_ja": "要件未達項目だけを進化的に再改善し、複雑プロンプトとの整合性を学習なしで高める。"
   },
   {
     "id": 37474,
@@ -2694,8 +2694,8 @@
     "poster_local": "posters/image_generation/36472.png",
     "has_poster": true,
     "project_url": "",
-    "title_ja": "[翻訳が必要]",
-    "summary_ja": "[まとめが必要]"
+    "title_ja": "テキスト画像編集のためのデルタ整流フローサンプリング",
+    "summary_ja": "元画像と目標軌道の差分を明示化し、反転不要で忠実なテキスト画像編集を実現する。"
   },
   {
     "id": 38959,
@@ -2719,8 +2719,8 @@
     "poster_local": "posters/image_generation/38959.png",
     "has_poster": true,
     "project_url": "",
-    "title_ja": "[翻訳が必要]",
-    "summary_ja": "[まとめが必要]"
+    "title_ja": "拡散モデルのためのサンプリング認識量子化",
+    "summary_ja": "サンプリング軌道の誤差を意識して量子化し、高速化と高画質を同時に達成する。"
   },
   {
     "id": 39177,
@@ -2868,8 +2868,8 @@
     "poster_local": "posters/image_generation/38427.png",
     "has_poster": true,
     "project_url": "",
-    "title_ja": "[翻訳が必要]",
-    "summary_ja": "[まとめが必要]"
+    "title_ja": "ClusterMark：視覚トークンクラスタリングによる自己回帰画像生成器向け頑健透かし",
+    "summary_ja": "視覚トークンのクラスタ構造を利用し、自己回帰生成器に頑健な透かしを埋め込む。"
   },
   {
     "id": 36753,
@@ -2976,8 +2976,8 @@
     "poster_local": "posters/image_generation/38133.png",
     "has_poster": true,
     "project_url": "",
-    "title_ja": "[翻訳が必要]",
-    "summary_ja": "[まとめが必要]"
+    "title_ja": "Pico-Banana-400K：大規模テキスト誘導画像編集データセット",
+    "summary_ja": "実画像由来の40万件編集対と多様な派生集合を整備し、画像編集研究の基盤を築く。"
   },
   {
     "id": 39119,
@@ -3050,8 +3050,8 @@
     "poster_local": "posters/image_generation/36814.png",
     "has_poster": true,
     "project_url": "",
-    "title_ja": "[翻訳が必要]",
-    "summary_ja": "[まとめが必要]"
+    "title_ja": "Retrieve-to-Restore：検索型劣化バンクによる効率的な万能画像復元",
+    "summary_ja": "検索型劣化バンクで劣化知識を外在化し、少計算で多劣化画像を安定復元する。"
   },
   {
     "id": 38193,
@@ -3175,8 +3175,8 @@
     "poster_local": "posters/image_generation/38447.png",
     "has_poster": true,
     "project_url": "",
-    "title_ja": "[翻訳が必要]",
-    "summary_ja": "[まとめが必要]"
+    "title_ja": "OrthoFuse：拡散モデル向け直交スタイル概念アダプタの学習不要リーマン融合",
+    "summary_ja": "直交アダプタをリーマン幾何で融合し、追加学習なしに概念とスタイルを自然合成する。"
   },
   {
     "id": 39106,
@@ -3432,8 +3432,8 @@
     "poster_local": "posters/image_generation/36679.png",
     "has_poster": true,
     "project_url": "",
-    "title_ja": "[翻訳が必要]",
-    "summary_ja": "[まとめが必要]"
+    "title_ja": "スタイルは一コードの価値: 離散スタイル空間によるコード・スタイル画像生成",
+    "summary_ja": "離散スタイル空間を用いてコードからスタイルに基づく画像を生成。"
   },
   {
     "id": 36833,
@@ -3615,8 +3615,8 @@
     "poster_local": "",
     "has_poster": false,
     "project_url": "",
-    "title_ja": "[翻訳が必要]",
-    "summary_ja": "[まとめが必要]"
+    "title_ja": "自己評価が解き放つ任意ステップのテキスト画像生成",
+    "summary_ja": "自己評価を教師として併用し、少数から多数まで任意ステップで高品質生成を可能にする。"
   },
   {
     "id": 36945,
@@ -3640,8 +3640,8 @@
     "poster_local": "",
     "has_poster": false,
     "project_url": "",
-    "title_ja": "[翻訳が必要]",
-    "summary_ja": "[まとめが必要]"
+    "title_ja": "ロボット制御における拡散モデル条件付けの探究",
+    "summary_ja": "学習可能な課題プロンプトと視覚プロンプトで、ロボット制御向け表現を適応化する。"
   },
   {
     "id": 38890,
@@ -3766,8 +3766,8 @@
     "poster_local": "posters/image_generation/38358.png",
     "has_poster": true,
     "project_url": "",
-    "title_ja": "[翻訳が必要]",
-    "summary_ja": "[まとめが必要]"
+    "title_ja": "ZeroIDIR：摂動整合拡散モデルによる参照不要な照明劣化画像復元",
+    "summary_ja": "照明補正と拡散再構成を分離し、参照画像なしで暗所劣化画像を高精度に復元する。"
   },
   {
     "id": 36672,
@@ -4168,8 +4168,8 @@
     "poster_local": "",
     "has_poster": false,
     "project_url": "",
-    "title_ja": "[翻訳が必要]",
-    "summary_ja": "[まとめが必要]"
+    "title_ja": "トークン交換による拡散モデルのガイディング",
+    "summary_ja": "意味的に離れたトークン交換で擾乱方向を作り、条件付き・無条件生成の品質を高める。"
   },
   {
     "id": 40352,
@@ -4194,8 +4194,8 @@
     "poster_local": "",
     "has_poster": false,
     "project_url": "https://chordedit.github.io/",
-    "title_ja": "[翻訳が必要]",
-    "summary_ja": "[まとめが必要]"
+    "title_ja": "ChordEdit：画像編集のための一段低エネルギー輸送",
+    "summary_ja": "低エネルギー輸送として編集場を設計し、一段推論でも高忠実な画像編集を実現する。"
   },
   {
     "id": 38336,
@@ -4223,8 +4223,8 @@
     "poster_local": "posters/image_generation/38336.png",
     "has_poster": true,
     "project_url": "",
-    "title_ja": "[翻訳が必要]",
-    "summary_ja": "[まとめが必要]"
+    "title_ja": "合成カリキュラムが強化する構成的テキスト画像生成",
+    "summary_ja": "シーングラフ難度に基づく強化学習カリキュラムで、複雑構成のT2I生成力を伸ばす。"
   },
   {
     "id": 38500,
@@ -4295,8 +4295,8 @@
     "poster_local": "",
     "has_poster": false,
     "project_url": "",
-    "title_ja": "[翻訳が必要]",
-    "summary_ja": "[まとめが必要]"
+    "title_ja": "UltraFlux：多様な縦横比に対応する高品質ネイティブ4Kテキスト画像生成のためのデータ・モデル協調設計",
+    "summary_ja": "4K多縦横比データと位置・VAE・損失設計を協調最適化し、高精細生成を実現する。"
   },
   {
     "id": 39055,
@@ -4480,8 +4480,8 @@
     "poster_local": "posters/image_generation/37655.png",
     "has_poster": true,
     "project_url": "https://plan-lab.github.io/projects/rewardflow/",
-    "title_ja": "[翻訳が必要]",
-    "summary_ja": "[まとめが必要]"
+    "title_ja": "RewardFlow：報酬最適化による画像生成",
+    "summary_ja": "微分可能報酬と適応更新方策で、学習なしでも編集忠実度と構成整合性を高める。"
   },
   {
     "id": 38710,
@@ -4555,8 +4555,8 @@
     "poster_local": "posters/image_generation/39863.png",
     "has_poster": true,
     "project_url": "https://github.com/matsuolab/multibanana",
-    "title_ja": "[翻訳が必要]",
-    "summary_ja": "[まとめが必要]"
+    "title_ja": "MultiBanana: 複数参照テキスト・画像生成の高難易度ベンチマーク",
+    "summary_ja": "複数の参照画像を用いたテキスト・画像生成の性能評価ベンチマーク。"
   },
   {
     "id": 36654,
@@ -4608,8 +4608,8 @@
     "poster_local": "posters/image_generation/36252.png",
     "has_poster": true,
     "project_url": "",
-    "title_ja": "[翻訳が必要]",
-    "summary_ja": "[まとめが必要]"
+    "title_ja": "OPRO：パネル認識インコンテキスト画像生成のための直交パネル相対演算子",
+    "summary_ja": "直交演算子を位置符号へ付加し、既存生成力を保ったままパネル相対学習を強化する。"
   },
   {
     "id": 36528,
@@ -4974,8 +4974,8 @@
     "poster_local": "posters/image_generation/39771.png",
     "has_poster": true,
     "project_url": "",
-    "title_ja": "[翻訳が必要]",
-    "summary_ja": "[まとめが必要]"
+    "title_ja": "VisiLock：二重スコア蒸留による指示画像編集の認可制御",
+    "summary_ja": "視覚トリガーがない入力では編集不能にし、許可時のみ高品質編集できる保護法を示す。"
   },
   {
     "id": 38269,
@@ -5235,8 +5235,8 @@
     "poster_local": "posters/image_generation/39513.png",
     "has_poster": true,
     "project_url": "",
-    "title_ja": "[翻訳が必要]",
-    "summary_ja": "[まとめが必要]"
+    "title_ja": "Masked Region Transformer：大規模なレイヤー画像生成・編集のためのマスク領域トランスフォーマー",
+    "summary_ja": "多層透明画像を対象に、領域マスク拡散で生成・編集・再構成を統一的に扱う。"
   },
   {
     "id": 38416,
@@ -5261,8 +5261,8 @@
     "poster_local": "posters/image_generation/38416.png",
     "has_poster": true,
     "project_url": "",
-    "title_ja": "[翻訳が必要]",
-    "summary_ja": "[まとめが必要]"
+    "title_ja": "OctoT2I：自己進化するエージェント型テキスト画像ルータ",
+    "summary_ja": "自己進化知識ベースで最適生成器を選び、画質と推論効率を両立するT2Iルータ。"
   },
   {
     "id": 36580,
@@ -5293,8 +5293,8 @@
     "poster_local": "posters/image_generation/36580.png",
     "has_poster": true,
     "project_url": "",
-    "title_ja": "[翻訳が必要]",
-    "summary_ja": "[まとめが必要]"
+    "title_ja": "SpatialReward：細粒度な空間整合性のための検証可能な空間報酬モデル",
+    "summary_ja": "物体位置や関係を検証可能に評価する報酬モデルで、T2Iの空間整合性を向上させる。"
   },
   {
     "id": 38385,
@@ -5343,8 +5343,8 @@
     "poster_local": "posters/image_generation/37488.png",
     "has_poster": true,
     "project_url": "https://seethrough3d.github.io",
-    "title_ja": "[翻訳が必要]",
-    "summary_ja": "[まとめが必要]"
+    "title_ja": "SeeThrough3D：テキスト画像生成における遮蔽認識3D制御",
+    "summary_ja": "半透明3D箱表現で遮蔽と視点を明示し、奥行き整合な複数物体生成を可能にする。"
   },
   {
     "id": 38980,
@@ -5403,8 +5403,8 @@
     "poster_local": "posters/image_generation/36762.png",
     "has_poster": true,
     "project_url": "",
-    "title_ja": "[翻訳が必要]",
-    "summary_ja": "[まとめが必要]"
+    "title_ja": "Diffusion Probe：CNNプローブによる生成画像結果予測",
+    "summary_ja": "初期クロスアテンションから最終画質を早期予測し、探索計算を削減して生成効率を高める。"
   },
   {
     "id": 36725,
@@ -5529,8 +5529,8 @@
     "poster_local": "",
     "has_poster": false,
     "project_url": "",
-    "title_ja": "[翻訳が必要]",
-    "summary_ja": "[まとめが必要]"
+    "title_ja": "PixelDiT：画像生成のためのピクセル拡散トランスフォーマー",
+    "summary_ja": "画素空間で直接拡散を学習する二層DiTにより、細部を保った高精細生成を実現する。"
   },
   {
     "id": 39869,
@@ -5756,8 +5756,8 @@
     "poster_local": "posters/image_generation/37558.png",
     "has_poster": true,
     "project_url": "",
-    "title_ja": "[翻訳が必要]",
-    "summary_ja": "[まとめが必要]"
+    "title_ja": "匿名性が破れるとき：テキスト画像リーダーボード背後のモデル同定",
+    "summary_ja": "生成画像の埋め込み署名から匿名モデルを高精度に特定し、評価基盤の脆弱性を示す。"
   },
   {
     "id": 36824,
@@ -5811,8 +5811,8 @@
     "poster_local": "posters/image_generation/37272.png",
     "has_poster": true,
     "project_url": "",
-    "title_ja": "[翻訳が必要]",
-    "summary_ja": "[まとめが必要]"
+    "title_ja": "LESA：拡散モデル高速化のための学習可能な段階認識予測器",
+    "summary_ja": "ノイズ段階別の予測器で特徴を高精度に再利用し、生成画質を保って大幅高速化する。"
   },
   {
     "id": 36463,
@@ -6081,8 +6081,8 @@
     "poster_local": "posters/image_generation/40226.png",
     "has_poster": true,
     "project_url": "https://github.com/star-kwon/FCDM",
-    "title_ja": "[翻訳が必要]",
-    "summary_ja": "[まとめが必要]"
+    "title_ja": "効率的な畳み込み拡散モデルのためのConvNeXt再興",
+    "summary_ja": "ConvNeXt系完全畳み込み拡散モデルで、DiT並み性能と大幅な高速化を両立する。"
   },
   {
     "id": 38742,
@@ -6163,8 +6163,8 @@
     "poster_local": "posters/image_generation/37308.png",
     "has_poster": true,
     "project_url": "",
-    "title_ja": "[翻訳が必要]",
-    "summary_ja": "[まとめが必要]"
+    "title_ja": "CogniEdit：細粒度画像編集のための密な勾配フロー最適化",
+    "summary_ja": "推論軌跡全体へ密に報酬勾配を流し、属性や位置など細かな指示編集を改善する。"
   },
   {
     "id": 37400,
@@ -6537,8 +6537,8 @@
     "poster_local": "posters/image_generation/40053.png",
     "has_poster": true,
     "project_url": "",
-    "title_ja": "[翻訳が必要]",
-    "summary_ja": "[まとめが必要]"
+    "title_ja": "分離して再結合する：主題駆動テキスト画像生成の類似性・制御性パラドックスの解消",
+    "summary_ja": "被写体情報と編集指示を分離して再結合し、同一性保持と編集制御を両立する。"
   },
   {
     "id": 36364,
@@ -6562,8 +6562,8 @@
     "poster_local": "posters/image_generation/36364.png",
     "has_poster": true,
     "project_url": "",
-    "title_ja": "[翻訳が必要]",
-    "summary_ja": "[まとめが必要]"
+    "title_ja": "CARE-Edit: 文脈画像編集のための条件認識エキスパートルーティング",
+    "summary_ja": "条件認識ルーティングで文脈に応じた正確な画像編集を実現。"
   },
   {
     "id": 39565,
@@ -6673,8 +6673,8 @@
     "poster_local": "",
     "has_poster": false,
     "project_url": "",
-    "title_ja": "[翻訳が必要]",
-    "summary_ja": "[まとめが必要]"
+    "title_ja": "高速な赤外・可視動画融合のためのストリーミング拡散モデル",
+    "summary_ja": "時間一貫性を明示的に扱う一段拡散で、赤外・可視動画融合を実時間で実現する。"
   },
   {
     "id": 38513,
@@ -6859,8 +6859,8 @@
     "poster_local": "",
     "has_poster": false,
     "project_url": "",
-    "title_ja": "[翻訳が必要]",
-    "summary_ja": "[まとめが必要]"
+    "title_ja": "潜在マスクは誤り: 拡散モデルのためのピクセル等価潜在合成",
+    "summary_ja": "ピクセルレベルの等価性を保つ潜在合成で拡散モデル性能を改善。"
   },
   {
     "id": 39108,
@@ -6994,8 +6994,8 @@
     "poster_local": "posters/image_generation/38550.png",
     "has_poster": true,
     "project_url": "",
-    "title_ja": "[翻訳が必要]",
-    "summary_ja": "[まとめが必要]"
+    "title_ja": "OSPO：テキスト画像生成のための物体中心自己改善選好最適化",
+    "summary_ja": "物体中心の自己生成選好データで学習し、属性整合性を高めて幻覚物体を減らす。"
   },
   {
     "id": 36730,
@@ -7196,8 +7196,8 @@
     "poster_local": "posters/image_generation/36632.png",
     "has_poster": true,
     "project_url": "",
-    "title_ja": "[翻訳が必要]",
-    "summary_ja": "[まとめが必要]"
+    "title_ja": "BiFM：少ステップ画像編集・生成のための双方向フローマッチング",
+    "summary_ja": "画像とノイズの双方向速度場を同時学習し、少ステップでも高品質な生成と編集を実現する。"
   },
   {
     "id": 37096,
@@ -7412,8 +7412,8 @@
     "poster_local": "",
     "has_poster": false,
     "project_url": "",
-    "title_ja": "[翻訳が必要]",
-    "summary_ja": "[まとめが必要]"
+    "title_ja": "切断の下に残る根：拡散モデルの剪定型忘却における概念復元リスクの解明",
+    "summary_ja": "剪定位置が消去概念の手掛かりとなり、追加学習なしで概念復元され得る危険を示す。"
   },
   {
     "id": 38519,
@@ -7449,8 +7449,8 @@
     "poster_local": "posters/image_generation/38519.png",
     "has_poster": true,
     "project_url": "",
-    "title_ja": "[翻訳が必要]",
-    "summary_ja": "[まとめが必要]"
+    "title_ja": "CompBench：複雑な指示誘導画像編集のベンチマーク",
+    "summary_ja": "位置・外観・動き・物体を含む複雑指示で、現行画像編集モデルの限界を詳しく測る。"
   },
   {
     "id": 37825,
@@ -7655,8 +7655,8 @@
     "poster_local": "posters/image_generation/38744.png",
     "has_poster": true,
     "project_url": "",
-    "title_ja": "[翻訳が必要]",
-    "summary_ja": "[まとめが必要]"
+    "title_ja": "差分の差分によるAI生成画像検出",
+    "summary_ja": "再構成誤差の差分をさらに比較する二次差分で、AI生成画像検出の汎化性能を高める。"
   },
   {
     "id": 36435,
@@ -7682,8 +7682,8 @@
     "poster_local": "posters/image_generation/36435.png",
     "has_poster": true,
     "project_url": "",
-    "title_ja": "[翻訳が必要]",
-    "summary_ja": "[まとめが必要]"
+    "title_ja": "UniEdit-I：反復的理解・編集・検証による統合VLM向け学習不要画像編集",
+    "summary_ja": "理解・編集・検証の閉ループで意味潜在空間を自己修正し、高精度な画像編集を実現する。"
   },
   {
     "id": 39112,
@@ -7933,8 +7933,8 @@
     "poster_local": "posters/image_generation/39505.png",
     "has_poster": true,
     "project_url": "https://github.com/boomluo02/DMAligner",
-    "title_ja": "[翻訳が必要]",
-    "summary_ja": "[まとめが必要]"
+    "title_ja": "DMAligner：拡散モデルによる視点合成で画像位置合わせを強化",
+    "summary_ja": "整合向け視点合成を用いて、遮蔽や照明変化に強い画像位置合わせを実現する。"
   },
   {
     "id": 38936,
@@ -7994,8 +7994,8 @@
     "poster_local": "posters/image_generation/36609.png",
     "has_poster": true,
     "project_url": "",
-    "title_ja": "[翻訳が必要]",
-    "summary_ja": "[まとめが必要]"
+    "title_ja": "高解像実世界データセットを用いたイベント・照明協調型低照度画像強調",
+    "summary_ja": "イベント情報と照明情報を協調利用し、実世界の低照度画像強調性能を大きく向上させる。"
   },
   {
     "id": 40249,
@@ -8017,8 +8017,8 @@
     "poster_local": "",
     "has_poster": false,
     "project_url": "",
-    "title_ja": "[翻訳が必要]",
-    "summary_ja": "[まとめが必要]"
+    "title_ja": "DRiffusion: ドラフト・リファイン・プロセスによる拡散モデルの並列化",
+    "summary_ja": "拡散モデルの推論を並列化し、生成速度を大幅に高速化するフレームワーク。"
   },
   {
     "id": 38900,
@@ -8042,8 +8042,8 @@
     "poster_local": "posters/image_generation/38900.png",
     "has_poster": true,
     "project_url": "https://invad-project.com",
-    "title_ja": "[翻訳が必要]",
-    "summary_ja": "[まとめが必要]"
+    "title_ja": "InvAD: 拡散モデルを用いた逆変換ベースの再構成不要な異常検知",
+    "summary_ja": "逆変換を利用して拡散モデルで効率的に異常検知を行う手法。"
   },
   {
     "id": 39138,
@@ -8642,8 +8642,8 @@
     "poster_local": "posters/image_generation/38199.png",
     "has_poster": true,
     "project_url": "https://coupled-diffusion.github.io",
-    "title_ja": "[翻訳が必要]",
-    "summary_ja": "[まとめが必要]"
+    "title_ja": "結合拡散サンプリング: 学習不要な多視点画像編集",
+    "summary_ja": "学習なしで複数視点の画像を一貫性を保ちながら編集する技術。"
   },
   {
     "id": 39422,
@@ -8696,8 +8696,8 @@
     "poster_local": "posters/image_generation/37886.png",
     "has_poster": true,
     "project_url": "",
-    "title_ja": "[翻訳が必要]",
-    "summary_ja": "[まとめが必要]"
+    "title_ja": "GROW: 拡散モデルのための段階的ガイダンス付きウォーターマーク生成",
+    "summary_ja": "段階的ガイダンスでロバストなウォーターマーク生成を実現。"
   },
   {
     "id": 39488,
@@ -8776,8 +8776,8 @@
     "poster_local": "",
     "has_poster": false,
     "project_url": "",
-    "title_ja": "[翻訳が必要]",
-    "summary_ja": "[まとめが必要]"
+    "title_ja": "ノイズの本質: 拡散モデルのためのエントロピーベースガウスノイズ正則化",
+    "summary_ja": "エントロピー最適化によるノイズ正則化で拡散モデル性能を向上。"
   },
   {
     "id": 36336,
@@ -8802,8 +8802,8 @@
     "poster_local": "posters/image_generation/36336.png",
     "has_poster": true,
     "project_url": "",
-    "title_ja": "[翻訳が必要]",
-    "summary_ja": "[まとめが必要]"
+    "title_ja": "高速・低速除去: 画像生成のための難易度適応的サンプリング",
+    "summary_ja": "難易度に応じたサンプリング調整で高速な画像生成を実現。"
   },
   {
     "id": 37525,
@@ -8887,8 +8887,8 @@
     "poster_local": "",
     "has_poster": false,
     "project_url": "",
-    "title_ja": "[翻訳が必要]",
-    "summary_ja": "[まとめが必要]"
+    "title_ja": "SeaCache: スペクトル進化認識キャッシュによる拡散モデル加速",
+    "summary_ja": "スペクトル情報を活用したキャッシュで拡散モデルを高速化。"
   },
   {
     "id": 38522,
@@ -9096,8 +9096,8 @@
     "poster_local": "posters/image_generation/39634.png",
     "has_poster": true,
     "project_url": "https://g-u-n.github.io/projects/consolver/",
-    "title_ja": "[翻訳が必要]",
-    "summary_ja": "[まとめが必要]"
+    "title_ja": "一貫性ソルバーを用いた画像拡散プレビュー",
+    "summary_ja": "一貫性を保証するソルバーで拡散生成の中間結果を活用。"
   },
   {
     "id": 36884,
@@ -9144,8 +9144,8 @@
     "poster_local": "posters/image_generation/38676.png",
     "has_poster": true,
     "project_url": "",
-    "title_ja": "[翻訳が必要]",
-    "summary_ja": "[まとめが必要]"
+    "title_ja": "ImageRAGTurbo: 検索拡張拡散モデルによるワンステップテキスト・画像生成",
+    "summary_ja": "検索拡張で単一ステップのテキスト・画像生成を実現する高速化手法。"
   },
   {
     "id": 40279,
@@ -9197,8 +9197,8 @@
     "poster_local": "",
     "has_poster": false,
     "project_url": "",
-    "title_ja": "[翻訳が必要]",
-    "summary_ja": "[まとめが必要]"
+    "title_ja": "HalluGen: 画像復元評価のための現実的で制御可能な幻覚合成",
+    "summary_ja": "制御可能な幻覚生成で画像復元手法の評価指標を改善。"
   },
   {
     "id": 36347,
@@ -9253,8 +9253,8 @@
     "poster_local": "",
     "has_poster": false,
     "project_url": "",
-    "title_ja": "[翻訳が必要]",
-    "summary_ja": "[まとめが必要]"
+    "title_ja": "GenColorBench: テキスト・画像生成の色評価ベンチマーク",
+    "summary_ja": "テキスト・画像生成における色の正確性を評価するベンチマーク。"
   },
   {
     "id": 39580,
@@ -9546,8 +9546,8 @@
     "poster_local": "",
     "has_poster": false,
     "project_url": "",
-    "title_ja": "[翻訳が必要]",
-    "summary_ja": "[まとめが必要]"
+    "title_ja": "周波数認識フロー・マッチングによる高品質画像生成",
+    "summary_ja": "周波数特性を考慮したフロー・マッチングで高品質画像を生成。"
   },
   {
     "id": 37809,
@@ -9701,8 +9701,8 @@
     "poster_local": "posters/image_generation/39886.png",
     "has_poster": true,
     "project_url": "",
-    "title_ja": "[翻訳が必要]",
-    "summary_ja": "[まとめが必要]"
+    "title_ja": "OrionEdit: 参照画像と原画像を結ぶ一般的なクロス画像編集",
+    "summary_ja": "参照と原画像を活用した柔軟なクロス画像編集フレームワーク。"
   },
   {
     "id": 38446,

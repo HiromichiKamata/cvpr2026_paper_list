@@ -2,7 +2,7 @@
 
 **Total: 83 papers** | Poster: 63 | Project page: 24 | 和訳済み: 83
 
-*Generated: 2026-05-29 12:10*
+*Generated: 2026-05-29 12:32*
 
 > 📝 **データソース:** `anime_enriched.json` — レイアウト変更は `generate_md.py` を編集後に再実行してください。
 
@@ -115,9 +115,9 @@
 
 ## 6. MultiBanana: A Challenging Benchmark for Multi-Reference Text-to-Image Generation
 
-> 🇯🇵 **[翻訳が必要]**
+> 🇯🇵 **MultiBanana: 複数参照テキスト・画像生成の高難易度ベンチマーク**
 
-> 💡 [まとめが必要]
+> 💡 複数の参照画像を用いたテキスト・画像生成の性能評価ベンチマーク。
 
 **著者:** Yuta Oshima, Daiki Miyake, Kohsei Matsutani, Yusuke Iwasawa, Masahiro Suzuki, Yutaka Matsuo, Hiroki Furuta
 
@@ -207,9 +207,9 @@
 
 ## 10. DBMSolver: A Training-free Diffusion Bridge Sampler for High-Quality Image-to-Image Translation
 
-> 🇯🇵 **[翻訳が必要]**
+> 🇯🇵 **DBMSolver: 高品質画像・画像変換のための学習不要な拡散ブリッジサンプラー**
 
-> 💡 [まとめが必要]
+> 💡 学習なしで拡散ブリッジを用いた高品質な画像・画像変換を実行。
 
 **著者:** SANKARSHANA VENUGOPAL, Mohammad Mostafavi, Jonghyun Choi
 
@@ -496,9 +496,9 @@
 
 ## 22. ProjFlow: Projection Sampling with Flow Matching for Zero‑Shot Exact Spatial Motion Control
 
-> 🇯🇵 **[翻訳が必要]**
+> 🇯🇵 **ProjFlow: ゼロショット正確な空間動作制御のための投影フロー・マッチング**
 
-> 💡 [まとめが必要]
+> 💡 投影と流れマッチングで学習なしに空間動作を正確に制御。
 
 **著者:** Akihisa Watanabe, Qing Yu, Edgar Simo-Serra, Kent Fujiwara
 
@@ -546,9 +546,9 @@
 
 ## 24. MotionEdit: Benchmarking and Learning Motion-Centric Image Editing
 
-> 🇯🇵 **[翻訳が必要]**
+> 🇯🇵 **MotionEdit: 動作中心画像編集のベンチマーク化と学習**
 
-> 💡 [まとめが必要]
+> 💡 動作情報を活用した画像編集のベンチマークと学習手法。
 
 **著者:** Yixin Wan, Lei Ke, Wenhao Yu, Kai-Wei Chang, Dong Yu
 
@@ -1064,9 +1064,9 @@
 
 ## 46. A Style is Worth One Code: Unlocking Code-to-Style Image Generation with Discrete Style Space
 
-> 🇯🇵 **[翻訳が必要]**
+> 🇯🇵 **スタイルは一コードの価値: 離散スタイル空間によるコード・スタイル画像生成**
 
-> 💡 [まとめが必要]
+> 💡 離散スタイル空間を用いてコードからスタイルに基づく画像を生成。
 
 **著者:** Huijie Liu, Shuhao Cui, Haoxiang Cao, Shuai Ma, Kai Wu, Guoliang Kang
 
@@ -1623,9 +1623,9 @@
 
 ## 71. CARE-Edit: Condition-Aware Routing of Experts for Contextual Image Editing
 
-> 🇯🇵 **[翻訳が必要]**
+> 🇯🇵 **CARE-Edit: 文脈画像編集のための条件認識エキスパートルーティング**
 
-> 💡 [まとめが必要]
+> 💡 条件認識ルーティングで文脈に応じた正確な画像編集を実現。
 
 **著者:** Yucheng Wang, Zedong Wang, Yuetong Wu, Yue Ma, Dan Xu
 
@@ -1757,9 +1757,9 @@
 
 ## 77. OrionEdit: Bridging Reference and Source Images for Generalized Cross-Image Editing
 
-> 🇯🇵 **[翻訳が必要]**
+> 🇯🇵 **OrionEdit: 参照画像と原画像を結ぶ一般的なクロス画像編集**
 
-> 💡 [まとめが必要]
+> 💡 参照と原画像を活用した柔軟なクロス画像編集フレームワーク。
 
 **著者:** Zeyu Jiang, Lai-Man Po, XUYUAN XU, Yexin Wang, Guoping Gong, Haoxuan Wu, Chenbo Yan, Kun Li, Yuyang Liu
 

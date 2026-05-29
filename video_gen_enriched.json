@@ -1099,8 +1099,8 @@
     "poster_local": "posters/image_generation/36746.png",
     "has_poster": true,
     "project_url": "",
-    "title_ja": "[翻訳が必要]",
-    "summary_ja": "[まとめが必要]"
+    "title_ja": "MotionEdit: 動作中心画像編集のベンチマーク化と学習",
+    "summary_ja": "動作情報を活用した画像編集のベンチマークと学習手法。"
   },
   {
     "id": 38881,
@@ -1822,8 +1822,8 @@
     "poster_local": "posters/image_generation/39219.png",
     "has_poster": true,
     "project_url": "",
-    "title_ja": "[翻訳が必要]",
-    "summary_ja": "[まとめが必要]"
+    "title_ja": "SenCache：感度認識キャッシュによる拡散モデル推論の高速化",
+    "summary_ja": "入力感度に応じて再利用時刻を動的選択し、画質を保って動画生成を高速化する。"
   },
   {
     "id": 38323,
@@ -3639,8 +3639,8 @@
     "poster_local": "posters/image_generation/38199.png",
     "has_poster": true,
     "project_url": "https://coupled-diffusion.github.io",
-    "title_ja": "[翻訳が必要]",
-    "summary_ja": "[まとめが必要]"
+    "title_ja": "結合拡散サンプリング: 学習不要な多視点画像編集",
+    "summary_ja": "学習なしで複数視点の画像を一貫性を保ちながら編集する技術。"
   },
   {
     "id": 38714,
@@ -3855,8 +3855,8 @@
     "poster_local": "posters/image_generation/37272.png",
     "has_poster": true,
     "project_url": "",
-    "title_ja": "[翻訳が必要]",
-    "summary_ja": "[まとめが必要]"
+    "title_ja": "LESA：拡散モデル高速化のための学習可能な段階認識予測器",
+    "summary_ja": "ノイズ段階別の予測器で特徴を高精度に再利用し、生成画質を保って大幅高速化する。"
   },
   {
     "id": 36824,
@@ -5858,8 +5858,8 @@
     "poster_local": "",
     "has_poster": false,
     "project_url": "",
-    "title_ja": "[翻訳が必要]",
-    "summary_ja": "[まとめが必要]"
+    "title_ja": "高速な赤外・可視動画融合のためのストリーミング拡散モデル",
+    "summary_ja": "時間一貫性を明示的に扱う一段拡散で、赤外・可視動画融合を実時間で実現する。"
   },
   {
     "id": 39230,

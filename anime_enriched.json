@@ -147,8 +147,8 @@
     "poster_local": "posters/image_generation/39863.png",
     "has_poster": true,
     "project_url": "https://github.com/matsuolab/multibanana",
-    "title_ja": "[翻訳が必要]",
-    "summary_ja": "[まとめが必要]"
+    "title_ja": "MultiBanana: 複数参照テキスト・画像生成の高難易度ベンチマーク",
+    "summary_ja": "複数の参照画像を用いたテキスト・画像生成の性能評価ベンチマーク。"
   },
   {
     "id": 39602,
@@ -254,8 +254,8 @@
     "poster_local": "posters/image_generation/37178.png",
     "has_poster": true,
     "project_url": "https://github.com/snumprlab/dbmsolver",
-    "title_ja": "[翻訳が必要]",
-    "summary_ja": "[まとめが必要]"
+    "title_ja": "DBMSolver: 高品質画像・画像変換のための学習不要な拡散ブリッジサンプラー",
+    "summary_ja": "学習なしで拡散ブリッジを用いた高品質な画像・画像変換を実行。"
   },
   {
     "id": 39141,
@@ -568,8 +568,8 @@
     "poster_local": "posters/image_generation/39135.png",
     "has_poster": true,
     "project_url": "https://akihisa-watanabe.github.io/projflow.github.io/",
-    "title_ja": "[翻訳が必要]",
-    "summary_ja": "[まとめが必要]"
+    "title_ja": "ProjFlow: ゼロショット正確な空間動作制御のための投影フロー・マッチング",
+    "summary_ja": "投影と流れマッチングで学習なしに空間動作を正確に制御。"
   },
   {
     "id": 36480,
@@ -620,8 +620,8 @@
     "poster_local": "posters/image_generation/36746.png",
     "has_poster": true,
     "project_url": "",
-    "title_ja": "[翻訳が必要]",
-    "summary_ja": "[まとめが必要]"
+    "title_ja": "MotionEdit: 動作中心画像編集のベンチマーク化と学習",
+    "summary_ja": "動作情報を活用した画像編集のベンチマークと学習手法。"
   },
   {
     "id": 39048,
@@ -1191,8 +1191,8 @@
     "poster_local": "posters/image_generation/36679.png",
     "has_poster": true,
     "project_url": "",
-    "title_ja": "[翻訳が必要]",
-    "summary_ja": "[まとめが必要]"
+    "title_ja": "スタイルは一コードの価値: 離散スタイル空間によるコード・スタイル画像生成",
+    "summary_ja": "離散スタイル空間を用いてコードからスタイルに基づく画像を生成。"
   },
   {
     "id": 38557,
@@ -1849,8 +1849,8 @@
     "poster_local": "posters/image_generation/36364.png",
     "has_poster": true,
     "project_url": "",
-    "title_ja": "[翻訳が必要]",
-    "summary_ja": "[まとめが必要]"
+    "title_ja": "CARE-Edit: 文脈画像編集のための条件認識エキスパートルーティング",
+    "summary_ja": "条件認識ルーティングで文脈に応じた正確な画像編集を実現。"
   },
   {
     "id": 36477,
@@ -2012,8 +2012,8 @@
     "poster_local": "posters/image_generation/39886.png",
     "has_poster": true,
     "project_url": "",
-    "title_ja": "[翻訳が必要]",
-    "summary_ja": "[まとめが必要]"
+    "title_ja": "OrionEdit: 参照画像と原画像を結ぶ一般的なクロス画像編集",
+    "summary_ja": "参照と原画像を活用した柔軟なクロス画像編集フレームワーク。"
   },
   {
     "id": 39227,

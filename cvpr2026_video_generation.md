@@ -2,7 +2,7 @@
 
 **Total: 270 papers** | Poster: 157 | Project page: 51 | 和訳済み: 270
 
-*Generated: 2026-05-29 12:10*
+*Generated: 2026-05-29 12:32*
 
 > 📝 **データソース:** `video_gen_enriched.json` — レイアウト変更は `generate_md.py` を編集後に再実行してください。
 
@@ -943,9 +943,9 @@
 
 ## 44. MotionEdit: Benchmarking and Learning Motion-Centric Image Editing
 
-> 🇯🇵 **[翻訳が必要]**
+> 🇯🇵 **MotionEdit: 動作中心画像編集のベンチマーク化と学習**
 
-> 💡 [まとめが必要]
+> 💡 動作情報を活用した画像編集のベンチマークと学習手法。
 
 **著者:** Yixin Wan, Lei Ke, Wenhao Yu, Kai-Wei Chang, Dong Yu
 
@@ -1575,9 +1575,9 @@
 
 ## 73. SenCache: Accelerating Diffusion Model Inference via Sensitivity-Aware Caching
 
-> 🇯🇵 **[翻訳が必要]**
+> 🇯🇵 **SenCache：感度認識キャッシュによる拡散モデル推論の高速化**
 
-> 💡 [まとめが必要]
+> 💡 入力感度に応じて再利用時刻を動的選択し、画質を保って動画生成を高速化する。
 
 **著者:** Yasaman Haghighi, Alex Alahi
 
@@ -3115,9 +3115,9 @@
 
 ## 144. Coupled Diffusion Sampling for Training-Free Multi-View Image Editing
 
-> 🇯🇵 **[翻訳が必要]**
+> 🇯🇵 **結合拡散サンプリング: 学習不要な多視点画像編集**
 
-> 💡 [まとめが必要]
+> 💡 学習なしで複数視点の画像を一貫性を保ちながら編集する技術。
 
 **著者:** Hadi Alzayer, Yunzhi Zhang, Chen Geng, Jia-Bin Huang, Jiajun Wu
 
@@ -3320,9 +3320,9 @@
 
 ## 153. LESA: Learnable Stage-Aware Predictors for Diffusion Model Acceleration
 
-> 🇯🇵 **[翻訳が必要]**
+> 🇯🇵 **LESA：拡散モデル高速化のための学習可能な段階認識予測器**
 
-> 💡 [まとめが必要]
+> 💡 ノイズ段階別の予測器で特徴を高精度に再利用し、生成画質を保って大幅高速化する。
 
 **著者:** Peiliang Cai, Jiacheng Liu, Haowen Xu, Xinyu Wang, Chang Zou, Linfeng Zhang
 
@@ -5050,9 +5050,9 @@
 
 ## 233. Streaming Diffusion Model for Fast Infrared and Visible Video Fusion
 
-> 🇯🇵 **[翻訳が必要]**
+> 🇯🇵 **高速な赤外・可視動画融合のためのストリーミング拡散モデル**
 
-> 💡 [まとめが必要]
+> 💡 時間一貫性を明示的に扱う一段拡散で、赤外・可視動画融合を実時間で実現する。
 
 **著者:** Jinyuan Liu, Ludan Sun, Tengyu Ma, Chunyan Yang, Zhiying Jiang, Long Ma, Risheng Liu, Xin Fan
 
