@@ -603,7 +603,7 @@ function cardHTML(num, p) {
          <div class="poster-spinner" id="spin-${p.id}">
            <div class="spin"></div><span>Loading poster…</span>
          </div>
-         <img data-src="${esc(posterSrc)}" alt="Poster" class="loading"
+         <img src="${esc(posterSrc)}" alt="Poster" class="loading"
               onload="this.classList.remove('loading');this.classList.add('loaded');var s=document.getElementById('spin-${p.id}');if(s)s.classList.add('hidden');"
               onerror="this.style.display='none';var s=document.getElementById('spin-${p.id}');if(s){s.innerHTML='<span style=\\'font-size:0.8rem;color:var(--text-3)\\'>Poster not available</span>';}">
        </div>`
