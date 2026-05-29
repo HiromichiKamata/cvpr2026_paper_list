@@ -32,6 +32,11 @@ CATEGORIES = {
         "out":   "cvpr2026_anime.md",
         "title": "Anime / Illustration Domain Papers",
     },
+    "threed": {
+        "json":  "threed_enriched.json",
+        "out":   "cvpr2026_3d.md",
+        "title": "3D / Scene Papers",
+    },
 }
 
 

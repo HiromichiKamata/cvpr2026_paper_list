@@ -17,6 +17,7 @@
     --accent-v: #4f6ef7;
     --accent-i: #0ea47a;
     --accent-a: #d94f8a;
+    --accent-t: #7c3aed;
     --header-bg:#0d1117;
     --radius:   14px;
     --shadow:   0 1px 3px rgba(0,0,0,0.07), 0 4px 16px rgba(0,0,0,0.05);
@@ -60,6 +61,7 @@
   .tab-btn[data-cat="video"].active  { background: #dbeafe; color: #1d4ed8; }
   .tab-btn[data-cat="image"].active  { background: #d1fae5; color: #065f46; }
   .tab-btn[data-cat="anime"].active  { background: #fce7f3; color: #9d174d; }
+  .tab-btn[data-cat="threed"].active { background: #ede9fe; color: #4c1d95; }
 
   /* ── Search ── */
   .search-wrap {
@@ -110,6 +112,7 @@
   .video-card .card-accent { background: var(--accent-v); }
   .image-card .card-accent { background: var(--accent-i); }
   .anime-card .card-accent { background: var(--accent-a); }
+  .threed-card .card-accent { background: var(--accent-t); }
 
   .card-body { padding: 18px 22px 14px; }
 
@@ -273,6 +276,7 @@
       <button class="tab-btn active" data-cat="video">🎬 Video Gen</button>
       <button class="tab-btn" data-cat="image">🖼 Image Gen</button>
       <button class="tab-btn" data-cat="anime">🎨 Anime / Illust</button>
+      <button class="tab-btn" data-cat="threed">🧊 3D / Scene</button>
     </div>
     <div class="search-wrap">
       <svg fill="none" viewBox="0 0 24 24" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
@@ -301,11 +305,13 @@ const DATA_FILES = {
   video: 'video_gen_enriched.json',
   image: 'image_gen_enriched.json',
   anime: 'anime_enriched.json',
+  threed: 'threed_enriched.json',
 };
 const CAT_LABELS = {
   video: 'Video Generation',
   image: 'Image Generation',
   anime: 'Anime / Illustration',
+  threed: '3D / Scene',
 };
 
 let currentCat  = 'video';
