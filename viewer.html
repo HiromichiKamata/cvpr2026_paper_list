@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CVPR 2026 Paper Viewer</title>
+<style>
+  /* ── Base ── */
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --bg:       #f8f9fb;
+    --surface:  #ffffff;
+    --border:   #e8eaed;
+    --text-1:   #111827;
+    --text-2:   #4b5563;
+    --text-3:   #9ca3af;
+    --accent-v: #4f6ef7;
+    --accent-i: #0ea47a;
+    --accent-a: #d94f8a;
+    --header-bg:#0d1117;
+    --radius:   14px;
+    --shadow:   0 1px 3px rgba(0,0,0,0.07), 0 4px 16px rgba(0,0,0,0.05);
+    --shadow-h: 0 2px 8px rgba(0,0,0,0.09), 0 8px 32px rgba(0,0,0,0.08);
+  }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", sans-serif;
+    background: var(--bg); color: var(--text-1); line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: inherit; text-decoration: none; }
+
+  /* ── Header ── */
+  header {
+    background: var(--header-bg);
+    position: sticky; top: 0; z-index: 200;
+    border-bottom: 1px solid rgba(255,255,255,0.07);
+  }
+  .header-inner {
+    max-width: 1100px; margin: 0 auto;
+    padding: 12px 20px;
+    display: flex; flex-wrap: wrap; gap: 10px; align-items: center;
+  }
+  .site-title {
+    color: #fff; font-size: 0.95rem; font-weight: 700;
+    letter-spacing: 0.02em; white-space: nowrap; margin-right: 4px;
+  }
+  .site-title span { color: #6ee7f7; }
+
+  /* ── Tabs ── */
+  .tabs { display: flex; gap: 2px; background: rgba(255,255,255,0.07); border-radius: 10px; padding: 3px; }
+  .tab-btn {
+    padding: 5px 16px; border-radius: 8px; border: none;
+    background: transparent; color: rgba(255,255,255,0.55);
+    cursor: pointer; font-size: 0.83rem; font-weight: 500;
+    transition: all .18s; white-space: nowrap;
+  }
+  .tab-btn.active { background: #fff; color: var(--header-bg); font-weight: 700; }
+  .tab-btn:not(.active):hover { color: #fff; background: rgba(255,255,255,0.12); }
+  .tab-btn[data-cat="video"].active  { background: #dbeafe; color: #1d4ed8; }
+  .tab-btn[data-cat="image"].active  { background: #d1fae5; color: #065f46; }
+  .tab-btn[data-cat="anime"].active  { background: #fce7f3; color: #9d174d; }
+
+  /* ── Search ── */
+  .search-wrap {
+    flex: 1; min-width: 180px; max-width: 380px;
+    position: relative; display: flex; align-items: center;
+  }
+  .search-wrap svg {
+    position: absolute; left: 11px;
+    width: 15px; height: 15px; stroke: var(--text-3); flex-shrink: 0; pointer-events: none;
+  }
+  #search-box {
+    width: 100%; padding: 7px 12px 7px 32px;
+    border-radius: 8px; border: 1px solid rgba(255,255,255,0.15);
+    background: rgba(255,255,255,0.1); color: #fff;
+    font-size: 0.85rem; outline: none;
+    transition: border-color .2s, background .2s;
+  }
+  #search-box::placeholder { color: rgba(255,255,255,0.35); }
+  #search-box:focus { border-color: rgba(255,255,255,0.4); background: rgba(255,255,255,0.15); }
+
+  /* ── View toggle ── */
+  .view-toggle { display: flex; gap: 2px; background: rgba(255,255,255,0.07); border-radius: 8px; padding: 3px; }
+  .view-toggle button {
+    padding: 4px 12px; border-radius: 6px; border: none;
+    background: transparent; color: rgba(255,255,255,0.5);
+    cursor: pointer; font-size: 0.8rem; font-weight: 500; transition: all .15s;
+  }
+  .view-toggle button.active { background: rgba(255,255,255,0.92); color: var(--header-bg); }
+  .stats { font-size: 0.78rem; color: rgba(255,255,255,0.4); white-space: nowrap; }
+
+  /* ── Main ── */
+  main { max-width: 1100px; margin: 0 auto; padding: 28px 20px 60px; }
+
+  /* ── Paper card ── */
+  .paper-card {
+    background: var(--surface); border-radius: var(--radius);
+    border: 1px solid var(--border);
+    box-shadow: var(--shadow);
+    margin-bottom: 20px; overflow: hidden;
+    transition: box-shadow .2s, transform .15s;
+  }
+  .paper-card:hover { box-shadow: var(--shadow-h); transform: translateY(-1px); }
+
+  .card-accent {
+    height: 3px; width: 100%;
+    background: var(--accent-v);
+  }
+  .video-card .card-accent { background: var(--accent-v); }
+  .image-card .card-accent { background: var(--accent-i); }
+  .anime-card .card-accent { background: var(--accent-a); }
+
+  .card-body { padding: 18px 22px 14px; }
+
+  /* ── Paper num / badge ── */
+  .paper-meta-top {
+    display: flex; align-items: center; gap: 8px;
+    margin-bottom: 8px; flex-wrap: wrap;
+  }
+  .paper-num { font-size: 0.72rem; color: var(--text-3); font-variant-numeric: tabular-nums; }
+  .session-badge {
+    display: inline-block; font-size: 0.68rem; font-weight: 600;
+    padding: 2px 8px; border-radius: 20px;
+    background: #f1f5f9; color: var(--text-2);
+    letter-spacing: 0.01em;
+  }
+  .decision-badge {
+    display: inline-block; font-size: 0.68rem; font-weight: 600;
+    padding: 2px 8px; border-radius: 20px;
+    background: #ecfdf5; color: #065f46;
+  }
+
+  /* ── Title ── */
+  .paper-title {
+    font-size: 1.05rem; font-weight: 700; color: var(--text-1);
+    line-height: 1.45; letter-spacing: -0.01em;
+  }
+  .paper-title-ja {
+    font-size: 0.93rem; font-weight: 600; color: #374acd;
+    margin-top: 4px; line-height: 1.5;
+  }
+  .paper-summary {
+    margin-top: 8px; padding: 9px 13px;
+    background: #f8faff; border-radius: 8px;
+    font-size: 0.85rem; color: #2d3e78;
+    border-left: 3px solid #c7d2fe;
+    line-height: 1.6;
+  }
+
+  /* ── Authors ── */
+  .paper-authors {
+    margin-top: 10px; font-size: 0.81rem; color: var(--text-2);
+  }
+
+  /* ── Links ── */
+  .link-row { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; }
+  .link-btn {
+    display: inline-flex; align-items: center; gap: 5px;
+    padding: 5px 13px; border-radius: 7px; font-size: 0.78rem;
+    font-weight: 600; border: 1px solid; transition: all .15s; cursor: pointer;
+    line-height: 1;
+  }
+  .btn-paper   { background:#eff6ff; color:#1e40af; border-color:#bfdbfe; }
+  .btn-arxiv   { background:#fff8f1; color:#b45309; border-color:#fcd1a0; }
+  .btn-project { background:#f0fdf4; color:#166534; border-color:#a7f3d0; }
+  .link-btn:hover { filter: brightness(0.94); transform: translateY(-1px); box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
+
+  /* ── Abstract toggle ── */
+  .abstract-toggle {
+    margin-top: 10px; font-size: 0.79rem; color: var(--text-3);
+    cursor: pointer; border: none; background: none;
+    display: flex; align-items: center; gap: 5px;
+    padding: 0; transition: color .15s;
+  }
+  .abstract-toggle:hover { color: var(--text-2); }
+  .abstract-toggle .chevron { transition: transform .2s; display: inline-block; }
+  .abstract-toggle.open .chevron { transform: rotate(90deg); }
+  .abstract-text {
+    margin-top: 8px; font-size: 0.82rem; color: var(--text-2);
+    line-height: 1.7; display: none;
+    padding: 10px 14px; background: #fafafa; border-radius: 8px;
+    border: 1px solid var(--border);
+  }
+  .abstract-text.open { display: block; }
+
+  /* ── Poster image ── */
+  .poster-wrapper {
+    border-top: 1px solid var(--border);
+    background: #f5f6f8;
+  }
+  .poster-wrapper img {
+    width: 100%; height: auto; display: block;
+  }
+  .no-poster {
+    padding: 10px 22px;
+    font-size: 0.76rem; color: var(--text-3); text-align: center;
+    border-top: 1px solid var(--border); background: #fafafa;
+  }
+
+  /* ── Project iframe ── */
+  .project-details {
+    border-top: 1px solid var(--border);
+    background: #f9fafb;
+  }
+  .project-details summary {
+    padding: 9px 22px; cursor: pointer;
+    font-size: 0.8rem; font-weight: 600; color: #166534;
+    user-select: none; display: flex; align-items: center; gap: 6px;
+    list-style: none; transition: background .15s;
+  }
+  .project-details summary:hover { background: #ecfdf5; }
+  .project-details summary::before { content: "▶"; font-size: 0.65rem; transition: transform .2s; }
+  .project-details[open] summary::before { transform: rotate(90deg); }
+  .project-details iframe { width: 100%; height: 560px; border: none; display: block; }
+
+  /* ── Loading ── */
+  #loading { text-align: center; padding: 80px 20px; color: var(--text-3); font-size: 0.95rem; }
+  .spinner {
+    width: 36px; height: 36px; margin: 0 auto 14px;
+    border: 3px solid var(--border); border-top-color: var(--accent-v);
+    border-radius: 50%; animation: spin .7s linear infinite;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  /* ── Table view ── */
+  #table-view { display: none; overflow-x: auto; }
+  #table-view.active { display: block; }
+  #cards-view.hidden { display: none; }
+
+  table { width: 100%; border-collapse: collapse; background: var(--surface); border-radius: var(--radius); overflow: hidden; border: 1px solid var(--border); }
+  th { background: #0d1117; color: rgba(255,255,255,0.8); padding: 10px 14px; font-size: 0.78rem; font-weight: 600; text-align: left; white-space: nowrap; }
+  td { padding: 9px 14px; font-size: 0.81rem; border-bottom: 1px solid #f3f4f6; vertical-align: top; color: var(--text-2); }
+  tr:last-child td { border-bottom: none; }
+  tr:hover td { background: #f8faff; }
+  td.title-cell { max-width: 280px; font-weight: 600; color: var(--text-1); }
+  td.ja-cell    { max-width: 220px; color: #374acd; }
+  td.sum-cell   { max-width: 300px; }
+  .tbl-link {
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 26px; height: 26px; border-radius: 6px;
+    font-size: 0.82rem; background: #f1f5f9; transition: background .15s;
+  }
+  .tbl-link:hover { background: #e2e8f0; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <div class="site-title">CVPR <span>2026</span></div>
+    <div class="tabs" id="tabs">
+      <button class="tab-btn active" data-cat="video">🎬 Video Gen</button>
+      <button class="tab-btn" data-cat="image">🖼 Image Gen</button>
+      <button class="tab-btn" data-cat="anime">🎨 Anime / Illust</button>
+    </div>
+    <div class="search-wrap">
+      <svg fill="none" viewBox="0 0 24 24" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+      <input type="search" id="search-box" placeholder="タイトル・著者・Abstract で検索…" />
+    </div>
+    <div class="view-toggle">
+      <button id="btn-cards" class="active" onclick="switchView('cards')">Cards</button>
+      <button id="btn-table" onclick="switchView('table')">Table</button>
+    </div>
+    <span class="stats" id="stats"></span>
+  </div>
+</header>
+
+<main>
+  <div id="loading"><div class="spinner"></div>Loading…</div>
+  <div id="cards-view"></div>
+  <div id="table-view"></div>
+</main>
+
+<script>
+// ── データソース ──────────────────────────────────────────
+const DATA_FILES = {
+  video: 'video_gen_enriched.json',
+  image: 'image_gen_enriched.json',
+  anime: 'anime_enriched.json',
+};
+const CAT_LABELS = {
+  video: 'Video Generation',
+  image: 'Image Generation',
+  anime: 'Anime / Illustration',
+};
+
+let currentCat  = 'video';
+let currentData = [];
+let cache       = {};
+
+// ── 初期化 ───────────────────────────────────────────────
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('.tab-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      currentCat = btn.dataset.cat;
+      document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      loadCategory(currentCat);
+    });
+  });
+  document.getElementById('search-box').addEventListener('input', debounce(applyFilter, 250));
+  loadCategory(currentCat);
+});
+
+// ── JSON 読み込み ─────────────────────────────────────────
+async function loadCategory(cat) {
+  showLoading(true);
+  if (cache[cat]) {
+    currentData = cache[cat];
+    renderAll();
+    return;
+  }
+  try {
+    const res = await fetch(DATA_FILES[cat]);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const data = await res.json();
+    cache[cat] = data;
+    currentData = data;
+    renderAll();
+  } catch(e) {
+    document.getElementById('loading').innerHTML =
+      `<p style="color:red">❌ ${DATA_FILES[cat]} の読み込み失敗: ${e.message}</p>
+       <p style="font-size:0.85rem;color:#888">同一ディレクトリで <code>python3 -m http.server 8000</code> を起動してからアクセスしてください</p>`;
+  }
+}
+
+// ── フィルタリング ────────────────────────────────────────
+function applyFilter() {
+  renderAll();
+}
+
+function getFiltered() {
+  const q = document.getElementById('search-box').value.trim().toLowerCase();
+  if (!q) return currentData;
+  return currentData.filter(p => {
+    const hay = [p.title, p.title_ja, p.summary_ja,
+                 (p.authors||[]).join(' '), p.abstract, p.session].join(' ').toLowerCase();
+    return q.split(/\s+/).every(w => hay.includes(w));
+  });
+}
+
+// ── レンダリング ──────────────────────────────────────────
+function renderAll() {
+  showLoading(false);
+  const filtered = getFiltered();
+  document.getElementById('stats').textContent =
+    `${filtered.length} / ${currentData.length} papers`;
+
+  const view = document.querySelector('#btn-cards.active') ? 'cards' : 'table';
+  if (view === 'cards') renderCards(filtered);
+  else                  renderTable(filtered);
+}
+
+function renderCards(papers) {
+  const container = document.getElementById('cards-view');
+  container.innerHTML = papers.map((p, i) => cardHTML(i+1, p)).join('');
+
+  // IntersectionObserver で画像の遅延読み込み
+  container.querySelectorAll('img[data-src]').forEach(img => {
+    lazyObserver.observe(img);
+  });
+}
+
+const lazyObserver = new IntersectionObserver((entries) => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      const img = e.target;
+      img.src = img.dataset.src;
+      img.removeAttribute('data-src');
+      lazyObserver.unobserve(img);
+    }
+  });
+}, { rootMargin: '200px' });
+
+function cardHTML(num, p) {
+  const catClass = currentCat + '-card';
+
+  // 和訳・サマリー
+  const jaBlock  = p.title_ja
+    ? `<div class="paper-title-ja">${esc(p.title_ja)}</div>` : '';
+  const sumBlock = p.summary_ja
+    ? `<div class="paper-summary">${esc(p.summary_ja)}</div>` : '';
+
+  // 著者（最大5人 + et al.）
+  const authors = (p.authors||[]);
+  const authStr = authors.length > 5
+    ? authors.slice(0,5).join(', ') + ` <em>et al.</em> (${authors.length}名)`
+    : authors.join(', ');
+
+  // リンクボタン
+  const links = [
+    p.paper_url   ? `<a class="link-btn btn-paper"   href="${esc(p.paper_url)}"   target="_blank">Paper</a>`   : '',
+    p.arxiv_url   ? `<a class="link-btn btn-arxiv"   href="${esc(p.arxiv_url)}"   target="_blank">arXiv</a>`   : '',
+    p.project_url ? `<a class="link-btn btn-project" href="${esc(p.project_url)}" target="_blank">Project Page</a>` : '',
+  ].filter(Boolean).join('');
+
+  // ポスター画像（常時表示）: poster_local優先、失敗時はposter_urlにフォールバック
+  const posterSrc = p.poster_local || p.poster_url || '';
+  const posterFallback = p.poster_url ? ` onerror="if(this.src!='${esc(p.poster_url)}'){this.src='${esc(p.poster_url)}'}"` : '';
+  const posterHTML = (p.has_poster && posterSrc)
+    ? `<div class="poster-wrapper">
+         <img data-src="${esc(posterSrc)}" alt="Poster"${posterFallback}
+              src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='2' height='1'%3E%3C/svg%3E">
+       </div>`
+    : `<div class="no-poster">Poster not yet available</div>`;
+
+  // Project page iframeの折りたたみ
+  const projectIframe = p.project_url
+    ? `<details class="project-details">
+         <summary>Project Page を開く — ${esc(new URL(p.project_url).hostname)}</summary>
+         <iframe src="" data-src="${esc(p.project_url)}" loading="lazy"
+                 title="Project Page"></iframe>
+       </details>` : '';
+
+  // Abstract 折りたたみ
+  const absId = `abs-${p.id||num}`;
+  const absHTML = p.abstract
+    ? `<button class="abstract-toggle" onclick="toggleAbs(this,'${absId}')"><span class="chevron">›</span> Abstract</button>
+       <div class="abstract-text" id="${absId}">${esc(p.abstract)}</div>` : '';
+
+  // セッション・採択種別バッジ
+  const badges = [
+    p.session  ? `<span class="session-badge">${esc(p.session)}</span>`  : '',
+    p.decision ? `<span class="decision-badge">${esc(p.decision)}</span>` : '',
+  ].filter(Boolean).join('');
+
+  return `
+<div class="paper-card ${catClass}">
+  <div class="card-accent"></div>
+  <div class="card-body">
+    <div class="paper-meta-top">
+      <span class="paper-num">#${num}</span>
+      ${badges}
+    </div>
+    <div class="paper-title">${esc(p.title)}</div>
+    ${jaBlock}
+    ${sumBlock}
+    <div class="paper-authors">${authStr}</div>
+    <div class="link-row">${links}</div>
+    ${absHTML}
+  </div>
+  ${posterHTML}
+  ${projectIframe}
+</div>`;
+}
+
+// ── テーブルビュー ────────────────────────────────────────
+function renderTable(papers) {
+  const rows = papers.map((p, i) => {
+    const links = [
+      p.paper_url   ? `<a class="tbl-link" href="${esc(p.paper_url)}"   target="_blank" title="Paper">📄</a>` : '',
+      p.arxiv_url   ? `<a class="tbl-link" href="${esc(p.arxiv_url)}"   target="_blank" title="arXiv">📋</a>` : '',
+      p.project_url ? `<a class="tbl-link" href="${esc(p.project_url)}" target="_blank" title="Project">🌐</a>` : '',
+    ].filter(Boolean).join('');
+    const authors = (p.authors||[]).slice(0,3).join(', ')
+      + (p.authors?.length > 3 ? ' et al.' : '');
+    return `<tr>
+      <td style="color:#888;white-space:nowrap">${i+1}</td>
+      <td class="title-cell">${esc(p.title)}</td>
+      <td class="ja-cell">${esc(p.title_ja||'')}</td>
+      <td class="sum-cell">${esc(p.summary_ja||'')}</td>
+      <td style="white-space:nowrap;font-size:0.78rem">${esc(authors)}</td>
+      <td style="white-space:nowrap">${links}</td>
+    </tr>`;
+  }).join('');
+
+  document.getElementById('table-view').innerHTML = `
+<table>
+  <thead><tr>
+    <th>#</th><th>タイトル</th><th>和訳</th><th>一行まとめ</th><th>著者</th><th>Links</th>
+  </tr></thead>
+  <tbody>${rows}</tbody>
+</table>`;
+}
+
+// ── ビュー切り替え ────────────────────────────────────────
+function switchView(v) {
+  const cardsView = document.getElementById('cards-view');
+  const tableView = document.getElementById('table-view');
+  document.getElementById('btn-cards').classList.toggle('active', v==='cards');
+  document.getElementById('btn-table').classList.toggle('active', v==='table');
+  cardsView.classList.toggle('hidden', v!=='cards');
+  tableView.classList.toggle('active', v==='table');
+  renderAll();
+}
+
+// ── Abstract 開閉 ─────────────────────────────────────────
+function toggleAbs(btn, id) {
+  const el   = document.getElementById(id);
+  const open = el.classList.toggle('open');
+  btn.classList.toggle('open', open);
+}
+
+// ── Project iframe 遅延読み込み ───────────────────────────
+document.addEventListener('toggle', e => {
+  if (e.target.classList.contains('project-details') && e.target.open) {
+    const iframe = e.target.querySelector('iframe');
+    if (iframe && iframe.dataset.src && (!iframe.src || iframe.src === 'about:blank' || iframe.src === window.location.href)) {
+      iframe.src = iframe.dataset.src;
+    }
+  }
+}, true);
+
+// ── ユーティリティ ────────────────────────────────────────
+function esc(s) {
+  if (!s) return '';
+  return String(s)
+    .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
+    .replace(/"/g,'&quot;');
+}
+
+function showLoading(v) {
+  document.getElementById('loading').style.display = v ? 'block' : 'none';
+}
+
+function debounce(fn, ms) {
+  let t;
+  return (...args) => { clearTimeout(t); t = setTimeout(() => fn(...args), ms); };
+}
+</script>
+</body>
+</html>

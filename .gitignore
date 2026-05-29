@@ -1,0 +1,24 @@
+# ポスター画像（大容量のため除外、CVPRサイトURLを参照）
+posters/
+
+# 中間処理ファイル
+batches/
+batch_results/
+retrans_batches/
+retrans_results/
+retrans2_batches/
+retrans2_results/
+
+# 生データ・マップ
+oa_title_map.json
+video_gen_download_list.json
+cvpr-2026-orals-posters.json
+cvpr-2026-abstracts.json
+cvpr2026_video_generation.json
+cvpr2026_image_generation.json
+cvpr2026_anime.json
+
+# その他
+__pycache__/
+*.pyc
+.DS_Store
